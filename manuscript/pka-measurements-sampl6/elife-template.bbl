@@ -1,0 +1,37 @@
+\begin{thebibliography}{4}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\urlprefix}{}
+\providecommand{\doiprefix}{doi: }
+
+\bibitem[{Tam and Takács-Novák(2001)Tam, Kin Y. and Takács-Novák,
+  Krisztina}]{tam_multi-wavelength_2001}
+\textbf{\color{eLifeMediumGrey} Tam KY}, Takács-Novák K.
+\newblock Multi-wavelength spectrophotometric determination of acid
+  dissociation constants: a validation study.
+\newblock Analytica chimica acta.  2001; 434(1):157--167.
+
+\bibitem[{Allen et~al.(1998)Allen, R. I. and Box, K. J. and Comer, J. E. A. and
+  Peake, C. and Tam, K. Y.}]{allen_multiwavelength_1998}
+\textbf{\color{eLifeMediumGrey} Allen RI}, Box KJ, Comer JEA, Peake C, Tam KY.
+\newblock Multiwavelength spectrophotometric determination of acid dissociation
+  constants of ionizable drugs.
+\newblock Journal of pharmaceutical and biomedical analysis.  1998;
+  17(4):699--712.
+
+\bibitem[{Manallack(2007)Manallack, David T.}]{manallack_pk_2007}
+\textbf{\color{eLifeMediumGrey} Manallack DT}.
+\newblock The {pK}(a) {Distribution} of {Drugs}: {Application} to {Drug}
+  {Discovery}.
+\newblock Perspectives in Medicinal Chemistry.  2007 Sep; 1:25--38.
+
+\bibitem[{Avdeef et~al.(1999)Avdeef, A. and Box, K. J. and Comer, J. E. A. and
+  Gilges, M. and Hadley, M. and Hibbert, C. and Patterson, W. and Tam, K.
+  Y.}]{avdeef_ph-metric_1999}
+\textbf{\color{eLifeMediumGrey} Avdeef A}, Box KJ, Comer JEA, Gilges M, Hadley
+  M, Hibbert C, Patterson W, Tam KY.
+\newblock {PH}-metric {logP} 11. {pK} a determination of water-insoluble drugs
+  in organic solvent–water mixtures.
+\newblock Journal of pharmaceutical and biomedical analysis.  1999;
+  20(4):631--641.
+
+\end{thebibliography}

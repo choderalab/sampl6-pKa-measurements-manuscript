@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: elife-template.aux
+The style file: vancouver-elife.bst
+Database file #1: elife-sample.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 4 entries,
+            3447 wiz_defined-function locations,
+            732 strings with 6207 characters,
+and the built_in function-call counts, 9734 in all, are:
+= -- 1307
+> -- 64
+< -- 2
++ -- 56
+- -- 16
+* -- 840
+:= -- 997
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 0
+chr.to.int$ -- 4
+cite$ -- 4
+duplicate$ -- 1036
+empty$ -- 889
+format.name$ -- 25
+if$ -- 2282
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 48
+newline$ -- 26
+num.names$ -- 8
+pop$ -- 74
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 61
+stack$ -- 0
+substring$ -- 1740
+swap$ -- 111
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 24
+warning$ -- 0
+while$ -- 44
+width$ -- 0
+write$ -- 57
