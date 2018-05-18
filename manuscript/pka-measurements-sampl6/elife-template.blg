@@ -4,44 +4,47 @@ The top-level auxiliary file: elife-template.aux
 The style file: vancouver-elife.bst
 Database file #1: elife-sample.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 4 entries,
+Warning--empty author in noauthor_sirius_2008
+Warning--empty author and editor in noauthor_sirius_2008
+You've used 7 entries,
             3447 wiz_defined-function locations,
-            732 strings with 6207 characters,
-and the built_in function-call counts, 9734 in all, are:
-= -- 1307
-> -- 64
+            755 strings with 6968 characters,
+and the built_in function-call counts, 14281 in all, are:
+= -- 1896
+> -- 88
 < -- 2
-+ -- 56
-- -- 16
-* -- 840
-:= -- 997
-add.period$ -- 12
-call.type$ -- 4
++ -- 74
+- -- 22
+* -- 1235
+:= -- 1466
+add.period$ -- 22
+call.type$ -- 7
 change.case$ -- 0
-chr.to.int$ -- 4
-cite$ -- 4
-duplicate$ -- 1036
-empty$ -- 889
-format.name$ -- 25
-if$ -- 2282
+chr.to.int$ -- 7
+cite$ -- 11
+duplicate$ -- 1513
+empty$ -- 1320
+format.name$ -- 35
+if$ -- 3348
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 48
-newline$ -- 26
-num.names$ -- 8
-pop$ -- 74
+missing$ -- 76
+newline$ -- 42
+num.names$ -- 12
+pop$ -- 125
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 61
+skip$ -- 100
 stack$ -- 0
-substring$ -- 1740
-swap$ -- 111
+substring$ -- 2498
+swap$ -- 174
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 24
-warning$ -- 0
-while$ -- 44
+type$ -- 42
+warning$ -- 2
+while$ -- 62
 width$ -- 0
-write$ -- 57
+write$ -- 99
+(There were 2 warnings)

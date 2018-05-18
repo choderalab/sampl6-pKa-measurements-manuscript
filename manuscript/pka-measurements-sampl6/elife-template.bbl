@@ -1,4 +1,4 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{7}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\urlprefix}{}
 \providecommand{\doiprefix}{doi: }
@@ -18,11 +18,9 @@
 \newblock Journal of pharmaceutical and biomedical analysis.  1998;
   17(4):699--712.
 
-\bibitem[{Manallack(2007)Manallack, David T.}]{manallack_pk_2007}
-\textbf{\color{eLifeMediumGrey} Manallack DT}.
-\newblock The {pK}(a) {Distribution} of {Drugs}: {Application} to {Drug}
-  {Discovery}.
-\newblock Perspectives in Medicinal Chemistry.  2007 Sep; 1:25--38.
+\bibitem[{noa(2008)}]{noauthor_sirius_2008}
+Sirius {T}3 {User} {Manual}, v1.1.
+\newblock Sirius Analytical Instruments Ltd, East Sussex, UK; 2008.
 
 \bibitem[{Avdeef et~al.(1999)Avdeef, A. and Box, K. J. and Comer, J. E. A. and
   Gilges, M. and Hadley, M. and Hibbert, C. and Patterson, W. and Tam, K.
@@ -33,5 +31,32 @@
   in organic solvent–water mixtures.
 \newblock Journal of pharmaceutical and biomedical analysis.  1999;
   20(4):631--641.
+
+\bibitem[{Avdeef et~al.(1993)Avdeef, Alex. and Comer, John E. A. and Thomson,
+  Simon J.}]{doi:10.1021/ac00049a010}
+\textbf{\color{eLifeMediumGrey} Avdeef A}, Comer JEA, Thomson SJ.
+\newblock pH-Metric log P. 3. Glass electrode calibration in methanol-water,
+  applied to pKa determination of water-insoluble substances.
+\newblock Analytical Chemistry.  1993; 65(1):42--49.
+\newblock \urlprefix\url{https://doi.org/10.1021/ac00049a010},
+  \href{https://dx.doi.org/10.1021/ac00049a010}{\doiprefix
+  \detokenize{10.1021/ac00049a010}}.
+
+\bibitem[{Takács-Novák et~al.(1997)Krisztina Takács-Novák and Karl J. Box
+  and Alex Avdeef}]{TAKACSNOVAK1997235}
+\textbf{\color{eLifeMediumGrey} Takács-Novák K}, Box KJ, Avdeef A.
+\newblock Potentiometric pKa determination of water-insoluble compounds:
+  validation study in methanol/water mixtures.
+\newblock International Journal of Pharmaceutics.  1997; 151(2):235 -- 248.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0378517397049077},
+  \href{https://dx.doi.org/https://doi.org/10.1016/S0378-5173(97)04907-7}{\doiprefix
+  \detokenize{https://doi.org/10.1016/S0378-5173(97)04907-7}}.
+
+\bibitem[{Manallack(2007)Manallack, David T.}]{manallack_pk_2007}
+\textbf{\color{eLifeMediumGrey} Manallack DT}.
+\newblock The {pK}(a) {Distribution} of {Drugs}: {Application} to {Drug}
+  {Discovery}.
+\newblock Perspectives in Medicinal Chemistry.  2007 Sep; 1:25--38.
 
 \end{thebibliography}

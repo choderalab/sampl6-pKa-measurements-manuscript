@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.13)  17 MAY 2018 17:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.13)  18 MAY 2018 20:44
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2243,46 +2243,50 @@ File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
-) (./elife-template.aux)
+) (./elife-template.aux
+
+LaTeX Warning: Label `fig:fullwidth' multiply defined.
+
+)
 \openout1 = `elife-template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 50.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 47.
-LaTeX Font Info:    Try loading font information for LS1+stix on input line 47.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 50.
+LaTeX Font Info:    Try loading font information for LS1+stix on input line 50.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stix.fd
 File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
 )
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 47.
-LaTeX Font Info:    Try loading font information for LS2+stix on input line 47.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 50.
+LaTeX Font Info:    Try loading font information for LS2+stix on input line 50.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls2stix.fd
 File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
 )
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Try loading font information for T1+fos on input line 47.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Try loading font information for T1+fos on input line 50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/opensans/t1fos.fd
 File: t1fos.fd 2011/11/11 Fontinst v1.927 font definitions for T1/fos.
@@ -2319,7 +2323,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 47.
+LaTeX Info: Redefining \microtypecontext on input line 50.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2374,8 +2378,8 @@ Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 47.
-Package hyperref Info: Link coloring ON on input line 47.
+(lastpage)             ! on input line 50.
+Package hyperref Info: Link coloring ON on input line 50.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -2384,9 +2388,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count355
 )
-LaTeX Info: Redefining \ref on input line 47.
-LaTeX Info: Redefining \pageref on input line 47.
-LaTeX Info: Redefining \nameref on input line 47.
+LaTeX Info: Redefining \ref on input line 50.
+LaTeX Info: Redefining \pageref on input line 50.
+LaTeX Info: Redefining \nameref on input line 50.
 
 (./elife-template.out) (./elife-template.out)
 \@outlinefile=\write5
@@ -2395,7 +2399,7 @@ LaTeX Info: Redefining \nameref on input line 47.
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 47.
+. Activating mapping `default' on line 50.
 .................................................
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
@@ -2408,65 +2412,65 @@ File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 ABD: EveryShipout initializing macros
 \symgns@font=\mathgroup12
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/fos/m/n --> TS1/fos/bx/n on input line 47.
-Package gensymb Info: Math companion symbols declared on input line 47.
-LaTeX Info: Redefining \degree on input line 47.
-LaTeX Info: Redefining \celsius on input line 47.
+(Font)                  TS1/fos/m/n --> TS1/fos/bx/n on input line 50.
+Package gensymb Info: Math companion symbols declared on input line 50.
+LaTeX Info: Redefining \degree on input line 50.
+LaTeX Info: Redefining \celsius on input line 50.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 47.
-LaTeX Info: Redefining \ohm on input line 47.
-Package gensymb Info: Using \textohm for \ohm on input line 47.
-LaTeX Info: Redefining \micro on input line 47.
-Package gensymb Info: Using \textmu for \micro on input line 47.
+erthousand on input line 50.
+LaTeX Info: Redefining \ohm on input line 50.
+Package gensymb Info: Using \textohm for \ohm on input line 50.
+LaTeX Info: Redefining \micro on input line 50.
+Package gensymb Info: Using \textmu for \micro on input line 50.
 \c__siunitx_mathsf_int=\count356
 LaTeX Font Info:    Try loading font information for LS1+stixscr on input line 
-47.
+50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stixscr.fd
 File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
 )
-LaTeX Font Info:    Try loading font information for LS2+stixex on input line 4
-7.
+LaTeX Font Info:    Try loading font information for LS2+stixex on input line 5
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls2stixex.fd
 File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
 
 )
 LaTeX Font Info:    Try loading font information for LS1+stixfrak on input line
- 47.
+ 50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stixfrak.fd
 File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
 )
-LaTeX Font Info:    Try loading font information for LS1+stixbb on input line 4
-7.
+LaTeX Font Info:    Try loading font information for LS1+stixbb on input line 5
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stixbb.fd
 File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
 
 )
 LaTeX Font Info:    Try loading font information for LS2+stixcal on input line 
-47.
+50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls2stixcal.fd
 File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definiti
 ons
 )
-LaTeX Font Info:    Try loading font information for LS1+stixsf on input line 4
-7.
+LaTeX Font Info:    Try loading font information for LS1+stixsf on input line 5
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stixsf.fd
 File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
 
 )
-LaTeX Font Info:    Try loading font information for LS2+stixtt on input line 4
-7.
+LaTeX Font Info:    Try loading font information for LS2+stixtt on input line 5
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls2stixtt.fd
 File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 
 )
-LaTeX Font Info:    Try loading font information for TS1+fos on input line 47.
+LaTeX Font Info:    Try loading font information for TS1+fos on input line 50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/opensans/ts1fos.fd
 File: ts1fos.fd 2011/11/11 Fontinst v1.927 font definitions for TS1/fos.
@@ -2477,19 +2481,15 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 \c__siunitx_mathtt_int=\count357
 LaTeX Font Info:    Font shape `T1/fos/bx/n' in size <9> not available
-(Font)              Font shape `T1/fos/b/n' tried instead on input line 50.
+(Font)              Font shape `T1/fos/b/n' tried instead on input line 53.
 LaTeX Font Info:    Font shape `T1/fos/bx/n' in size <22> not available
-(Font)              Font shape `T1/fos/b/n' tried instead on input line 50.
+(Font)              Font shape `T1/fos/b/n' tried instead on input line 53.
 LaTeX Font Info:    Font shape `T1/fos/bx/n' in size <10> not available
-(Font)              Font shape `T1/fos/b/n' tried instead on input line 50.
+(Font)              Font shape `T1/fos/b/n' tried instead on input line 53.
 LaTeX Font Info:    Font shape `T1/fos/bx/n' in size <7.5> not available
-(Font)              Font shape `T1/fos/b/n' tried instead on input line 50.
+(Font)              Font shape `T1/fos/b/n' tried instead on input line 53.
 LaTeX Font Info:    Font shape `T1/fos/bx/n' in size <8> not available
-(Font)              Font shape `T1/fos/b/n' tried instead on input line 50.
-LaTeX Font Info:    Font shape `T1/fos/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/fos/b/n' tried instead on input line 61.
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 63.
+(Font)              Font shape `T1/fos/b/n' tried instead on input line 53.
 
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
@@ -2498,59 +2498,91 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
+LaTeX Font Info:    Font shape `T1/fos/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/fos/b/n' tried instead on input line 82.
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 84.
+
+<figures/UVmetric_vs_pHmetric_pKa_figure.pdf, id=96, 597.50786pt x 421.10078pt>
+File: figures/UVmetric_vs_pHmetric_pKa_figure.pdf Graphic file (type pdf)
+<use figures/UVmetric_vs_pHmetric_pKa_figure.pdf>
+Package pdftex.def Info: figures/UVmetric_vs_pHmetric_pKa_figure.pdf used on in
+put line 97.
+(pdftex.def)             Requested size: 421.3982pt x 296.98532pt.
+
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
-[2] <SAMPL6_pKa_molecules_fig.pdf, id=103, 542.025pt x 722.7pt>
-File: SAMPL6_pKa_molecules_fig.pdf Graphic file (type pdf)
+[2]
+Overfull \hbox (6.0pt too wide) has occurred while \output is active
+ [][][][][][][]| 
+ []
 
-<use SAMPL6_pKa_molecules_fig.pdf>
-Package pdftex.def Info: SAMPL6_pKa_molecules_fig.pdf used on input line 141.
+[3 <./figures/UVmetric_vs_pHmetric_pKa_figure.pdf>]
+Overfull \hbox (6.0pt too wide) has occurred while \output is active
+ [][][][][][][]| 
+ []
+
+[4]
+Overfull \hbox (6.0pt too wide) has occurred while \output is active
+ [][][][][][][]| 
+ []
+
+[5] <figures/SAMPL6_pKa_molecules_fig.pdf, id=179, 542.025pt x 722.7pt>
+File: figures/SAMPL6_pKa_molecules_fig.pdf Graphic file (type pdf)
+
+<use figures/SAMPL6_pKa_molecules_fig.pdf>
+Package pdftex.def Info: figures/SAMPL6_pKa_molecules_fig.pdf used on input lin
+e 181.
 (pdftex.def)             Requested size: 421.3982pt x 561.88419pt.
 
-Overfull \hbox (6.0pt too wide) has occurred while \output is active
- [][][][][][][]| 
- []
-
-[3]
-Overfull \hbox (6.0pt too wide) has occurred while \output is active
- [][][][][][][]| 
- []
-
-[4 <./SAMPL6_pKa_molecules_fig.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 []\T1/fos/m/n/9 (+20) SAMPL6 pKa chal-lenge in-struc-tions, sub-mis-sions, and 
 anal-y-sis is avail-able at
  []
 
-(./elife-template.bbl)
+(./elife-template.bbl
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
-[5] 
+[6]
+Overfull \hbox (6.0pt too wide) has occurred while \output is active
+ [][][][][][][]| 
+ []
+
+[7 <./figures/SAMPL6_pKa_molecules_fig.pdf>])
+Overfull \hbox (6.0pt too wide) has occurred while \output is active
+ [][][][][][][]| 
+ []
+
+[8] 
 AED: lastpage setting LastPage
 
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
-[6] (./elife-template.suppinfo)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 234.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 234.
+[9] (./elife-template.suppinfo)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
  (./elife-template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 234.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 234.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 278.
 Package rerunfilecheck Info: File `elife-template.out' has not changed.
-(rerunfilecheck)             Checksum: 4E6B2F2444706E9A2F1F3BA36603889B;1058.
+(rerunfilecheck)             Checksum: 43AF6B8469C6C305DC546125EB1973A4;1167.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 37323 strings out of 493013
- 715251 string characters out of 6135682
- 928592 words of memory out of 5000000
- 39934 multiletter control sequences out of 15000+600000
- 126636 words of font info for 328 fonts, out of 8000000 for 9000
+ 37515 strings out of 493013
+ 719377 string characters out of 6135682
+ 936371 words of memory out of 5000000
+ 39998 multiletter control sequences out of 15000+600000
+ 136421 words of font info for 423 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,15n,80p,10429b,925s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/opensans/opensans-02.enc}{/usr
@@ -2558,11 +2590,15 @@ Here is how much of TeX's memory you used:
 texlive/texmf-dist/fonts/enc/dvips/opensans/opensans-01.enc}{/usr/share/texlive
 /texmf-dist/fonts/enc/dvips/opensans/opensans-03.enc}</usr/share/texlive/texmf-
 dist/fonts/type1/public/opensans/OpenSans-Bold.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/opensans/OpenSans-Regular.pfb>
-Output written on elife-template.pdf (6 pages, 444582 bytes).
+st/fonts/type1/public/opensans/OpenSans-Regular.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/stix/stix-mathcal.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/stix/stix-mathit.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/stix/stix-mathrm.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+stix/stix-mathscr.pfb>
+Output written on elife-template.pdf (9 pages, 775992 bytes).
 PDF statistics:
- 294 PDF objects out of 1000 (max. 8388607)
- 226 compressed objects within 3 object streams
- 49 named destinations out of 1000 (max. 500000)
- 39570 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 392 PDF objects out of 1000 (max. 8388607)
+ 302 compressed objects within 4 object streams
+ 61 named destinations out of 1000 (max. 500000)
+ 39591 words of extra memory for PDF output out of 42996 (max. 10000000)
 
