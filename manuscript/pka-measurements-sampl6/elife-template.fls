@@ -532,6 +532,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/opensans/OpenSans-Regular-0
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/opensans/OpenSans-Regular-02.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/opensans/OpenSans-Regular-03.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/opensans/OpenSans-Regular-04.tfm
+INPUT figures/SM22_cosolvent_extrapolation_fig.pdf
+INPUT ./figures/SM22_cosolvent_extrapolation_fig.pdf
+INPUT ./figures/SM22_cosolvent_extrapolation_fig.pdf
 INPUT figures/SAMPL6_pKa_molecules_fig.pdf
 INPUT ./figures/SAMPL6_pKa_molecules_fig.pdf
 INPUT ./figures/SAMPL6_pKa_molecules_fig.pdf

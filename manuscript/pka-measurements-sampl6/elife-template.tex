@@ -18,6 +18,7 @@
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage{gensymb}
 \usepackage{mhchem}
+\usepackage{wrapfig}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% ARTICLE SETUP
@@ -62,7 +63,7 @@ Determining the protonation state of a small molecule is a preliminary requireme
 % Keywords and Abbreviations
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Keywords}
-acid dissociation constants $\cdot$ blind prediction challenge $\cdot$ SAMPL $\cdot$ macroscopic pKa measurements $\cdot$ macroscopic and microscopic protonation states
+acid dissociation constants $\cdot$ spectrophotometric pKa measurement $\cdot$ blind prediction challenge $\cdot$ SAMPL $\cdot$ macroscopic pKa $\cdot$ microscopic pKa  $\cdot$ macroscopic protonation state $\cdot$ microscopic protonation state
 
 \subsection{Abbreviations}
 \begin{description}
@@ -95,9 +96,9 @@ Although potentiometric measurement doesn't have this structural limitation, a h
 
 \begin{figure}
 \includegraphics[width=0.95\linewidth]{figures/UVmetric_vs_pHmetric_pKa_figure}
-\caption{{\bf Spectrophotometric (UV-metric) and potentiometric (pH-metric) pKa measurements of pyridoxine HCl with Sirius T3.} Spectrophotometic method (panels \textbf{A, B, C}) relies on UV-absorbance difference between protonation states.  It is very sensitive and requires very low analyte concentrations($\sim$ 50~\micro M), but limited to titration sites near chromophores. \textbf{A} Multiwavelength absorbance vs pH. Purple lines represents absorbance at each wavelength in UV-region.  \textbf{B} Derivative of multiwavelength absorbance with respect to pH (dA/dpH) vs pH is plotted with purple lines. In \textbf{A} and \textbf{B} Blue, red, and green triangles represent population of protonation states calculated from experimental data at each pH value. pKa values (green flags) correspond to inflection point of multiwavelength absorbance data where change in absorbance with respect to pH is maximum. \textbf{C} Molar absorption coefficients vs wavelength for each protonation state as resolved by TFA. \textbf{D, E, F} illustrate potentiometric pKa measurement where molar addition of acid or base is tracked as pH is titrated.\textbf{D} Mean molecular charge vs pH. Mean molecular charge is calculated based on the model provided for the analyte: predicted number and nature of titratble sites(acid or base type), and number of counter ions present. pKa values are calculated as inflection points of charge vs pH plot. \textbf{E} Predicted macroscopic protonation state populations vs pH calculated based on pKa values (\ce{H2A+}: blue, \ce{HA}: green, and \ce{A-}) \textbf{E} Buffering index vs pH profile of water (grey solid line, theoretical) and the sample solution (blue triangles represent experimental data points). A higher concentration of analyte ($\sim$ 5~mM) is necessary for potentiometric method than for spectrophotometric method to provide large enough buffering capacity signal above water for an accurate measurement. 
+\caption{{\bf Spectrophotometric (UV-metric) and potentiometric (pH-metric) pKa measurements of pyridoxine HCl with Sirius T3.} Spectrophotometic method (panels \textbf{A, B, C}) relies on UV-absorbance difference between protonation states.  It is very sensitive and requires very low analyte concentrations($\sim$ 50~\micro M), but limited to titration sites near chromophores. \textbf{A} Multiwavelength absorbance vs pH. Purple lines represents absorbance at each wavelength in UV-region.  \textbf{B} Derivative of multiwavelength absorbance with respect to pH (dA/dpH) vs pH is plotted with purple lines. In \textbf{A} and \textbf{B} Blue, red, and green triangles represent population of protonation states (from most protonated to least protonated) as calculated from experimental data at each pH value. pKa values (green flags) correspond to inflection point of multiwavelength absorbance data where change in absorbance with respect to pH is maximum. \textbf{C} Molar absorption coefficients vs wavelength for each protonation state as resolved by TFA. \textbf{D, E, F} illustrate potentiometric pKa measurement where molar addition of acid or base is tracked as pH is titrated.\textbf{D} Mean molecular charge vs pH. Mean molecular charge is calculated based on the model provided for the analyte: predicted number and nature of titratble sites(acid or base type), and number of counter ions present. pKa values are calculated as inflection points of charge vs pH plot. \textbf{E} Predicted macroscopic protonation state populations vs pH calculated based on pKa values (\ce{H2A+}: blue, \ce{HA}: red, and \ce{A-}: green) \textbf{E} Buffering index vs pH profile of water (grey solid line, theoretical) and the sample solution (blue triangles represent experimental data points). A higher concentration of analyte ($\sim$ 5~mM) is necessary for potentiometric method than for spectrophotometric method to provide large enough buffering capacity signal above water for an accurate measurement. 
 }
-\label{fig:fullwidth}
+\label{fig:UVmetric_vs_pHmetric_pKa}
 \end{figure}
 
 \todo[inline]{Brief outline of what this paper includes.}
@@ -108,10 +109,10 @@ Although potentiometric measurement doesn't have this structural limitation, a h
 \section{Methods}
 
 \subsection{Compound selection and procurement}
+\todo[inline]{Selection criteria of SAMPL6 compounds}
 Small molecules were purchased in powder form.
 \todo[inline]{FIGURE for compound filtering steps. Flow chart or funnel for Illustration of compound selection and experimental measurement workflow.}
 \todo[inline]{SI TABLE vendor, lot numbers, SMILES. Selected compounds and their SAMPL challenge identities, eMolecules ID, supplier reported purity, LC/MS purity}
-\todo[inline]{FIGURE compound structures with pKa values + SEM}
 
 
 \subsection{UV-metric pKa measurements}
@@ -129,8 +130,6 @@ A protonation state change of titratable sites near chromophores will modulate t
 
 This method is capable of measuring pKas between 2 and 12 when protonatable groups are at most 4-5 heavy atoms away from chromophores such that a change in protonation state alters the absorbance spectrum of the chromophore. We have selected compounds where titratable groups are close to potential chromophores (generally aromatic ring systems), but it is possible that our experimental results couldn't detect protonation of titratable groups distal to a UV-chromophore.
 
-\todo[inline]{FIGURE: how potentiometric and UV-metric data looks side by side. Example UV-metric titration and data analysis.}
-
 
 \subsection{UV-metric pKa measurement with cosolvent}
 If analytes are not sufficiently soluble in aqueous environment, pKa values can not be determined accurately with UV-metric pKa measurements method. If precipitation is present, the UV-absobance signal from pH-dependent precipitate formation can not be differentiated from the pH-dependent protonation signal. For compounds with low aqueous solubility pKa values were estimated from multiple apparent pKas measurements done in methanol:water cosolvent solutions with various ratios. This method is refered to as UV-metric psKa method in Sirius T3 Manual ~\citep{noauthor_sirius_2008}.
@@ -138,10 +137,18 @@ If analytes are not sufficiently soluble in aqueous environment, pKa values can 
 In cosolvent spectrophotometric pKa measurement protocol was very similar to UV-metric pKa measurement method in water except the following aspects: Three titrations were performed in typically in 30\%, 40\%, and 50\% mixtures methanol:water by volume to measure apparent pKa values (psKa) in these mixtures. Than Yasuda-Shedlovsky extrapolation method was used to estimate the pKa value at 0\% cosolvent~\citep{avdeef_ph-metric_1999,doi:10.1021/ac00049a010,TAKACSNOVAK1997235}. 
 
 $$ psKa + log [\ce{H2O}]=A/\epsilon+B $$
-Yasuda-Shedlovsky extrapolation relies on the linear correlation between $psKa + log [\ce{H2O}]$ and reciprocal dielectric constant of the cosolvent mixture ($1/\epsilon$). In the equation above, A and B are the slope and intercept of the line fitted to experimental datapoints.  Depending on the solubility requirements of the analyte methanol ratio of the cosolvent mixtures were adjusted. Calculation of Yasuda-Shedlovsky extrapolation was performed by Sirius T3 software using at least 3 psKa values measured in different ratios of methanol:water.
+Yasuda-Shedlovsky extrapolation relies on the linear correlation between $psKa + log [\ce{H2O}]$ and reciprocal dielectric constant of the cosolvent mixture ($1/\epsilon$). In the equation above, A and B are the slope and intercept of the line fitted to experimental datapoints.  Depending on the solubility requirements of the analyte methanol ratio of the cosolvent mixtures were adjusted. We designed the experiments to have at least 5\% cosolvent ratio difference between datapoints and 60\% methanol at most. Calculation of Yasuda-Shedlovsky extrapolation was performed by Sirius T3 software using at least 3 psKa values measured in different ratios of methanol:water.
 Addition of methanol (ISA, 0.15 M KCl) was controlled by the instrument before each titration. Three consecutive pH titrations at different methanol concentrations were performed using the same sample solution. In addition, three replicate measurements with independent samples (prepared from the same DMSO stock) were collected.
 
-\todo[inline]{FIGURE: EXTRAPOLATION}
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.5\linewidth]{figures/SM22_cosolvent_extrapolation_fig}
+\caption{{\bf Determination of SM22 pKa values with cosolvent method and Yasuda-Shedlovsky extrapolation.} 
+\textbf{A}, \textbf{B}, and \textbf{C} show psKa of SM22 determined at various methanol concentrations: 59.07\%, 49.72\%, 40.08\% by weight.  Purple solid lines indicate derivative of absorbance with respect to pH vs pH in multiple wavelength. psKa values (green flags) were determined by Sirius T3 Refinement Software. Blue, red and green triangles show relative populations of macroscopic protonation states with respect to pH calculated from the experimental data. Notice that as cosolvent concentration increases, psKa1 value decreases from 1.90 to 1.47 and psKa2 value increases from 7.84 to 8.24. \textbf{D} Yasuda-Shedlovsky extrapolation plot for SM22. Red datapoints correspond to psKa determined at various cosolvent ratios. Based on linear fitting to $psKa + log [\ce{H2O}]$ vs $1//\epsilon$, pKa1 and pKa2 in 0\% cosolvent (aqueous solution) was determined as 2.45 and 7.42, respectively. The slope of Yasuda-Shedlovsky extrapolation shows if the observed titration has acidic(positive slope) or basic(negative) character dominantly, although this is an macroscopic observation and should not be relied on for annotation of pKas to functional groups (microscopic pKas).
+} 
+\label{fig:YS_extrapolation}
+\end{center}
+\end{figure}
 
 \subsection{Calculation of uncertainty in pKa measurements}
 Experimental uncertainties were reported as standard error of the mean (SEM) of three replicate pKa measurements. Since Sirius T3 software reports pKa values with 2 decimal places, we have reported SEM as 0.01 in cases where SEM values calculated from 3 replicates were lower than 0.01.
@@ -183,7 +190,7 @@ The percent area for main peak is calculated based on the area of main peak divi
 Experimental UV-metric \pKa measurements were performed for these 24 molecules, and discernable macroscopic {\pKa}s reported. 
 Uncertainties are expressed as the standard error of the mean of three independent measurements.
 }
-\label{fig:fullwidth}
+\label{fig:pKa_molecules}
 \end{figure}
 
 

@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex elife-template"] 1526676299 "elife-template.aux" "elife-template.bbl" "elife-template" 1526676304
-  "./vancouver-elife.bst" 1526654075 36263 2d9d3f017d48f1158ea4aa657e10d2fc ""
-  "elife-sample.bib" 1526654075 7161 1123ad8f7f1e8f219c9b3244f50e78d4 ""
-  "elife-template.aux" 1526676304 13999 2fbbf2c7c29d8ea7e184e78bc0e26aba ""
+["bibtex elife-template"] 1526918555 "elife-template.aux" "elife-template.bbl" "elife-template" 1526918561
+  "./vancouver-elife.bst" 1526913772 36263 2d9d3f017d48f1158ea4aa657e10d2fc ""
+  "elife-sample.bib" 1526913772 7161 1123ad8f7f1e8f219c9b3244f50e78d4 ""
+  "elife-template.aux" 1526918561 16397 456d8435309b6e4f24dfad12589cadf8 ""
   "elife-template.bcf" 0 -1 0 ""
   (generated)
-  "elife-template.bbl"
   "elife-template.blg"
-["pdflatex"] 1526676299 "elife-template.tex" "elife-template.pdf" "elife-template" 1526676304
+  "elife-template.bbl"
+["pdflatex"] 1526918555 "elife-template.tex" "elife-template.pdf" "elife-template" 1526918561
   "/etc/texmf/web2c/texmf.cnf" 1515831263 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/opensans/opensans-01.enc" 1322694030 3294 a5b3bfab503121e0ee00f4c03e6030bf ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/opensans/opensans-02.enc" 1322694030 3713 0bfaecfd797b8ac7b45962588f782267 ""
@@ -248,17 +248,18 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1471618383 31348 3c11c993a1d7e4662292855f9f7c8e1b ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1515832058 2048181 61793b81b24e6f0d4756e3f9109ee541 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1515831539 3872147 959bb87d71342fe721f581496411a0cf ""
-  "elife-template.aux" 1526676304 13999 2fbbf2c7c29d8ea7e184e78bc0e26aba ""
-  "elife-template.bbl" 1526676299 2991 182a386cfbde4d936c821876cbbb2429 "bibtex elife-template"
-  "elife-template.out" 1526676304 1167 43af6b8469c6c305dc546125eb1973a4 ""
-  "elife-template.tex" 1526667491 23485 9e955b397d281700a13ccab41216dbd9 ""
-  "elife.cls" 1526654075 12731 ba273e20ea2dd41873543568cc93c77f ""
-  "figures/SAMPL6_pKa_molecules_fig.pdf" 1526662929 388018 cac9eaea3d6c76092cae9de6fbdfee1a ""
-  "figures/UVmetric_vs_pHmetric_pKa_figure.pdf" 1526662922 297003 477f76a4c378f644086f48a83917f3dd ""
-  "vancouver-elife.bst" 1526654075 36263 2d9d3f017d48f1158ea4aa657e10d2fc ""
+  "elife-template.aux" 1526918561 16397 456d8435309b6e4f24dfad12589cadf8 ""
+  "elife-template.bbl" 1526918555 2991 182a386cfbde4d936c821876cbbb2429 "bibtex elife-template"
+  "elife-template.out" 1526918561 1167 15fecf297540724ff3d4f594015128d2 ""
+  "elife-template.tex" 1526917974 25056 2d22c92b62f4fc2bfa7d82f8264c1f5d ""
+  "elife.cls" 1526913772 12731 ba273e20ea2dd41873543568cc93c77f ""
+  "figures/SAMPL6_pKa_molecules_fig.pdf" 1526913772 388018 cac9eaea3d6c76092cae9de6fbdfee1a ""
+  "figures/SM22_cosolvent_extrapolation_fig.pdf" 1526914213 325797 e37a4145ac8e60f4c94e1c5f864234d0 ""
+  "figures/UVmetric_vs_pHmetric_pKa_figure.pdf" 1526913772 297003 477f76a4c378f644086f48a83917f3dd ""
+  "vancouver-elife.bst" 1526913772 36263 2d9d3f017d48f1158ea4aa657e10d2fc ""
   (generated)
   "elife-template.pdf"
   "elife-template.log"
-  "elife-template.out"
   "elife-template.suppinfo"
   "elife-template.aux"
+  "elife-template.out"
