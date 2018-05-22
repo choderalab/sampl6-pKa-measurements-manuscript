@@ -19,6 +19,8 @@
 \usepackage{gensymb}
 \usepackage{mhchem}
 \usepackage{wrapfig}
+\usepackage{booktabs}
+\usepackage[flushleft]{threeparttable}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -113,7 +115,7 @@ Although potentiometric measurement doesn't have this structural limitation, a h
 \todo[inline]{Selection criteria of SAMPL6 compounds}
 Small molecules were purchased in powder form.
 \todo[inline]{FIGURE for compound filtering steps. Flow chart or funnel for Illustration of compound selection and experimental measurement workflow.}
-\todo[inline]{SI TABLE vendor, lot numbers, SMILES. Selected compounds and their SAMPL challenge identities, eMolecules ID, supplier reported purity, LC/MS purity}
+
 
 
 \subsection{UV-metric pKa measurements}
@@ -178,8 +180,6 @@ The column for the analysis is Assentis Express C18 3.0x100mm 2.7~µl particle s
 
 The percent area for main peak is calculated based on the area of main peak divided by the total area of all peaks. The percent area of the main peak is reported as an estimate of sample purity.
 
-\todo[inline]{SI Figure: all MS data}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Results
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -189,14 +189,55 @@ The percent area for main peak is calculated based on the area of main peak divi
 \includegraphics[width=0.95\linewidth]{figures/SAMPL6_pKa_molecules_fig}
 \caption{{\bf Molecules used in the SAMPL6 \pKa  challenge.} 
 Experimental UV-metric \pKa measurements were performed for these 24 molecules, and discernable macroscopic {\pKa}s reported. 
-Uncertainties are expressed as the standard error of the mean of three independent measurements.
+Uncertainties are expressed as the standard error of the mean (SEM) of three independent measurements.
 }
 \label{fig:pKa_molecules}
 \end{figure}
 
 
-\todo[inline]{TABLE:  Measured macroscopic pKa for all compounds, what method}
-\todo[inline]{Effect of cosolvent on measured pKas}
+\begin{table}[tb!]
+\begin{center}
+\begin{threeparttable}
+\centering
+\caption{Experimental pKas of SAMPL6 compounds. Spectrophotometric pKa measurements were performed with two assay types based on aqueous solubility of analytes. "UV-metric pKa" assay indicates spectrophotometric pKa measurements done with Sirius T3 in ISA water. "UV-metric pKa with cosolvent" assay refers to pKa determination by Yasuda-Shedlovsky extrapolation from psKa measurements in various ratios of ISA methanol:water mixtures. Triplicate measurements were performed at $25 \pm 0.5$~\textdegree C and in the presence of approximately 150 mM \ce{KCl} to adjust ionic strength.} 
+\label{my-label}
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Molecule ID & pKa\textsubscript{1} & pKa\textsubscript{2} & pKa\textsubscript{3} & Assay Type \\ \midrule
+SM01 & 9.53 $\pm$ 0.01 &  &  & UV-metric pKa \\
+SM02 & 5.03 $\pm$ 0.01 &  &  & UV-metric pKa with cosolvent \\
+SM03 & 7.02 $\pm$ 0.01 &  &  & UV-metric pKa with cosolvent \\
+SM04 & 6.02 $\pm$ 0.01 &  &  & UV-metric pKa \\
+SM05 & 4.59 $\pm$ 0.01 &  &  & UV-metric pKa with cosolvent \\
+SM06 & 3.03 $\pm$ 0.04 & 11.74 $\pm$ 0.01 &  & UV-metric pKa \\
+SM07 & 6.08 $\pm$ 0.01 &  &  & UV-metric pKa \\
+SM08 & 4.22 $\pm$ 0.01 &  &  & UV-metric pKa \\
+SM09 & 5.37 $\pm$ 0.01 &  &  & UV-metric pKa with cosolvent \\
+SM10 & 9.02 $\pm$ 0.01 &  &  & UV-metric pKa with cosolvent \\
+SM11 & 3.89 $\pm$ 0.01 &  &  & UV-metric pKa \\
+SM12 & 5.28 $\pm$ 0.01 &  &  & UV-metric pKa \\
+SM13 & 5.77 $\pm$ 0.01 &  &  & UV-metric pKa \\
+SM14 & 2.58 $\pm$ 0.01 & 5.30 $\pm$ 0.01 &  & UV-metric pKa \\
+SM15 & 4.70 $\pm$ 0.01 & 8.94 $\pm$ 0.01 &  & UV-metric pKa \\
+SM16 & 5.37 $\pm$ 0.01 & 10.65 $\pm$ 0.01 &  & UV-metric pKa \\
+SM17 & 3.16 $\pm$ 0.01 &  &  & UV-metric pKa \\
+SM18 & 2.15 $\pm$ 0.02 & 9.58 $\pm$ 0.03 & 11.02 $\pm$ 0.04 & UV-metric pKa with cosolvent \\
+SM19 & 9.56 $\pm$ 0.02 &  &  & UV-metric pKa with cosolvent \\
+SM20 & 5.70 $\pm$ 0.03 &  &  & UV-metric pKa with cosolvent \\
+SM21 & 4.10 $\pm$ 0.01 &  &  & UV-metric pKa with cosolvent \\
+SM22 & 2.40 $\pm$ 0.02 & 7.43 $\pm$ 0.01 &  & UV-metric pKa with cosolvent \\
+SM23 & 5.45 $\pm$ 0.01 &  &  & UV-metric pKa with cosolvent \\
+SM24 & 2.60 $\pm$ 0.01 &  &  & UV-metric pKa with cosolvent \\ \bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item[1] pKa values are reported as mean and SEM of three replicates.
+\end{tablenotes}
+\end{threeparttable}
+\end{center}
+\end{table}
+
+
+\todo[inline]{Explain effect of cosolvent on measured pKas}
 \todo[inline]{FIGURE: Cosolvent vs non-cosolvent measurement difference}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -236,6 +277,25 @@ Can other cosolvents be interesting for process chemistry.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Overview of supplementary information}
 
+Organized in SI document:
+
+- TABLE: procurement details of SAMPL6 compounds  
+
+- TABLE: selection details of SAMPL6 compounds  
+
+- TABLE: Summary of LC-MS purity results
+
+- NMR spectra of SM07 microstate characterization  
+
+- LC-MS Figures  
+
+
+Extra files:  
+
+- Sirius T3 reports  
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Author Contributions 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -272,11 +332,8 @@ JDC is a member of the Scientific Advisory Board for Schr\"{o}dinger, LLC.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Supplementary Information
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage
-\section{Supplementary Information}
-
-
-
+%\newpage
+%\section{Supplementary Information}
 
 
 

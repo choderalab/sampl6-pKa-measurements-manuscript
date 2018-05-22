@@ -1,0 +1,25 @@
+Molecule ID,pKa1 mean,pKa1 SEM,pKa2 mean,pKa2 SEM,pKa3 mean,pKa3 SEM,Assay Type
+SM01,9.53,0.01,,,,,UV-metric pKa
+SM02,5.03,0.01,,,,,UV-metric pKa with cosolvent
+SM03,7.02,0.01,,,,,UV-metric pKa with cosolvent
+SM04,6.02,0.01,,,,,UV-metric pKa
+SM05,4.59,0.01,,,,,UV-metric pKa with cosolvent
+SM06,3.03,0.04,11.74,0.01,,,UV-metric pKa
+SM07,6.08,0.01,,,,,UV-metric pKa
+SM08,4.22,0.01,,,,,UV-metric pKa
+SM09,5.37,0.01,,,,,UV-metric pKa with cosolvent
+SM10,9.02,0.01,,,,,UV-metric pKa with cosolvent
+SM11,3.89,0.01,,,,,UV-metric pKa
+SM12,5.28,0.01,,,,,UV-metric pKa
+SM13,5.77,0.01,,,,,UV-metric pKa
+SM14,2.58,0.01,5.3,0.01,,,UV-metric pKa
+SM15,4.7,0.01,8.94,0.01,,,UV-metric pKa
+SM16,5.37,0.01,10.65,0.01,,,UV-metric pKa
+SM17,3.16,0.01,,,,,UV-metric pKa
+SM18,2.15,0.02,9.58,0.03,11.02,0.04,UV-metric pKa with cosolvent
+SM19,9.56,0.02,,,,,UV-metric pKa with cosolvent
+SM20,5.7,0.03,,,,,UV-metric pKa with cosolvent
+SM21,4.1,0.01,,,,,UV-metric pKa with cosolvent
+SM22,2.4,0.02,7.43,0.01,,,UV-metric pKa with cosolvent
+SM23,5.45,0.01,,,,,UV-metric pKa with cosolvent
+SM24,2.6,0.01,,,,,UV-metric pKa with cosolvent

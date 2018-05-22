@@ -1,0 +1,25 @@
+SAMPL6 Molecule ID,group,"pKas in [3,11]",XlogP,MolWt,Availability (mg),N_Rot,N_UV_chrom,Supplier Name,Catalog Number,eMolecules ID,eMolecules SMILES,canonical isomeric SMILES,Experimental ID
+SM01,fragment-like,[9.119],0.719999969,217.221,184,0,27,AChemBlock,10222,6679830,Oc1cc2c3CCCNC(=O)c3oc2cc1,c1cc2c(cc1O)c3c(o2)C(=O)NCCC3,M01
+SM02,fragment-like,[4.05],3.268999577,289.255,101,3,36,ChemDiv,3232-0333,1327907,FC(c1cccc(c1)Nc1ncnc2c1cccc2)(F)F,c1ccc2c(c1)c(ncn2)Nc3cccc(c3)C(F)(F)F,M02
+SM03,fragment-like,[7.12],3.605000257,301.387,379,5,14,Enamine Screening Compounds,Z27474679,1228629,O=C(c1cccs1)Nc1nnc(s1)Cc1ccccc1,c1ccc(cc1)Cc2nnc(s2)NC(=O)c3cccs3,M03
+SM04,fragment-like,[5.564],3.52300024,269.729,415.5,3,36,Enamine Screening Compounds,Z126957826,30719859,Clc1ccc(cc1)CNc1ncnc2c1cccc2,c1ccc2c(c1)c(ncn2)NCc3ccc(cc3)Cl,M04
+SM05,fragment-like,[5.346],3.794999838,304.771,424.3,4,18,Enamine Screening Compounds,Z119335440,18908671,Clc1ccc(o1)C(=O)Nc1ccccc1N1CCCCC1,c1ccc(c(c1)NC(=O)c2ccc(o2)Cl)N3CCCCC3,M05
+SM06,fragment-like,"[4.001, 10.328]",2.92299962,328.163,406,3,37,Enamine Screening Compounds,Z28487401,18893169,Brc1cncc(c1)C(=O)Nc1cccc2c1nccc2,c1cc2cccnc2c(c1)NC(=O)c3cc(cnc3)Br,M06
+SM07,fragment-like,[5.564],2.907000303,235.284,208.7,3,36,Enamine Screening Compounds,Z57161635,1327878,c1ccc(cc1)CNc1ncnc2c1cccc2,c1ccc(cc1)CNc2c3ccccc3ncn2,M07
+SM08,fragment-like,[4.109],2.803000212,293.317,232.1,3,59,Enamine Screening Compounds,Z57157353,1367649,OC(=O)Cc1c(=O)[nH]c2c(c1c1ccccc1)cc(cc2)C,Cc1ccc2c(c1)c(c(c(=O)[nH]2)CC(=O)O)c3ccccc3,M08
+SM09,fragment-like,[4.05],3.138999939,287.744,119.7,3,36,Enamine Screening Compounds,Z220564816,1865544,COc1cccc(c1)Nc1ncnc2c1cccc2.Cl,COc1cccc(c1)Nc2c3ccccc3ncn2.Cl,M09
+SM10,fragment-like,[8.672],2.717999935,311.358,149.1,6,28,Enamine Screening Compounds,Z69130143,23354217,O=C(Nc1nc2c(s1)cccc2)CNC(=O)c1ccccc1,c1ccc(cc1)C(=O)NCC(=O)Nc2nc3ccccc3s2,M10
+SM11,fragment-like,[3.869],1.499000192,211.223,3430,1,31,Maybridge,RJC00689,719540,Nc1ncnc2c1cnn2c1ccccc1,c1ccc(cc1)n2c3c(cn2)c(ncn3)N,M11
+SM12,fragment-like,[4.05],3.899000168,292.163,7366,2,36,Maybridge,DP00818,1859493,Clc1cccc(c1)Nc1ncnc2c1cccc2.Cl,c1ccc2c(c1)c(ncn2)Nc3cccc(c3)Cl.Cl,M12
+SM13,fragment-like,[4.267],2.595000267,295.336,1864,4,36,Maybridge,GK03474,5828805,COc1cc2c(ncnc2cc1OC)Nc1cccc(c1)C,Cc1cccc(c1)Nc2c3cc(c(cc3ncn2)OC)OC,M13
+SM14,fragment-like,[6.348],2.332999945,209.247,50213,1,40,Enamine Screening Compounds,Z57290870,31653344,Nc1ccc2c(c1)ncn2c1ccccc1,c1ccc(cc1)n2cnc3c2ccc(c3)N,M15
+SM15,fragment-like,"[5.82, 8.709]",2.21900034,210.231,21650.2,1,40,Enamine Screening Compounds,Z1318268952,37095168,Oc1ccc(cc1)n1cnc2c1cccc2,c1ccc2c(c1)ncn2c3ccc(cc3)O,M16
+SM16,fragment-like,"[4.714, 9.847]",2.927000046,267.111,385,3,20,Vitas M Labs,STK098832,1284691,O=C(c1c(Cl)cccc1Cl)Nc1ccncc1,c1cc(c(c(c1)Cl)C(=O)Nc2ccncc2)Cl,M18
+SM17,fragment-like,[4.902],3.305999994,269.322,170,4,30,Vitas M Labs,STK032731,1444229,c1ccc(cc1)CSc1nnc(o1)c1ccncc1,c1ccc(cc1)CSc2nnc(o2)c3ccncc3,M19
+SM18,drug-like,"[9.381, 10.773]",3.34100008,426.439,247.7,7,37,Enamine Screening Compounds,Z278071350,18897105,O=C(Nc1ncc(s1)Cc1ccc(c(c1)F)F)CCc1nc2ccccc2c(=O)[nH]1,c1ccc2c(c1)c(=O)[nH]c(n2)CCC(=O)Nc3ncc(s3)Cc4ccc(c(c4)F)F,D01
+SM19,drug-like,[9.167],5.171000481,381.276,489.9,6,28,Enamine Screening Compounds,Z30206127,3365457,CCOc1ccc2c(c1)sc(n2)NC(=O)Cc1ccc(c(c1)Cl)Cl,CCOc1ccc2c(c1)sc(n2)NC(=O)Cc3ccc(c(c3)Cl)Cl,D02
+SM20,drug-like,[8.05],5.238000393,380.245,154,4,24,Vitas M Labs,STL282831,46568819,O=C1NC(=O)/C(=C\c2cccc(c2)OCc2ccc(cc2Cl)Cl)/S1,c1cc(cc(c1)OCc2ccc(cc2Cl)Cl)/C=C/3\C(=O)NC(=O)S3,D05
+SM21,drug-like,[3.892],4.140000343,438.092,222,4,28,Vitas M Labs,STL368658,1574612,Brc1cccc(c1)Nc1ncc(c(n1)Nc1cccc(c1)Br)F,c1cc(cc(c1)Br)Nc2c(cnc(n2)Nc3cccc(c3)Br)F,D06
+SM22,drug-like,"[3.511, 6.794]",3.370999813,396.951,239,0,29,Vitas M Labs,STK070581,536848,Ic1cc(I)c2c(c1O)nccc2,c1cc2c(cc(c(c2nc1)O)I)I,D07
+SM23,drug-like,[6.336],2.937000036,420.461,319,10,28,Vitas M Labs,STK097966,4375254,CCOC(=O)c1ccc(cc1)Nc1cc(C)nc(n1)Nc1ccc(cc1)C(=O)OCC,CCOC(=O)c1ccc(cc1)Nc2cc(nc(n2)Nc3ccc(cc3)C(=O)OCC)C,D08
+SM24,drug-like,[4.829],2.794000387,391.42,398,7,71,Vitas M Labs,STK090644,1415746,OCCNc1ncnc2c1c(c1ccc(cc1)OC)c(o2)c1ccc(cc1)OC,COc1ccc(cc1)c2c3c(ncnc3oc2c4ccc(cc4)OC)NCCO,D09

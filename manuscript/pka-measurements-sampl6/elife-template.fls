@@ -328,6 +328,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 INPUT elife-template.aux
 INPUT elife-template.aux
 OUTPUT elife-template.aux
