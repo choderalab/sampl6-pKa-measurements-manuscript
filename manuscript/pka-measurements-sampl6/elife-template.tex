@@ -185,6 +185,9 @@ The percent area for main peak is calculated based on the area of main peak divi
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}
 
+\subsection{Spectrophotometric pKa measurements}
+todo[inline]{Summarize measurement results, refer to tables and SI.}
+
 \begin{figure}
 \includegraphics[width=0.95\linewidth]{figures/SAMPL6_pKa_molecules_fig}
 \caption{{\bf Molecules used in the SAMPL6 \pKa  challenge.} 
@@ -199,7 +202,7 @@ Uncertainties are expressed as the standard error of the mean (SEM) of three ind
 \begin{center}
 \begin{threeparttable}
 \centering
-\caption{Experimental pKas of SAMPL6 compounds. Spectrophotometric pKa measurements were performed with two assay types based on aqueous solubility of analytes. "UV-metric pKa" assay indicates spectrophotometric pKa measurements done with Sirius T3 in ISA water. "UV-metric pKa with cosolvent" assay refers to pKa determination by Yasuda-Shedlovsky extrapolation from psKa measurements in various ratios of ISA methanol:water mixtures. Triplicate measurements were performed at $25 \pm 0.5$~\textdegree C and in the presence of approximately 150 mM \ce{KCl} to adjust ionic strength.} 
+\caption{{\bf Experimental pKas of SAMPL6 compounds.} Spectrophotometric pKa measurements were performed with two assay types based on aqueous solubility of analytes. "UV-metric pKa" assay indicates spectrophotometric pKa measurements done with Sirius T3 in ISA water. "UV-metric pKa with cosolvent" assay refers to pKa determination by Yasuda-Shedlovsky extrapolation from psKa measurements in various ratios of ISA methanol:water mixtures. Triplicate measurements were performed at $25 \pm 0.5$~\textdegree C and in the presence of approximately 150 mM \ce{KCl} to adjust ionic strength.} 
 \label{my-label}
 \begin{tabular}{@{}lllll@{}}
 \toprule
@@ -236,9 +239,25 @@ SM24 & 2.60 $\pm$ 0.01 &  &  & UV-metric pKa with cosolvent \\ \bottomrule
 \end{center}
 \end{table}
 
+\subsection{Impact of cosolvent to UV-metric pKa measurements}
+For molecules with insufficient solubility in aqueous medium throughout the titration range (pH 2-12), we had to use UV-metric pKa measurement with cosolvent methanol. To confirm that UV-metric pKa measurements with cosolvent method lead to indistinguishable results compared to UV-metric measurements in water, we collected pKa values of 12 highly soluble SAMPL6 compounds and pyridoxine also with cosolvent method. Correlation analysis of pKa values measured with two methods show that using methanol as cosolvent and determining aqueous pKas via Yasuda-Shedlovsky extrapolation did not cause any bias (Figure ~\ref{fig:water_vs_cosolvent_pKa_correlation}). 
 
-\todo[inline]{Explain effect of cosolvent on measured pKas}
-\todo[inline]{FIGURE: Cosolvent vs non-cosolvent measurement difference}
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.5\linewidth]{figures/water_vs_cosolvent_pKa_values_correlation_figure.pdf}
+\caption{{\bf Comparison of UV-metric pKa measurements with cosolvent to pKa measurements in water show good correlation.} 
+17 pKa values(blue marks) of 13 chemicals were measured with both UV-metric pKa method in water and UV-metric pKa method with methanol as cosolvent (Yasuda-Shedlovsky extrapolation to 0\% methanol). Dashed black line has slope of 1, representing perfect correlation.  Dark and light green shaded areas indicate +-0.5 and +-1.0 pKa unit difference regions, respectively. Error bars are plotted as SEM of replicate measurements, although they are not visible since the largest SEM value is 0.04. MD: Mean difference, MAD: Mean absolute deviation, RMSD: Root-mean-square deviation.  
+}
+\label{fig:water_vs_cosolvent_pKa_correlation}
+\end{center}
+\end{figure}
+
+\subsection{Purity of SAMPL6 compounds}
+\todo[inline]{summarize results of LC-MS measurements}
+
+\subsection{Characterization of SM07 microstates with NMR}
+\todo[inline]{Add results of NMR analysis of SM07 - from Iyke}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Discussion
@@ -248,6 +267,8 @@ SM24 & 2.60 $\pm$ 0.01 &  &  & UV-metric pKa with cosolvent \\ \bottomrule
 Multiwavelength absorbance analysis on thw Sirius T3 allows for very good resolution of pKas, but it is important to note that this method produces estimates of macroscopic pKas. If multiple microscopic pKas have close pKa values and overlapping changes in UV absorbance spectra associated with protonation/deprotonaton event, the spectral analysis could produce a single macroscopic pKa that represents an aggregation of multiple microscopic pKas.
 \todo[inline]{Warning about acid base assingment from cosolvent measurements}
 \todo[inline]{Lessons learned for future challenge iterations}
+\todo[inline]{Discussion of NMR results}
+\todo[inline]{Interpretation of NMR microstates for 4-amino quinazoline series }
 \todo[inline]{Challenges with NMR measurments?}
 \todo[inline]{pKa can shift based on ionic strength, temperature, and lipophilic content
 Can other cosolvents be interesting for process chemistry.}
@@ -280,12 +301,26 @@ Can other cosolvents be interesting for process chemistry.}
 Organized in SI document:
 
 - TABLE: procurement details of SAMPL6 compounds  
+% procurement_details_of_SAMPL6_compounds.csv 
 
 - TABLE: selection details of SAMPL6 compounds  
+% selection_details_of_SAMPL6_compounds.csv 
 
-- TABLE: Summary of LC-MS purity results
+- TABLE: pKa results of replicate experiments csv
+% pKa_results_of_replicate_experiments.csv
+
+- TABLE: pKa results of water and cosolvent replicate experiments csv
+% water_vs_cosolvent_pKa_values_including_pyridoxineHCl.csv
+
+- TABLE: pKa mean and SEM results of water and cosolvent replicate experiments
+% statistics_of_UV-metric_pKa_measurements_in_water_vs_cosolvent.csv  
+% pKas without SEM reported has 1 replicate
+% pKas with SEM values calculated were performed in triplicates
 
 - NMR spectra of SM07 microstate characterization  
+
+- TABLE: Summary of LC-MS purity results
+% purity_of_SAMPL6_pKa_compounds_determined_by_LCMS.csv
 
 - LC-MS Figures  
 

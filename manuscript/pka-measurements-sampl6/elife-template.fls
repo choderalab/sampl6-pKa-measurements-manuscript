@@ -585,6 +585,9 @@ INPUT ./figures/SM22_cosolvent_extrapolation_fig.pdf
 INPUT figures/SAMPL6_pKa_molecules_fig.pdf
 INPUT ./figures/SAMPL6_pKa_molecules_fig.pdf
 INPUT ./figures/SAMPL6_pKa_molecules_fig.pdf
+INPUT figures/water_vs_cosolvent_pKa_values_correlation_figure.pdf
+INPUT ./figures/water_vs_cosolvent_pKa_values_correlation_figure.pdf
+INPUT ./figures/water_vs_cosolvent_pKa_values_correlation_figure.pdf
 INPUT elife-template.bbl
 INPUT elife-template.bbl
 INPUT elife-template.suppinfo
