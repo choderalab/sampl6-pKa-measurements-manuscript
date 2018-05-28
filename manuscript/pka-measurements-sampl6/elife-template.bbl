@@ -1,7 +1,126 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{24}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\urlprefix}{}
 \providecommand{\doiprefix}{doi: }
+
+\bibitem[{Sterling and Irwin(2015)Sterling, Teague and Irwin, John
+  J.}]{sterling_zinc_2015}
+\textbf{\color{eLifeMediumGrey} Sterling T}, Irwin JJ.
+\newblock {ZINC} 15 – {Ligand} {Discovery} for {Everyone}.
+\newblock Journal of Chemical Information and Modeling.  2015 Nov;
+  55(11):2324--2337.
+\newblock \urlprefix\url{http://pubs.acs.org/doi/10.1021/acs.jcim.5b00559},
+  \href{https://dx.doi.org/10.1021/acs.jcim.5b00559}{\doiprefix
+  \detokenize{10.1021/acs.jcim.5b00559}}.
+
+\bibitem[{Baell and Holloway(2010)Baell, Jonathan B. and Holloway, Georgina
+  A.}]{baell_new_2010}
+\textbf{\color{eLifeMediumGrey} Baell JB}, Holloway GA.
+\newblock New {Substructure} {Filters} for {Removal} of {Pan} {Assay}
+  {Interference} {Compounds} ({PAINS}) from {Screening} {Libraries} and for
+  {Their} {Exclusion} in {Bioassays}.
+\newblock Journal of Medicinal Chemistry.  2010 Apr; 53(7):2719--2740.
+\newblock \urlprefix\url{http://pubs.acs.org/doi/abs/10.1021/jm901137j},
+  \href{https://dx.doi.org/10.1021/jm901137j}{\doiprefix
+  \detokenize{10.1021/jm901137j}}.
+
+\bibitem[{Saubern et~al.(2011)Saubern, Simon and Guha, Rajarshi and Baell,
+  Jonathan B.}]{saubern_knime_2011}
+\textbf{\color{eLifeMediumGrey} Saubern S}, Guha R, Baell JB.
+\newblock {KNIME} {Workflow} to {Assess} {PAINS} {Filters} in {SMARTS}
+  {Format}. {Comparison} of {RDKit} and {Indigo} {Cheminformatics} {Libraries}.
+\newblock Molecular Informatics.  2011 Oct; 30(10):847--850.
+\newblock \urlprefix\url{http://doi.wiley.com/10.1002/minf.201100076},
+  \href{https://dx.doi.org/10.1002/minf.201100076}{\doiprefix
+  \detokenize{10.1002/minf.201100076}}.
+
+\bibitem[{eMo(????)}]{eMolecules_ref_2017}
+eMolecules Database Free Version;.
+\newblock Accessed: 2017-06-01.
+\newblock \url{https://www.emolecules.com/info/products-data-downloads.html}.
+
+\bibitem[{oec(????)}]{oechem_openeye_2017}
+OEChem Toolkit 2017.Feb.1;.
+\newblock OpenEye Scientific Software, Santa Fe, NM.
+\newblock \url{http://www.eyesopen.com.}
+
+\bibitem[{Shelley et~al.(2007)Shelley, John C. and Cholleti, Anuradha and Frye,
+  Leah L. and Greenwood, Jeremy R. and Timlin, Mathew R. and Uchimaya,
+  Makoto}]{shelley_epik:_2007}
+\textbf{\color{eLifeMediumGrey} Shelley JC}, Cholleti A, Frye LL, Greenwood JR,
+  Timlin MR, Uchimaya M.
+\newblock Epik: a software program for {pK} a prediction and protonation state
+  generation for drug-like molecules.
+\newblock Journal of Computer-Aided Molecular Design.  2007 Dec;
+  21(12):681--691.
+\newblock \urlprefix\url{http://link.springer.com/10.1007/s10822-007-9133-z},
+  \href{https://dx.doi.org/10.1007/s10822-007-9133-z}{\doiprefix
+  \detokenize{10.1007/s10822-007-9133-z}}.
+
+\bibitem[{sch(????)}]{schrodinger_epik_v3_8}
+Schrödinger Release 2016-4: Epik Version 3.8;.
+\newblock Schrödinger, LLC, New York, NY, 2016.
+
+\bibitem[{oem(????)}]{oemolprop_openeye_2017}
+OEMolProp Toolkit 2017.Feb.1;.
+\newblock OpenEye Scientific Software, Santa Fe, NM.
+\newblock \url{http://www.eyesopen.com.}
+
+\bibitem[{Wishart(2006)Wishart, D. S.}]{wishart_drugbank:_2006}
+\textbf{\color{eLifeMediumGrey} Wishart DS}.
+\newblock {DrugBank}: a comprehensive resource for in silico drug discovery and
+  exploration.
+\newblock Nucleic Acids Research.  2006 Jan; 34(90001):D668--D672.
+\newblock
+  \urlprefix\url{https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkj067},
+  \href{https://dx.doi.org/10.1093/nar/gkj067}{\doiprefix
+  \detokenize{10.1093/nar/gkj067}}.
+
+\bibitem[{Pence and Williams(2010)Pence, Harry E. and Williams,
+  Antony}]{pence_chemspider:_2010}
+\textbf{\color{eLifeMediumGrey} Pence HE}, Williams A.
+\newblock {ChemSpider}: {An} {Online} {Chemical} {Information} {Resource}.
+\newblock Journal of Chemical Education.  2010 Nov; 87(11):1123--1124.
+\newblock \urlprefix\url{http://pubs.acs.org/doi/abs/10.1021/ed100697w},
+  \href{https://dx.doi.org/10.1021/ed100697w}{\doiprefix
+  \detokenize{10.1021/ed100697w}}.
+
+\bibitem[{nci(????{\natexlab{a}})}]{nci_open_database_2006}
+NCI Open Database, August 2006 Release;.
+\newblock \url{https://cactus.nci.nih.gov/download/nci/}.
+
+\bibitem[{nci(????{\natexlab{b}})}]{nci_database_browser}
+Enhanced NCI Database Browser 2.2;.
+\newblock \url{https://cactus.nci.nih.gov/ncidb2.2/}.
+
+\bibitem[{Kim et~al.(2016)Kim, Sunghwan and Thiessen, Paul A. and Bolton, Evan
+  E. and Chen, Jie and Fu, Gang and Gindulyte, Asta and Han, Lianyi and He,
+  Jane and He, Siqian and Shoemaker, Benjamin A. and Wang, Jiyao and Yu, Bo and
+  Zhang, Jian and Bryant, Stephen H.}]{kim_pubchem_2016}
+\textbf{\color{eLifeMediumGrey} Kim S}, Thiessen PA, Bolton EE, Chen J, Fu G,
+  Gindulyte A, Han L, He J, He S, Shoemaker BA, Wang J, Yu B, Zhang J, Bryant
+  SH.
+\newblock {PubChem} {Substance} and {Compound} databases.
+\newblock Nucleic Acids Research.  2016 Jan; 44(D1):D1202--D1213.
+\newblock
+  \urlprefix\url{https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkv951},
+  \href{https://dx.doi.org/10.1093/nar/gkv951}{\doiprefix
+  \detokenize{10.1093/nar/gkv951}}.
+
+\bibitem[{nci(????)}]{nci_chem_id_resolver}
+NCI/CADD Chemical Identifier Resolver;.
+\newblock \url{https://cactus.nci.nih.gov/chemical/structure}.
+
+\bibitem[{Bemis and Murcko(1996)Bemis, Guy W. and Murcko, Mark
+  A.}]{bemis_properties_1996}
+\textbf{\color{eLifeMediumGrey} Bemis GW}, Murcko MA.
+\newblock The properties of known drugs. 1. {Molecular} frameworks.
+\newblock Journal of medicinal chemistry.  1996; 39(15):2887--2893.
+
+\bibitem[{oem(????)}]{oemedchemtk_openeye_2017}
+OEMedChem Toolkit 2017.Feb.1;.
+\newblock OpenEye Scientific Software, Santa Fe, NM.
+\newblock \url{http://www.eyesopen.com.}
 
 \bibitem[{Tam and Takács-Novák(2001)Tam, Kin Y. and Takács-Novák,
   Krisztina}]{tam_multi-wavelength_2001}
@@ -52,6 +171,11 @@ Sirius {T}3 {User} {Manual}, v1.1.
   \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0378517397049077},
   \href{https://dx.doi.org/https://doi.org/10.1016/S0378-5173(97)04907-7}{\doiprefix
   \detokenize{https://doi.org/10.1016/S0378-5173(97)04907-7}}.
+
+\bibitem[{oed(????)}]{oedepict_openeye_2017}
+OEDepict Toolkit 2017.Feb.1;.
+\newblock OpenEye Scientific Software, Santa Fe, NM.
+\newblock \url{http://www.eyesopen.com.}
 
 \bibitem[{Manallack(2007)Manallack, David T.}]{manallack_pk_2007}
 \textbf{\color{eLifeMediumGrey} Manallack DT}.

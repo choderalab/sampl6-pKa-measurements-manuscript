@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.13)  23 MAY 2018 23:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.13)  28 MAY 2018 23:11
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2251,42 +2251,42 @@ Package: threeparttable 2003/06/13  v 3.0
 (./elife-template.aux)
 \openout1 = `elife-template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 56.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 54.
-LaTeX Font Info:    Try loading font information for LS1+stix on input line 54.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 56.
+LaTeX Font Info:    Try loading font information for LS1+stix on input line 56.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stix.fd
 File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
 )
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 54.
-LaTeX Font Info:    Try loading font information for LS2+stix on input line 54.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 56.
+LaTeX Font Info:    Try loading font information for LS2+stix on input line 56.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls2stix.fd
 File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
 )
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Try loading font information for T1+fos on input line 54.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Try loading font information for T1+fos on input line 56.
 
 (/usr/share/texlive/texmf-dist/tex/latex/opensans/t1fos.fd
 File: t1fos.fd 2011/11/11 Fontinst v1.927 font definitions for T1/fos.
@@ -2323,7 +2323,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 54.
+LaTeX Info: Redefining \microtypecontext on input line 56.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2379,8 +2379,8 @@ Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 54.
-Package hyperref Info: Link coloring ON on input line 54.
+(lastpage)             ! on input line 56.
+Package hyperref Info: Link coloring ON on input line 56.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -2389,9 +2389,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count355
 )
-LaTeX Info: Redefining \ref on input line 54.
-LaTeX Info: Redefining \pageref on input line 54.
-LaTeX Info: Redefining \nameref on input line 54.
+LaTeX Info: Redefining \ref on input line 56.
+LaTeX Info: Redefining \pageref on input line 56.
+LaTeX Info: Redefining \nameref on input line 56.
 
 (./elife-template.out) (./elife-template.out)
 \@outlinefile=\write5
@@ -2400,7 +2400,7 @@ LaTeX Info: Redefining \nameref on input line 54.
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 54.
+. Activating mapping `default' on line 56.
 .................................................
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
@@ -2413,65 +2413,65 @@ File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 ABD: EveryShipout initializing macros
 \symgns@font=\mathgroup12
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/fos/m/n --> TS1/fos/bx/n on input line 54.
-Package gensymb Info: Math companion symbols declared on input line 54.
-LaTeX Info: Redefining \degree on input line 54.
-LaTeX Info: Redefining \celsius on input line 54.
+(Font)                  TS1/fos/m/n --> TS1/fos/bx/n on input line 56.
+Package gensymb Info: Math companion symbols declared on input line 56.
+LaTeX Info: Redefining \degree on input line 56.
+LaTeX Info: Redefining \celsius on input line 56.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 54.
-LaTeX Info: Redefining \ohm on input line 54.
-Package gensymb Info: Using \textohm for \ohm on input line 54.
-LaTeX Info: Redefining \micro on input line 54.
-Package gensymb Info: Using \textmu for \micro on input line 54.
+erthousand on input line 56.
+LaTeX Info: Redefining \ohm on input line 56.
+Package gensymb Info: Using \textohm for \ohm on input line 56.
+LaTeX Info: Redefining \micro on input line 56.
+Package gensymb Info: Using \textmu for \micro on input line 56.
 \c__siunitx_mathsf_int=\count356
 LaTeX Font Info:    Try loading font information for LS1+stixscr on input line 
-54.
+56.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stixscr.fd
 File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
 )
 LaTeX Font Info:    Try loading font information for LS2+stixex on input line 5
-4.
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls2stixex.fd
 File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
 
 )
 LaTeX Font Info:    Try loading font information for LS1+stixfrak on input line
- 54.
+ 56.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stixfrak.fd
 File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
 )
 LaTeX Font Info:    Try loading font information for LS1+stixbb on input line 5
-4.
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stixbb.fd
 File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
 
 )
 LaTeX Font Info:    Try loading font information for LS2+stixcal on input line 
-54.
+56.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls2stixcal.fd
 File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definiti
 ons
 )
 LaTeX Font Info:    Try loading font information for LS1+stixsf on input line 5
-4.
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stixsf.fd
 File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
 
 )
 LaTeX Font Info:    Try loading font information for LS2+stixtt on input line 5
-4.
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls2stixtt.fd
 File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 
 )
-LaTeX Font Info:    Try loading font information for TS1+fos on input line 54.
+LaTeX Font Info:    Try loading font information for TS1+fos on input line 56.
 
 (/usr/share/texlive/texmf-dist/tex/latex/opensans/ts1fos.fd
 File: ts1fos.fd 2011/11/11 Fontinst v1.927 font definitions for TS1/fos.
@@ -2482,18 +2482,18 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 \c__siunitx_mathtt_int=\count357
 LaTeX Font Info:    Font shape `T1/fos/bx/n' in size <9> not available
-(Font)              Font shape `T1/fos/b/n' tried instead on input line 57.
+(Font)              Font shape `T1/fos/b/n' tried instead on input line 59.
 LaTeX Font Info:    Font shape `T1/fos/bx/n' in size <22> not available
-(Font)              Font shape `T1/fos/b/n' tried instead on input line 57.
-LaTeX Font Info:    Calculating math sizes for size <22> on input line 57.
+(Font)              Font shape `T1/fos/b/n' tried instead on input line 59.
+LaTeX Font Info:    Calculating math sizes for size <22> on input line 59.
 LaTeX Font Info:    Font shape `T1/fos/bx/n' in size <15.39993> not available
-(Font)              Font shape `T1/fos/b/n' tried instead on input line 57.
+(Font)              Font shape `T1/fos/b/n' tried instead on input line 59.
 LaTeX Font Info:    Font shape `T1/fos/bx/n' in size <10> not available
-(Font)              Font shape `T1/fos/b/n' tried instead on input line 57.
+(Font)              Font shape `T1/fos/b/n' tried instead on input line 59.
 LaTeX Font Info:    Font shape `T1/fos/bx/n' in size <7.5> not available
-(Font)              Font shape `T1/fos/b/n' tried instead on input line 57.
+(Font)              Font shape `T1/fos/b/n' tried instead on input line 59.
 LaTeX Font Info:    Font shape `T1/fos/bx/n' in size <8> not available
-(Font)              Font shape `T1/fos/b/n' tried instead on input line 57.
+(Font)              Font shape `T1/fos/b/n' tried instead on input line 59.
 
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
@@ -2503,16 +2503,16 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
 
 ]
 LaTeX Font Info:    Font shape `T1/fos/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/fos/b/n' tried instead on input line 86.
+(Font)              Font shape `T1/fos/b/n' tried instead on input line 89.
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 88.
+ine 91.
 
 <figures/UVmetric_vs_pHmetric_pKa_figure.pdf, id=108, 597.50786pt x 421.10078pt
 >
 File: figures/UVmetric_vs_pHmetric_pKa_figure.pdf Graphic file (type pdf)
  <use figures/UVmetric_vs_pHmetric_pKa_figure.pdf>
 Package pdftex.def Info: figures/UVmetric_vs_pHmetric_pKa_figure.pdf used on in
-put line 101.
+put line 104.
 (pdftex.def)             Requested size: 421.3982pt x 296.98532pt.
 
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
@@ -2525,92 +2525,122 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  []
 
 [3 <./figures/UVmetric_vs_pHmetric_pKa_figure.pdf>]
+Overfull \hbox (47.94218pt too wide) in paragraph at lines 132--133
+[]\T1/fos/m/n/9 (-20) Python scripts used for com-pound se-lec-tion are avail-a
+ble at GitHub repos-i-tory [][]https://github.com/choderalab/sampl6-
+ []
+
+<figures/compound_selection_figure.pdf, id=189, 483.69685pt x 526.37596pt>
+File: figures/compound_selection_figure.pdf Graphic file (type pdf)
+
+<use figures/compound_selection_figure.pdf>
+Package pdftex.def Info: figures/compound_selection_figure.pdf used on input li
+ne 136.
+(pdftex.def)             Requested size: 421.3982pt x 458.58592pt.
+
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
 [4]
-<figures/SM22_cosolvent_extrapolation_fig.pdf, id=178, 256.0748pt x 512.1496pt>
+Overfull \hbox (6.0pt too wide) has occurred while \output is active
+ [][][][][][][]| 
+ []
+
+[5 <./figures/compound_selection_figure.pdf>]
+Overfull \hbox (6.0pt too wide) has occurred while \output is active
+ [][][][][][][]| 
+ []
+
+[6]
+<figures/SM22_cosolvent_extrapolation_fig.pdf, id=354, 256.0748pt x 512.1496pt>
 File: figures/SM22_cosolvent_extrapolation_fig.pdf Graphic file (type pdf)
 <use figures/SM22_cosolvent_extrapolation_fig.pdf>
 Package pdftex.def Info: figures/SM22_cosolvent_extrapolation_fig.pdf used on i
-nput line 148.
+nput line 173.
 (pdftex.def)             Requested size: 221.78923pt x 443.59723pt.
 
-<figures/SAMPL6_pKa_molecules_fig.pdf, id=179, 542.025pt x 722.7pt>
+<figures/SAMPL6_pKa_molecules_fig.pdf, id=355, 542.025pt x 722.7pt>
 File: figures/SAMPL6_pKa_molecules_fig.pdf Graphic file (type pdf)
 
 <use figures/SAMPL6_pKa_molecules_fig.pdf>
 Package pdftex.def Info: figures/SAMPL6_pKa_molecules_fig.pdf used on input lin
-e 192.
+e 217.
 (pdftex.def)             Requested size: 421.3982pt x 561.88419pt.
 
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
-[5]
+[7]
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
-[6 <./figures/SM22_cosolvent_extrapolation_fig.pdf>]
+[8 <./figures/SM22_cosolvent_extrapolation_fig.pdf>]
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
-[7 <./figures/SAMPL6_pKa_molecules_fig.pdf>]
-<figures/water_vs_cosolvent_pKa_values_correlation_figure.pdf, id=356, 433.62pt
+[9 <./figures/SAMPL6_pKa_molecules_fig.pdf>]
+<figures/water_vs_cosolvent_pKa_values_correlation_figure.pdf, id=534, 433.62pt
  x 433.62pt>
 File: figures/water_vs_cosolvent_pKa_values_correlation_figure.pdf Graphic file
  (type pdf)
 
 <use figures/water_vs_cosolvent_pKa_values_correlation_figure.pdf>
 Package pdftex.def Info: figures/water_vs_cosolvent_pKa_values_correlation_figu
-re.pdf used on input line 247.
+re.pdf used on input line 272.
 (pdftex.def)             Requested size: 221.78923pt x 221.79169pt.
 
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
-[]\T1/fos/m/n/9 (+20) SAMPL6 pKa chal-lenge in-struc-tions, sub-mis-sions, and 
-anal-y-sis is avail-able at
- []
-
-
-Overfull \vbox (7.23897pt too high) has occurred while \output is active []
-
-
+[10]
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
-[9 <./figures/water_vs_cosolvent_pKa_values_correlation_figure.pdf>]
-(./elife-template.bbl) 
+[11 <./figures/water_vs_cosolvent_pKa_values_correlation_figure.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
+[]\T1/fos/m/n/9 (+20) SAMPL6 pKa chal-lenge in-struc-tions, sub-mis-sions, and 
+anal-y-sis is avail-able at
+ []
+
+(./elife-template.bbl
+Overfull \hbox (6.0pt too wide) has occurred while \output is active
+ [][][][][][][]| 
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 38--41
+[]\T1/fos/m/n/8 (+20) eMolecules Database Free Ver-sion;.  Ac-cessed: 2017-06-0
+1.  [][]$https : / / www . emolecules . com / info /
+ []
+
+) 
 AED: lastpage setting LastPage
 
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
-[10] (./elife-template.suppinfo)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 378.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 378.
+[13] (./elife-template.suppinfo)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 406.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 406.
  (./elife-template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 378.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 378.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 406.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 406.
 Package rerunfilecheck Info: File `elife-template.out' has not changed.
-(rerunfilecheck)             Checksum: C66CC1539A5F4A2F7D53D977109AFE21;1467.
+(rerunfilecheck)             Checksum: 1063B794DCD5F2206C05CF17C72EDCCB;1467.
  ) 
 Here is how much of TeX's memory you used:
- 37667 strings out of 493013
- 722879 string characters out of 6135682
- 942724 words of memory out of 5000000
- 40101 multiletter control sequences out of 15000+600000
- 164646 words of font info for 497 fonts, out of 8000000 for 9000
+ 37813 strings out of 493013
+ 726412 string characters out of 6135682
+ 944948 words of memory out of 5000000
+ 40155 multiletter control sequences out of 15000+600000
+ 170826 words of font info for 557 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,15n,80p,10429b,931s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/opensans/opensans-02.enc}{/usr
@@ -2623,10 +2653,10 @@ ist/fonts/type1/public/stix/stix-mathcal.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/stix/stix-mathit.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/stix/stix-mathrm.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 stix/stix-mathscr.pfb>
-Output written on elife-template.pdf (10 pages, 1136677 bytes).
+Output written on elife-template.pdf (13 pages, 1529891 bytes).
 PDF statistics:
- 586 PDF objects out of 1000 (max. 8388607)
- 434 compressed objects within 5 object streams
- 65 named destinations out of 1000 (max. 500000)
- 41673 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 800 PDF objects out of 1000 (max. 8388607)
+ 587 compressed objects within 6 object streams
+ 84 named destinations out of 1000 (max. 500000)
+ 41678 words of extra memory for PDF output out of 42996 (max. 10000000)
 

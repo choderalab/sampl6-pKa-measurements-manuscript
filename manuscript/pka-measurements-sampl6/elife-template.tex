@@ -34,6 +34,8 @@
 \author[1,4]{Ari\"{e}n S. Rustenburg}
 \author[5]{Ikenna Ndukwe}
 \author[5]{Heather Wang}
+\author[5]{Xiao Wang}
+\author[5]{Gary Martin}
 \author[6]{David Mobley}
 \author[3]{Timothy Rhodes}
 \author[1*]{John D. Chodera}
@@ -78,6 +80,7 @@ acid dissociation constants $\cdot$ spectrophotometric pKa measurement $\cdot$ b
 \item[SEM] Standard error of the mean
 \item[TFA] Target factor analysis
 \item[LC-MS] Liquid chromatography - mass spectrometry
+\item[NMR] Nuclear magnetic resonance spectroscopy
 \end{description}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -99,7 +102,7 @@ Although potentiometric measurement doesn't have this structural limitation, a h
 
 \begin{figure}
 \includegraphics[width=0.95\linewidth]{figures/UVmetric_vs_pHmetric_pKa_figure}
-\caption{{\bf Spectrophotometric (UV-metric) and potentiometric (pH-metric) pKa measurements of pyridoxine HCl with Sirius T3.} Spectrophotometic method (panels \textbf{A, B, C}) relies on UV-absorbance difference between protonation states.  It is very sensitive and requires very low analyte concentrations($\sim$ 50~\micro M), but limited to titration sites near chromophores. \textbf{A} Multiwavelength absorbance vs pH. Purple lines represents absorbance at each wavelength in UV-region.  \textbf{B} Derivative of multiwavelength absorbance with respect to pH (dA/dpH) vs pH is plotted with purple lines. In \textbf{A} and \textbf{B} Blue, red, and green triangles represent population of protonation states (from most protonated to least protonated) as calculated from experimental data at each pH value. pKa values (green flags) correspond to inflection point of multiwavelength absorbance data where change in absorbance with respect to pH is maximum. \textbf{C} Molar absorption coefficients vs wavelength for each protonation state as resolved by TFA. \textbf{D, E, F} illustrate potentiometric pKa measurement where molar addition of acid or base is tracked as pH is titrated.\textbf{D} Mean molecular charge vs pH. Mean molecular charge is calculated based on the model provided for the analyte: predicted number and nature of titratble sites(acid or base type), and number of counter ions present. pKa values are calculated as inflection points of charge vs pH plot. \textbf{E} Predicted macroscopic protonation state populations vs pH calculated based on pKa values (\ce{H2A+}: blue, \ce{HA}: red, and \ce{A-}: green) \textbf{E} Buffering index vs pH profile of water (grey solid line, theoretical) and the sample solution (blue triangles represent experimental data points). A higher concentration of analyte ($\sim$ 5~mM) is necessary for potentiometric method than for spectrophotometric method to provide large enough buffering capacity signal above water for an accurate measurement. 
+\caption{{\bf Spectrophotometric (UV-metric) and potentiometric (pH-metric) pKa measurements of pyridoxine HCl with Sirius T3.} Spectrophotometic method (panels \textbf{A, B, C}) relies on UV-absorbance difference between protonation states.  It is very sensitive and requires very low analyte concentrations($\sim$ 50~\micro M), but limited to titration sites near chromophores. \textbf{A} Multiwavelength absorbance vs pH. Purple lines represents absorbance at each wavelength in UV-region.  \textbf{B} Derivative of multiwavelength absorbance with respect to pH (dA/dpH) vs pH is plotted with purple lines. In \textbf{A} and \textbf{B} Blue, red, and green triangles represent population of protonation states (from most protonated to least protonated) as calculated from experimental data at each pH value. pKa values (green flags) correspond to inflection point of multiwavelength absorbance data where change in absorbance with respect to pH is maximum. \textbf{C} Molar absorption coefficients vs wavelength for each protonation state as resolved by TFA. \textbf{D, E, F} illustrate potentiometric pKa measurement where molar addition of acid or base is tracked as pH is titrated.\textbf{D} Mean molecular charge vs pH. Mean molecular charge is calculated based on the model provided for the analyte: predicted number and nature of titratable sites(acid or base type), and number of counter ions present. pKa values are calculated as inflection points of charge vs pH plot. \textbf{E} Predicted macroscopic protonation state populations vs pH calculated based on pKa values (\ce{H2A+}: blue, \ce{HA}: red, and \ce{A-}: green) \textbf{E} Buffering index vs pH profile of water (grey solid line, theoretical) and the sample solution (blue triangles represent experimental data points). A higher concentration of analyte ($\sim$ 5~mM) is necessary for potentiometric method than for spectrophotometric method to provide large enough buffering capacity signal above water for an accurate measurement. 
 }
 \label{fig:UVmetric_vs_pHmetric_pKa}
 \end{figure}
@@ -112,9 +115,31 @@ Although potentiometric measurement doesn't have this structural limitation, a h
 \section{Methods}
 
 \subsection{Compound selection and procurement}
-\todo[inline]{Selection criteria of SAMPL6 compounds}
-Small molecules were purchased in powder form.
-\todo[inline]{FIGURE for compound filtering steps. Flow chart or funnel for Illustration of compound selection and experimental measurement workflow.}
+To select a set of small molecules focusing on chemical space representing kinase inhibitors for physicochemical property prediction challenges (pKa and lipophilicity) we started from kinase targeting subclass of ZINC15 chemical library ~\citep{sterling_zinc_2015} and applied a series of filtering and selection rules as depicted in Figure ~\ref{fig:compound_selection_figure} A. The following subsets of ZINC15 kinase subclass were selected in the first step: availability "now" and reactivity "anodyne", querried by:
+\url{http://zinc15.docking.org/subclasses/kinase/substances/subsets/now+anodyne/}. "Now" label indicates availability of compound for immediate delivery. "Anodyne" label excludes compounds matching reactivity patterns and pan-assay interference compounds (PAINs) ~\citep{baell_new_2010, saubern_knime_2011}. 
+
+Next, we found which these molecules were also found in eMolecules~\citep{eMolecules_ref_2017} (free version of the database was downloaded on June 1st, 2017), since procurement was going to be done through eMolecules. To find the intersection of ZINC15 kinase subset and eMolecules database, we matched molecules using canonical isomeric SMILES as identifier. Canonical isomeric SMILES were created with OpenEye OEChem Toolkit ~\citep{oechem_openeye_2017}. About 100~mg of each compound in powder form and 90\% purity was required complete planned experiments. To extract availability and price information from eMolecules, we queried using list of SMILES (as reported in eMolecules database) of the intersection set. We further filtered the intersection set of 1204 compounds based on delivery time (Tier 1 suppliers, 2 week delivery), at least 100 mg availability and in as powder (format: Supplier Standard Vial). 
+
+pKa measurements and logP measurements with Sirius T3 requires a titratable group in the pKa range of 2-12, so we wanted to select compounds with predicted pKas in the range of 3-11 considering possible errors in pKa predictions. pKa predictions were calculated using Epik Sequential pKa prediction (scan)~\citep{shelley_epik:_2007,schrodinger_epik_v3_8} with target pH 7.0 and tautomerization allowed for generated states. We filtered out all compounds that did not have any pKas predicted between 3-11 and also compounds with predicted pKa values closer than 1 pKa unit so that individual pKas of multiprotic compounds could be resolved with spectrophotometric pKa measurements. With the goal of selecting compounds suitable for logP measurements, we eliminated compounds with OpenEye XlogP ~\citep{oemolprop_openeye_2017} values lower than -1 and higher than 6. 
+Subsets of compounds with molecular weights between 150-350 g/mol and 350-500 g/mol were selected for fragment-like and drug-like categories respectively. We eliminated compounds which didn't have price and stock amounts information available. Also compounds with publicly available experimental logP measurements were removed. The sources we checked for experimental logP values were the following: DrugBank~\citep{wishart_drugbank:_2006} (queried with eMolecules SMILES), ChemSpider~\citep{pence_chemspider:_2010} (queried by canonical isomeric SMILES), NCI Open Database August 2006 release ~\citep{nci_open_database_2006} and Enhanced NCI Database Browser~\citep{nci_database_browser} (queried with canonical isomeric SMILES), and PubChem~\citep{kim_pubchem_2016} (queried with InChIKeys generated from canonical isomeric SMILES with NCI CACTUS Chemical Identifier Resolver~\citep{nci_chem_id_resolver}.)
+
+In order to include common ring structures found in kinase inhibitors, we analyzed the frequency of rings found in FDA-approved kinase inhibitors via Bemis-Murcko fragmentation~\citep{bemis_properties_1996, oemedchemtk_openeye_2017}. Heterocycles found more than once in FDA-approved kinase inhibitors are shown in Figure \ref{fig:compound_selection_figure} B. 
+While selection 25 compounds for fragment-like set and 10 compounds for drug-like set, We prioritized including at least one example of each heterocycle, although we failed to find compounds with piperazine and indazole that satisfied all other selection criteria. We observed that certain heterocycles (shown in Figure \ref{fig:compound_selection_figure} C) were overrepresented based on our selection criteria, thus limited the number of these structures in SAMPL6 challenge set to at most one in fragment-like and drug-like sets. To achieve broad and uniform sampling of logP dynamic range, we segregated the molecules into bins of logP values and selected compounds from each bin prioritizing cheaper chemicals. 
+
+Presence of UV chromophores (absorbing in 200-400 nm) in proximity to protonation sites is necessary for spectrophotometric pKa measurements. To check for UV chromophores, we looked at the substructure matches to SMARTS pattern $[n,o,c][c,n,o]cc$ which were considered as the smallest unit of pi-conjugation that can constitute an UV-chromophore. This SMARTS pattern describes 4 heavy atom extended conjugation systems composed of aromatic carbon, nitrogen, or oxygen, such as 1.3-butadiene which absorbs at 217 nm. Additionally, final set of selected molecules were inspected to makes sure all potentially titratable groups were within 4 heavy atoms distance from a UV-chromophore.
+25 fragment-like and 10 drug-like compounds were selected, out of which procurement and pKa measurements for 17(SM01-SM17) and 7(SM18-SM24) were successful, respectively. These 24 small molecules constituded the SAMPL6 pKa challenge set.
+
+Python scripts used for compound selection are available at GitHub repository \href{https://github.com/choderalab/sampl6\textendash physicochemical\textendash properties}{https://github.com/choderalab/sampl6-physicochemical-properties} under \textbf{compound\textunderscore selection/ zinc15\textunderscore eMolecules\textunderscore intersection\textunderscore set} directory. Procurement details if each compound can be found in Table SI 1.
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.95\linewidth]{figures/compound_selection_figure.pdf}
+\caption{{\bf Compound selection for SAMPL6 physicochemical properties challenges for pKa and logP.} \textbf{A} Flowchart of filtering steps for the selection of SAMPL6 compounds similar to kinase inhibitors and kinase inhibitor fragments. Numbers next to arrows how number of potential compounds after each filtering step. 25 fragment-like and 10 drug-like compounds were selected, out of which procurement and pKa measurements for 17 and 7 were successful, respectively.   \textbf{B} Frequent heterocycles found in FDA approved kinase inhibitors determined by Bemis-Murcko fragmentation into rings  ~\citep{bemis_properties_1996}. Black structures were represented in SAMPL6 set at least once. Compounds with piperazine and indazole (gray structures) could not be included in the challenge set due to library and selection limitations.  \textbf{C} Structures of heterocycles that were overrepresented based on our compound selection workflow. We have limited occurance of these heterocycles to at most one.
+}
+\label{fig:compound_selection_figure}
+\end{center}
+\end{figure}
+
 
 
 
@@ -158,7 +183,7 @@ Experimental uncertainties were reported as standard error of the mean (SEM) of 
 
 
 \subsection{Protonation site determination with NMR}
-\todo[inline]{Update or remove this section based on updates from Iyke.}
+\todo[inline]{Iyke will provide the text for NMR method.}
 
 \subsection{Quality control for chemicals}
 Purity of SAMPL6 pKa challenge compounds were determined based on LC\textendash MS. The purity analysis was performed using an Agilent HPLC1200 Series equipped with auto\textendash  sampler, UV diode array detector and a Quadrupole MS detector 6140. The software used was Chemistation for LC \& LC\/MS with version C01.07SR2.
@@ -175,7 +200,7 @@ The column for the analysis is Assentis Express C18 3.0x100mm 2.7~µl particle s
 \item Grying gas flow: 12~ml/min
 \item Nebulizer pressure: 35~psi
 \item Drying temperature: 350\textdegree C
-\item Mass range: 5-1350~Da; Fraggmentor:70; Threshold:100
+\item Mass range: 5-1350~Da; Fragmentor:70; Threshold:100
 \end{itemize}
 
 The percent area for main peak is calculated based on the area of main peak divided by the total area of all peaks. The percent area of the main peak is reported as an estimate of sample purity.
@@ -192,7 +217,7 @@ todo[inline]{Summarize measurement results, refer to tables and SI.}
 \includegraphics[width=0.95\linewidth]{figures/SAMPL6_pKa_molecules_fig}
 \caption{{\bf Molecules used in the SAMPL6 \pKa  challenge.} 
 Experimental UV-metric \pKa measurements were performed for these 24 molecules, and discernable macroscopic {\pKa}s reported. 
-Uncertainties are expressed as the standard error of the mean (SEM) of three independent measurements.
+Uncertainties are expressed as the standard error of the mean (SEM) of three independent measurements. Structure figures were created with OpenEye OEDepict Toolkit ~\citep{oedepict_openeye_2017}
 }
 \label{fig:pKa_molecules}
 \end{figure}
@@ -245,7 +270,7 @@ For molecules with insufficient solubility in aqueous medium throughout the titr
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.5\linewidth]{figures/water_vs_cosolvent_pKa_values_correlation_figure.pdf}
-\caption{{\bf Comparison of UV-metric pKa measurements with cosolvent to pKa measurements in water show good correlation.} 
+\caption{{\bf pKa measurements with UV-metric method with cosolvent and UV-metric method in water show good correlation.} 
 17 pKa values(blue marks) of 13 chemicals were measured with both UV-metric pKa method in water and UV-metric pKa method with methanol as cosolvent (Yasuda-Shedlovsky extrapolation to 0\% methanol). Dashed black line has slope of 1, representing perfect correlation.  Dark and light green shaded areas indicate +-0.5 and +-1.0 pKa unit difference regions, respectively. Error bars are plotted as SEM of replicate measurements, although they are not visible since the largest SEM value is 0.04. MD: Mean difference, MAD: Mean absolute deviation, RMSD: Root-mean-square deviation.  
 }
 \label{fig:water_vs_cosolvent_pKa_correlation}
@@ -254,7 +279,7 @@ For molecules with insufficient solubility in aqueous medium throughout the titr
 
 \subsection{Purity of SAMPL6 compounds}
 \todo[inline]{summarize results of LC-MS measurements}
-
+LC-MS based purity measurements showed that powder stocks of 23 SAMPL6 pKa challenge compounds were >90\% pure and purity of SM22 was 87\% which was the lowest in the set (Table SI 6).  Additionally, molecular weights detected by LC-MS method were consistent with molecular weights reported in eMolecules and supplier reported molecular weights when provided. 
 \subsection{Characterization of SM07 microstates with NMR}
 \todo[inline]{Add results of NMR analysis of SM07 - from Iyke}
 
@@ -268,7 +293,9 @@ Multiwavelength absorbance analysis on thw Sirius T3 allows for very good resolu
 \todo[inline]{Warning about acid base assingment from cosolvent measurements}
 \todo[inline]{Lessons learned for future challenge iterations}
 \todo[inline]{Discussion of NMR results}
+The goal of this NMR characterization was collecting information on microscopic states related to experimental pKa measurements, i.e. determining sites of protonation. pKa measurements performed with spectrophotometric method provides macroscopic pKa values, but does not provide information site of protonation. On the other hand, most computational prediction methods predict primarily microscopic pKa values. Protonation sites can be determined by NMR methods, although these measurements are very laborious in terms of data collection and interpretation compared to pKa measurements with Sirius T3. Moreover, not all SAMPL6 molecules were suitable for NMR measurements due to high sample concentration requirements (for methods other than proton NMR) and analyte solubility issues. Thus we performed NMR based microstate characterization only for SM07. We investigated microstates existed at pH values lower and higher than macroscopic pKa value with the goal of evaluating if spectroscopicly measured pKa was microscopic (related to single protonation site).
 \todo[inline]{Interpretation of NMR microstates for 4-amino quinazoline series }
+In addition to SM07, there were 5 other 4-amino quinazoline derivatives in SAMPL6 set: SM02, SM04. SM09, SM12, and SM13. Based on structural similarity, we can infer that spectrometric pKa values measured for other 4-amino quinazoline compounds as microscopic pKa related to the protonation of the same quinazoline nitrogen with the same neutral background protonation states.
 \todo[inline]{Challenges with NMR measurments?}
 \todo[inline]{pKa can shift based on ionic strength, temperature, and lipophilic content
 Can other cosolvents be interesting for process chemistry.}
@@ -300,27 +327,28 @@ Can other cosolvents be interesting for process chemistry.}
 
 Organized in SI document:
 
-- TABLE: procurement details of SAMPL6 compounds  
+- TABLE SI 1: procurement details of SAMPL6 compounds  
 % procurement_details_of_SAMPL6_compounds.csv 
 
-- TABLE: selection details of SAMPL6 compounds  
+- TABLE SI 2: selection details of SAMPL6 compounds  
 % selection_details_of_SAMPL6_compounds.csv 
 
-- TABLE: pKa results of replicate experiments csv
+- TABLE SI 3: pKa results of replicate experiments csv
 % pKa_results_of_replicate_experiments.csv
 
-- TABLE: pKa results of water and cosolvent replicate experiments csv
+- TABLE SI 4: pKa results of water and cosolvent replicate experiments csv
 % water_vs_cosolvent_pKa_values_including_pyridoxineHCl.csv
 
-- TABLE: pKa mean and SEM results of water and cosolvent replicate experiments
+- TABLE SI 5: pKa mean and SEM results of water and cosolvent replicate experiments
 % statistics_of_UV-metric_pKa_measurements_in_water_vs_cosolvent.csv  
 % pKas without SEM reported has 1 replicate
 % pKas with SEM values calculated were performed in triplicates
 
 - NMR spectra of SM07 microstate characterization  
 
-- TABLE: Summary of LC-MS purity results
+- TABLE SI 6: Summary of LC-MS purity results
 % purity_of_SAMPL6_pKa_compounds_determined_by_LCMS.csv
+
 
 - LC-MS Figures  
 

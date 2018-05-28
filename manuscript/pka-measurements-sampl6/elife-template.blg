@@ -4,47 +4,83 @@ The top-level auxiliary file: elife-template.aux
 The style file: vancouver-elife.bst
 Database file #1: elife-sample.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty author in eMolecules_ref_2017
+Warning--empty author and editor in eMolecules_ref_2017
+Warning--missing publisher in eMolecules_ref_2017
+Warning--there's a month but no year in eMolecules_ref_2017
+Warning--empty author in oechem_openeye_2017
+Warning--empty author and editor in oechem_openeye_2017
+Warning--missing publisher in oechem_openeye_2017
+Warning--there's a month but no year in oechem_openeye_2017
+Warning--empty author in schrodinger_epik_v3_8
+Warning--empty author and editor in schrodinger_epik_v3_8
+Warning--missing publisher in schrodinger_epik_v3_8
+Warning--there's a month but no year in schrodinger_epik_v3_8
+Warning--empty author in oemolprop_openeye_2017
+Warning--empty author and editor in oemolprop_openeye_2017
+Warning--missing publisher in oemolprop_openeye_2017
+Warning--there's a month but no year in oemolprop_openeye_2017
+Warning--empty author in nci_open_database_2006
+Warning--empty author and editor in nci_open_database_2006
+Warning--missing publisher in nci_open_database_2006
+Warning--there's a month but no year in nci_open_database_2006
+Warning--empty author in nci_database_browser
+Warning--empty author and editor in nci_database_browser
+Warning--missing publisher in nci_database_browser
+Warning--there's a month but no year in nci_database_browser
+Warning--empty author in nci_chem_id_resolver
+Warning--empty author and editor in nci_chem_id_resolver
+Warning--missing publisher in nci_chem_id_resolver
+Warning--there's a month but no year in nci_chem_id_resolver
+Warning--empty author in oemedchemtk_openeye_2017
+Warning--empty author and editor in oemedchemtk_openeye_2017
+Warning--missing publisher in oemedchemtk_openeye_2017
+Warning--there's a month but no year in oemedchemtk_openeye_2017
 Warning--empty author in noauthor_sirius_2008
 Warning--empty author and editor in noauthor_sirius_2008
-You've used 7 entries,
+Warning--empty author in oedepict_openeye_2017
+Warning--empty author and editor in oedepict_openeye_2017
+Warning--missing publisher in oedepict_openeye_2017
+Warning--there's a month but no year in oedepict_openeye_2017
+You've used 24 entries,
             3447 wiz_defined-function locations,
-            755 strings with 6968 characters,
-and the built_in function-call counts, 14281 in all, are:
-= -- 1896
-> -- 88
-< -- 2
-+ -- 74
-- -- 22
-* -- 1235
-:= -- 1466
-add.period$ -- 22
-call.type$ -- 7
-change.case$ -- 0
-chr.to.int$ -- 7
-cite$ -- 11
-duplicate$ -- 1513
-empty$ -- 1320
-format.name$ -- 35
-if$ -- 3348
-int.to.chr$ -- 1
+            856 strings with 10092 characters,
+and the built_in function-call counts, 36461 in all, are:
+= -- 4715
+> -- 216
+< -- 7
++ -- 165
+- -- 54
+* -- 3150
+:= -- 3751
+add.period$ -- 76
+call.type$ -- 24
+change.case$ -- 6
+chr.to.int$ -- 23
+cite$ -- 82
+duplicate$ -- 3705
+empty$ -- 3437
+format.name$ -- 90
+if$ -- 8508
+int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 76
-newline$ -- 42
-num.names$ -- 12
-pop$ -- 125
+missing$ -- 223
+newline$ -- 130
+num.names$ -- 28
+pop$ -- 408
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 100
+skip$ -- 324
 stack$ -- 0
-substring$ -- 2498
-swap$ -- 174
+substring$ -- 6169
+swap$ -- 510
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 42
-warning$ -- 2
-while$ -- 62
+type$ -- 144
+warning$ -- 38
+while$ -- 150
 width$ -- 0
-write$ -- 99
-(There were 2 warnings)
+write$ -- 324
+(There were 38 warnings)
