@@ -32,11 +32,12 @@
 \author[1,2]{Mehtap Işık}
 \author[3]{Dorothy Levorse}
 \author[1,4]{Ari\"{e}n S. Rustenburg}
-\author[5]{Ikenna Ndukwe}
-\author[5]{Heather Wang}
+\author[5]{Ikenna E. Ndukwe}
+\author[6]{Heather Wang}
 \author[5]{Xiao Wang}
-\author[5]{Gary Martin}
-\author[6]{David Mobley}
+\author[5]{Mikhail Reibarkh}
+\author[5]{Gary E. Martin}
+\author[7]{David Mobley}
 \author[3]{Timothy Rhodes}
 \author[1*]{John D. Chodera}
 
@@ -44,8 +45,9 @@
 \affil[2]{Tri-Institutional PhD Program in Chemical Biology, Weill Cornell Graduate School of Medical Sciences, Cornell University, New York, NY 10065, United States}
 \affil[3]{Merck \& Co., Inc., MRL, Pharmaceutical Sciences, 126 East Lincoln Avenue, Rahway, New Jersey 07065, United States}
 \affil[4]{Graduate Program in Physiology, Biophysics, and Systems Biology, Weill Cornell Medical College, New York, NY 10065, United States}
-\affil[5]{Merck  Co., Inc., MRL, Process Research \& Development, 126 East Lincoln Avenue, Rahway, New Jersey 07065, United States}
-\affil[6]{Department of Pharmaceutical Sciences and Department of Chemistry, University of California,
+\affil[5]{Merck \& Co., Inc., MRL, NMR Structure Elucidation, 126 East Lincoln Avenue, Rahway, New Jersey 07065, United States}
+\affil[6]{Merck \& Co., Inc., MRL, Process Research \& Development, 126 East Lincoln Avenue, Rahway, New Jersey 07065, United States}
+\affil[7]{Department of Pharmaceutical Sciences and Department of Chemistry, University of California,
 Irvine, Irvine, California 92697, United States}
 \corr{john.chodera@choderalab.org}{JDC}
 
@@ -88,17 +90,26 @@ acid dissociation constants $\cdot$ spectrophotometric pKa measurement $\cdot$ b
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 
-\todo[inline]{Brief summary, origin and goal of SAMPL6 and outlook for future challenges.}
+SAMPL (Statistical Assessment of the Modeling of Proteins and Ligands) is a series of annual blind prediction challenges for the computational chemistry community. It aims to evaluate and advance computational tools for rational drug design. In addition to protein-ligand binding affinity predictions, evaluating methods for predicting relevant physicochemical properties like solvation free energies and distribution coefficients have been part of SAMPL challenges and provided efficient tests for different aspects of physical modeling based and empirical predicting methods, such as effect of force field accuracy, solvation models, pKa and tautomer predictions. Physicochemical property prediction challenges have been observed to be helpful to pinpoint deficiencies in computational models that can lead to substantial errors in affinity predictions.
 
-\todo[inline]{Selection criteria of SAMPL6 compounds}
+Cyclohexane-water distribution constant (logD) prediction challenge was organized as a part of SAMPL5 in the previous year~\citep{bannan_blind_2016,rustenburg_measuring_2016}. Conformational sampling of flexible solute molecules, predicting relevant protonation and tautomarization states, bias towards cyclohexane phase related to force field accuracy and modeling of the solvent were some of the potential contributors to inaccuracy of logD predictions, justifying the benefit of organizing future iterations of blind distribution or partition coefficient challenges.  Moreover, observations in logD prediction challenge indicated that neglecting protonation state effects leads to large errors in transfer free energies~\citep{bannan_blind_2016, pickard_blind_2016,rustenburg_measuring_2016}. Protonation state effects contributed to the error up to 6-8 kcal/mol for some compounds~\citep{pickard_blind_2016}.  To isolate the acid dissociation constant (pKa) prediction problem from difficulties related to lipophilicity (logP and logD) prediction methods, we decided to direct a set of staged physicochemical property challenges using the same set of molecules: Initially, a pKa prediction challenge was conducted while keeping collected experimental pKa data blind. In the future, with experimental pKa values provided blind a computational partition coefficient challenge will be conducted. This article reports on the experimental measurements for SAMPL6 pKa challenge.
 
-\todo[inline]{Overview of the concept of microscopic and macroscopic pKas.}
+This is the first time, a blind pKa prediction challenge is fielded in SAMPL. By organizing a computational pKa prediction challenge in SAMPL6, we aimed to capture the performance of current pKa prediction methods and isolate potential detriment of inaccurate pKa estimates for predicting affinities of drug-like molecules. Similar to logD predictions, any error in prediction of the protonation free energy of an ionizable ligand can directly add on to the error in binding free energy calculations for a protein-ligand complex. pKa prediction of drug-like molecules are complicated by the following molecular properties: multiple protonation sites, heterocycles, tautomerization, conformational flexibility of large molecules and intramolecular hydrogen bonds. Since the scope of experimental data collection was on the order of tens of compounds, we decided to focus on the chemical space of kinase inhibitors in the first iteration of pKa prediction challenge. 24 small organic molecules (17 fragment-like and 7 drug-like) were selected for their similarity to kinase inhibitors and considering experimental tractability of pKa and logP measurements. Macroscopic pKa values were collected experimentally with UV-absorbance spectroscopy based pKa measurements with Sirius T3. Experimental data was kept for 3 months (Oct. 25, 2017 - Jan. 23, 2018) to allow blind computational predictions. 11 research groups participated in this challenge with 93 prediction submission sets that cover a large variety of contemporary pKa prediction methods. 
+ 
+Whenever experimental pKa measurements are used for evaluating pKa predictions, it is important to differentiate between microscopic and macroscopic pKa values. In molecules with multiple titratable groups, the protonation state of one group can affect the proton dissociation propensity of another functional group. In such cases, the \textbf{microscopic pKa} refers to the pKa of deprotonation of a single titratable group while all the other titratable and tautomerizable functional groups of the same molecule are held fixed. Different protonation states and tautomer combinations constitute different microstates. The \textbf{macroscopic pKa} defines the acid dissociation constant related to the loss of a proton from a molecule regardless of which functional group the proton is dissociating from, so it doesn't necessarily convey structural information. 
 
-\todo[inline]{Overview of pKa measurement methods.}
+Weather a measured pKa is microscopic or macroscopic depends on the experimental method used (Figure \ref{fig:micro_vs_macro_pKa}). For a molecule with only one protonatable group, the microscopic pKa is always equal to the macroscopic pKa. But for a molecule with multiple titratable groups, throughout a titration from acidic to basic pH, the deprotonation of some functional groups can take place almost at the same time. Then the experimentally measured macroscopic pKa will have contributions from multiple microscopic pKas with similar values (i.e. acid dissociation of multiple microstates). Cysteine provides an example of this behavior with its two macroscopic pKas observable by spectrophotometric or potentiometric pKa measurement experiments~\citep{darvey_assignment_1995}. While 4 microscopic pKas can be defined for cysteine, experimentally observed pKas can't be assigned to individual functional groups directly and requires more advanced techniques such as NMR. On the other hand, when there is a large difference between microscopic pKas of a molecule, the proton dissociations won't overlap and macroscopic pKas observed by experiments can be assigned to individual titratable groups. The pKa values of glycine provide a good example of this scenario~\citep{darvey_assignment_1995}.
 
-Spectrophotometric pKa method is more sensitive than potentiometric method and requires very low analyte concentrations($\sim$ 50~\micro M) which is advantageous especially for compounds with low solubility, but it is only applicable to titration sites near chromophores.For protonation to effect absorbance protonation site should be a maximum of 4 heavy atoms away from the chromophore: conjugated double bonds, carbonyl groups, aromatic rings etc.
-Although potentiometric measurement doesn't have this structural limitation, a higher concentration of analyte ($\sim$ 5~mM) is necessary for potentiometric method than for spectrophotometric method to provide large enough buffering capacity signal above water for an accurate measurement. Therefore, we have decided to use spectrophotometric measurements for collecting experimental pKa data and selected SAMPL6 pKa challenge compounds constructing SAMPL6 pKa dataset and se for pKa measurements
+\begin{figure}
+\begin{center}
+\includegraphics[width=1.00\linewidth]{figures/microscopic_vs_macroscopic_populations_figure.pdf}
+\caption{{\bf Comparison of macroscopic and microscopic pKa measurement methods.}  Illustration style of microstates was adopted from~\citep{rupp_predicting_2011} and microscopic pKa values of cetirizine were measured by NMR~\citep{marosi_triprotic_2009}. Filled circles represent protonated sites and empty circles represent deprotonated sites with the order of carboxylic acid (1), piperazine nitrogen (2), and piperazine nitrogen (3). pProtonation state populations shown for pH-metric and UV-metric pKa measurement methods are simulations, calculated using NMR-based microscopic pKa values. \textbf{A} Cetirizine has 3 (n) titratable sites, shown in bold. \textbf{B} Left figure shows 8 microstates ($2^n$) and 12 micro-pKas ($n2^{n-1}$) of cetirizine. Right plot show relative population of microspecies with respect to pH. All microstates can be resolved with NMR method. \textbf{C} Simulated pH-metric(potentiometric) titration and macroscopic populations. For a polyprotic molecule, only macroscoopic pKas of can be measured with pH-metric titration. Microstates that have different number of protons bound can be resolved, but microstates that have the same total charge are observed as one macroscopic population. \textbf{D} Simulated microscopic populations for UV-metric (spectrophotometric) titration of cetirizine. Only protonation of the titration sites closer than 4 heavy atoms to UV-chromophore can cause change in UV-absorbance spectra, thus microstates that only differ by protonation of carboxylic acid can not be differentiated. Moreover, populations that overlap may or may not be resolved based on how different their absorbance spectra in UV-region are. Both UV-metric and pH-metric pKa determination methods measure macroscopic pKas for polyprotic molecules, which can not be easily assigned to individual titration sites and underlying microstate populations in the absence of other experimental evidence that provides structural information, such as NMR. Notice that macroscopic populations observed in these two methods are composed of different combinations of microstates depending on the principles of measurement technique.
+}
+\label{fig:micro_vs_macro_pKa}
+\end{center}
+\end{figure}
 
+UV-absorbance spectroscopy (UV-metric titration), potentiometry (pH-metric titration), capillary electrophoresis \todo{find reference}, and NMR spectroscopy are most common pKa measurement methods~\citep{comer_ionization_2014}. UV-metric and pH-metric methods (Figure \ref{fig:UVmetric_vs_pHmetric_pKa}) are applicable to measurement of aqueous pKa values between 2 and 12, due to limitations of pH-electrode. The pH-metric method relies on determining the stochiometry of bound protons with respect to pH, calculated from volumetric titration of acid or base solutions. Accurate measurements require high concentration of analyte and analytically prepared acid/base stocks and analyte solutions. The UV-metric pKa measurements rely on difference in UV-absorbance spectra of different protonation states. pH and UV absorbance of analyte solution is monitored during titration. 
 
 \begin{figure}
 \includegraphics[width=0.95\linewidth]{figures/UVmetric_vs_pHmetric_pKa_figure}
@@ -107,7 +118,12 @@ Although potentiometric measurement doesn't have this structural limitation, a h
 \label{fig:UVmetric_vs_pHmetric_pKa}
 \end{figure}
 
-\todo[inline]{Brief outline of what this paper includes.}
+Both UV-metric and pH-metric pKa determination methods measure macroscopic pKas for polyprotic molecules, which can not be easily assigned to individual titration sites and underlying microstate populations in the absence of other experimental evidence that provides structural information, such as NMR (Figure \ref{fig:micro_vs_macro_pKa}). Macroscopic populations observed in these two methods are composed of different combinations of microstates depending on the principles of measurement technique. In potentiometric titrations microstates with same total charge will be observed as one macrostate, while in spectrophotometric titrations some protonation of some titration sites could be invisible and macrostates will be formed of sum of microstate populations that manifest similar UV-absorbance spectra.
+
+Spectrophotometric pKa method is more sensitive than potentiometric method and requires very low analyte concentrations($\sim$ 50~\micro M) which is advantageous especially for compounds with low solubility, but it is only applicable to titration sites near chromophores. For protonation to effect absorbance protonation site should be a maximum of 4 heavy atoms away from the chromophore: conjugated double bonds, carbonyl groups, aromatic rings etc.
+Although potentiometric measurement doesn't have this structural limitation, a higher concentration of analyte ($\sim$ 5~mM) is necessary for potentiometric method than for spectrophotometric method to provide large enough buffering capacity signal above water for an accurate measurement. Accuracy of pKa calculation from pH-metric method is also sensitive to correct estimation of analyte concentration in the sample solution. Therefore, we have decided to use spectrophotometric measurements for collecting experimental pKa data and selected SAMPL6 pKa challenge compounds so that all their potential titration sites are in the vicinity of UV-chromophores.
+
+In this publication we are reporting on selection of SAMPL6 pKa challenge compounds, their UV-metric pKa values measured by UV-metric titrations using Sirius T3, and NMR based microstate characterization of two SAMPL6 compounds (SM07 and SM14). We discuss implications of experimental technique for the interpretation of pKa data and suggestions for future pKa data collection efforts with the goal of evaluating or training computational pKa predictions.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Methods
@@ -278,7 +294,6 @@ For molecules with insufficient solubility in aqueous medium throughout the titr
 \end{figure}
 
 \subsection{Purity of SAMPL6 compounds}
-\todo[inline]{summarize results of LC-MS measurements}
 LC-MS based purity measurements showed that powder stocks of 23 SAMPL6 pKa challenge compounds were >90\% pure and purity of SM22 was 87\% which was the lowest in the set (Table SI 6).  Additionally, molecular weights detected by LC-MS method were consistent with molecular weights reported in eMolecules and supplier reported molecular weights when provided. 
 \subsection{Characterization of SM07 microstates with NMR}
 \todo[inline]{Add results of NMR analysis of SM07 - from Iyke}

@@ -1,7 +1,81 @@
-\begin{thebibliography}{24}
+\begin{thebibliography}{31}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\urlprefix}{}
 \providecommand{\doiprefix}{doi: }
+
+\bibitem[{Bannan et~al.(2016)Bannan, Caitlin C. and Burley, Kalistyn H. and
+  Chiu, Michael and Shirts, Michael R. and Gilson, Michael K. and Mobley, David
+  L.}]{bannan_blind_2016}
+\textbf{\color{eLifeMediumGrey} Bannan CC}, Burley KH, Chiu M, Shirts MR,
+  Gilson MK, Mobley DL.
+\newblock Blind prediction of cyclohexane–water distribution coefficients
+  from the {SAMPL}5 challenge.
+\newblock Journal of Computer-Aided Molecular Design.  2016 Nov;
+  30(11):927--944.
+\newblock \urlprefix\url{http://link.springer.com/10.1007/s10822-016-9954-8},
+  \href{https://dx.doi.org/10.1007/s10822-016-9954-8}{\doiprefix
+  \detokenize{10.1007/s10822-016-9954-8}}.
+
+\bibitem[{Rustenburg et~al.(2016)Rustenburg, Ariën S. and Dancer, Justin and
+  Lin, Baiwei and Feng, Jianwen A. and Ortwine, Daniel F. and Mobley, David L.
+  and Chodera, John D.}]{rustenburg_measuring_2016}
+\textbf{\color{eLifeMediumGrey} Rustenburg AS}, Dancer J, Lin B, Feng JA,
+  Ortwine DF, Mobley DL, Chodera JD.
+\newblock Measuring experimental cyclohexane-water distribution coefficients
+  for the {SAMPL}5 challenge.
+\newblock Journal of Computer-Aided Molecular Design.  2016 Nov;
+  30(11):945--958.
+\newblock \urlprefix\url{http://link.springer.com/10.1007/s10822-016-9971-7},
+  \href{https://dx.doi.org/10.1007/s10822-016-9971-7}{\doiprefix
+  \detokenize{10.1007/s10822-016-9971-7}}.
+
+\bibitem[{Pickard et~al.(2016)Pickard, Frank C. and König, Gerhard and
+  Tofoleanu, Florentina and Lee, Juyong and Simmonett, Andrew C. and Shao,
+  Yihan and Ponder, Jay W. and Brooks, Bernard R.}]{pickard_blind_2016}
+\textbf{\color{eLifeMediumGrey} Pickard FC}, König G, Tofoleanu F, Lee J,
+  Simmonett AC, Shao Y, Ponder JW, Brooks BR.
+\newblock Blind prediction of distribution in the {SAMPL}5 challenge with {QM}
+  based protomer and {pK} a corrections.
+\newblock Journal of Computer-Aided Molecular Design.  2016 Nov;
+  30(11):1087--1100.
+\newblock \urlprefix\url{http://link.springer.com/10.1007/s10822-016-9955-7},
+  \href{https://dx.doi.org/10.1007/s10822-016-9955-7}{\doiprefix
+  \detokenize{10.1007/s10822-016-9955-7}}.
+
+\bibitem[{Darvey(1995)Darvey, Ivan G.}]{darvey_assignment_1995}
+\textbf{\color{eLifeMediumGrey} Darvey IG}.
+\newblock The assignment of {pKa} values to functional groups in amino acids.
+\newblock Wiley Online Library; 1995.
+
+\bibitem[{Rupp et~al.(2011)Rupp, Matthias and Korner, Robert and V Tetko,
+  Igor}]{rupp_predicting_2011}
+\textbf{\color{eLifeMediumGrey} Rupp M}, Korner R, V~Tetko I.
+\newblock Predicting the {pKa} of small molecules.
+\newblock Combinatorial chemistry \& high throughput screening.  2011;
+  14(5):307--327.
+
+\bibitem[{Marosi et~al.(2009)Marosi, Attila and Kovács, Zsuzsanna and Béni,
+  Szabolcs and Kökösi, József and Noszál, Béla}]{marosi_triprotic_2009}
+\textbf{\color{eLifeMediumGrey} Marosi A}, Kovács Z, Béni S, Kökösi J,
+  Noszál B.
+\newblock Triprotic acid–base microequilibria and pharmacokinetic sequelae of
+  cetirizine.
+\newblock European Journal of Pharmaceutical Sciences.  2009 Jun;
+  37(3-4):321--328.
+\newblock
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S0928098709000773},
+  \href{https://dx.doi.org/10.1016/j.ejps.2009.03.001}{\doiprefix
+  \detokenize{10.1016/j.ejps.2009.03.001}}.
+
+\bibitem[{Comer and Manallack(2014)Comer, J.E.A. and Manallack,
+  D.}]{comer_ionization_2014}
+\textbf{\color{eLifeMediumGrey} Comer JEA}, Manallack D.
+\newblock Ionization {Constants} and {Ionization} {Profiles}.
+\newblock In: \emph{Reference {Module} in {Chemistry}, {Molecular} {Sciences}
+  and {Chemical} {Engineering}} Elsevier;
+  2014.\urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/B9780124095472112338},
+  \href{https://dx.doi.org/10.1016/B978-0-12-409547-2.11233-8}{\doiprefix
+  \detokenize{10.1016/B978-0-12-409547-2.11233-8}}.
 
 \bibitem[{Sterling and Irwin(2015)Sterling, Teague and Irwin, John
   J.}]{sterling_zinc_2015}
