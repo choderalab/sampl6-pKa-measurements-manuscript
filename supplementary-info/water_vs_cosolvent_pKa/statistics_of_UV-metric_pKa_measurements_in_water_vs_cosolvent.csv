@@ -1,0 +1,18 @@
+Molecule ID,pKa ID,pKa mean water,pKa SEM water,pKa mean cosolvent,pKa SEM cosolvent
+SM01,SM01_pKa1,9.53,0.01,9.71,
+SM04,SM04_pKa1,6.02,0.01,5.97,
+SM06,SM06_pKa1,3.03,0.04,3.44,0.02
+SM07,SM07_pKa1,6.08,0.01,5.96,
+SM08,SM08_pKa1,4.22,0.01,4.47,
+SM11,SM11_pKa1,3.89,0.01,3.74,
+SM12,SM12_pKa1,5.28,0.01,5.16,
+SM13,SM13_pKa1,5.77,0.01,5.68,
+SM14,SM14_pKa1,2.58,0.01,2.56,
+SM14,SM14_pKa2,5.3,0.01,5.29,
+SM15,SM15_pKa1,4.7,0.01,4.67,
+SM15,SM15_pKa2,8.94,0.01,9.01,
+SM16,SM16_pKa1,5.37,0.01,5.35,
+SM16,SM16_pKa2,10.65,0.01,11.01,
+SM17,SM17_pKa1,3.16,0.01,3.2,
+Pyridoxine HCl,Pyridoxine HCl_pKa1,4.83,0.01,4.85,0.01
+Pyridoxine HCl,Pyridoxine HCl_pKa2,8.86,0.01,8.78,0.01
