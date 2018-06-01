@@ -1,7 +1,19 @@
-\begin{thebibliography}{31}
+\begin{thebibliography}{40}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\urlprefix}{}
 \providecommand{\doiprefix}{doi: }
+
+\bibitem[{Mobley et~al.(2016)Mobley, David L. and Chodera, John D. and Isaacs,
+  Lyle and Gibb, Bruce C.}]{mobley_advancing_2016}
+\textbf{\color{eLifeMediumGrey} Mobley DL}, Chodera JD, Isaacs L, Gibb BC.
+\newblock Advancing predictive modeling through focused development of model
+  systems to drive new modeling innovations.
+\newblock UC Irvine: Department of Pharmaceutical Sciences, UCI.  2016;
+  \urlprefix\url{https://escholarship.org/uc/item/7cf8c6cr}.
+
+\bibitem[{{Drug Design Data Resource}(????)}]{sample_D3R_website}
+\textbf{\color{eLifeMediumGrey} {Drug Design Data Resource}}, SAMPL;.
+\newblock \urlprefix\url{https://drugdesigndata.org/about/sampl}.
 
 \bibitem[{Bannan et~al.(2016)Bannan, Caitlin C. and Burley, Kalistyn H. and
   Chiu, Michael and Shirts, Michael R. and Gilson, Michael K. and Mobley, David
@@ -47,6 +59,37 @@
 \newblock The assignment of {pKa} values to functional groups in amino acids.
 \newblock Wiley Online Library; 1995.
 
+\bibitem[{Bezençon et~al.(2014)Bezençon, Jacqueline and Wittwer, Matthias B.
+  and Cutting, Brian and Smieško, Martin and Wagner, Bjoern and Kansy, Manfred
+  and Ernst, Beat}]{bezencon_pka_2014}
+\textbf{\color{eLifeMediumGrey} Bezençon J}, Wittwer MB, Cutting B, Smieško
+  M, Wagner B, Kansy M, Ernst B.
+\newblock {pKa} determination by 1H {NMR} spectroscopy – {An} old methodology
+  revisited.
+\newblock Journal of Pharmaceutical and Biomedical Analysis.  2014 May;
+  93:147--155.
+\newblock
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S0731708513005992},
+  \href{https://dx.doi.org/10.1016/j.jpba.2013.12.014}{\doiprefix
+  \detokenize{10.1016/j.jpba.2013.12.014}}.
+
+\bibitem[{Elson and Edsall(1962)Elson, Elliot L. and Edsall, John
+  T.}]{elson_raman_1962}
+\textbf{\color{eLifeMediumGrey} Elson EL}, Edsall JT.
+\newblock Raman spectra and sulfhydryl ionization constants of thioglycolic
+  acid and cysteine.
+\newblock Biochemistry.  1962; 1(1):1--7.
+
+\bibitem[{Elbagerma et~al.(2011)Elbagerma, M. A. and Edwards, H. G. M. and
+  Azimi, Gholamhassan and Scowen, I. J.}]{elbagerma_raman_2011}
+\textbf{\color{eLifeMediumGrey} Elbagerma MA}, Edwards HGM, Azimi G, Scowen IJ.
+\newblock Raman spectroscopic determination of the acidity constants of
+  salicylaldoxime in aqueous solution.
+\newblock Journal of Raman Spectroscopy.  2011 Mar; 42(3):505--511.
+\newblock \urlprefix\url{http://doi.wiley.com/10.1002/jrs.2716},
+  \href{https://dx.doi.org/10.1002/jrs.2716}{\doiprefix
+  \detokenize{10.1002/jrs.2716}}.
+
 \bibitem[{Rupp et~al.(2011)Rupp, Matthias and Korner, Robert and V Tetko,
   Igor}]{rupp_predicting_2011}
 \textbf{\color{eLifeMediumGrey} Rupp M}, Korner R, V~Tetko I.
@@ -67,6 +110,21 @@
   \href{https://dx.doi.org/10.1016/j.ejps.2009.03.001}{\doiprefix
   \detokenize{10.1016/j.ejps.2009.03.001}}.
 
+\bibitem[{Tam and Takács-Novák(2001)Tam, Kin Y. and Takács-Novák,
+  Krisztina}]{tam_multi-wavelength_2001}
+\textbf{\color{eLifeMediumGrey} Tam KY}, Takács-Novák K.
+\newblock Multi-wavelength spectrophotometric determination of acid
+  dissociation constants: a validation study.
+\newblock Analytica chimica acta.  2001; 434(1):157--167.
+
+\bibitem[{Allen et~al.(1998)Allen, R. I. and Box, K. J. and Comer, J. E. A. and
+  Peake, C. and Tam, K. Y.}]{allen_multiwavelength_1998}
+\textbf{\color{eLifeMediumGrey} Allen RI}, Box KJ, Comer JEA, Peake C, Tam KY.
+\newblock Multiwavelength spectrophotometric determination of acid dissociation
+  constants of ionizable drugs.
+\newblock Journal of pharmaceutical and biomedical analysis.  1998;
+  17(4):699--712.
+
 \bibitem[{Comer and Manallack(2014)Comer, J.E.A. and Manallack,
   D.}]{comer_ionization_2014}
 \textbf{\color{eLifeMediumGrey} Comer JEA}, Manallack D.
@@ -76,6 +134,51 @@
   2014.\urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/B9780124095472112338},
   \href{https://dx.doi.org/10.1016/B978-0-12-409547-2.11233-8}{\doiprefix
   \detokenize{10.1016/B978-0-12-409547-2.11233-8}}.
+
+\bibitem[{Avdeef et~al.(1999)Avdeef, A. and Box, K. J. and Comer, J. E. A. and
+  Gilges, M. and Hadley, M. and Hibbert, C. and Patterson, W. and Tam, K.
+  Y.}]{avdeef_ph-metric_1999}
+\textbf{\color{eLifeMediumGrey} Avdeef A}, Box KJ, Comer JEA, Gilges M, Hadley
+  M, Hibbert C, Patterson W, Tam KY.
+\newblock {PH}-metric {logP} 11. {pK} a determination of water-insoluble drugs
+  in organic solvent–water mixtures.
+\newblock Journal of pharmaceutical and biomedical analysis.  1999;
+  20(4):631--641.
+
+\bibitem[{Wan et~al.(2002)Hong Wan and Anders HolmÃ©n and Mats NÃ¥gÃ¥rd
+  and Walter Lindberg}]{WAN2002369}
+\textbf{\color{eLifeMediumGrey} Wan H}, HolmÃ©n A, NÃ¥gÃ¥rd M, Lindberg
+  W.
+\newblock Rapid screening of pKa values of pharmaceuticals by pressure-assisted
+  capillary electrophoresis combined with short-end injection.
+\newblock Journal of Chromatography A.  2002; 979(1):369 -- 377.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0021967302012621},
+  \href{https://dx.doi.org/https://doi.org/10.1016/S0021-9673(02)01262-1}{\doiprefix
+  \detokenize{https://doi.org/10.1016/S0021-9673(02)01262-1}}, 15th
+  International Symposium on Microscale Separations and Analysis.
+
+\bibitem[{Cabot et~al.(2015)Cabot, Joan M. and Fuguet, Elisabet and Rosés,
+  Martí and Smejkal, Petr and Breadmore, Michael C.}]{cabot_novel_2015}
+\textbf{\color{eLifeMediumGrey} Cabot JM}, Fuguet E, Rosés M, Smejkal P,
+  Breadmore MC.
+\newblock Novel {Instrument} for {Automated} p \textit{{K}} $_{\textrm{a}}$
+  {Determination} by {Internal} {Standard} {Capillary} {Electrophoresis}.
+\newblock Analytical Chemistry.  2015 Jun; 87(12):6165--6172.
+\newblock \urlprefix\url{http://pubs.acs.org/doi/10.1021/acs.analchem.5b00845},
+  \href{https://dx.doi.org/10.1021/acs.analchem.5b00845}{\doiprefix
+  \detokenize{10.1021/acs.analchem.5b00845}}.
+
+\bibitem[{Reijenga et~al.(2013)Reijenga, Jetse and van Hoof, Arno and van Loon,
+  Antonie and Teunissen, Bram}]{reijenga_development_2013}
+\textbf{\color{eLifeMediumGrey} Reijenga J}, van Hoof A, van Loon A, Teunissen
+  B.
+\newblock Development of {Methods} for the {Determination} of {pK}
+  $_{\textrm{a}}$ {Values}.
+\newblock Analytical Chemistry Insights.  2013 Jan; 8:ACI.S12304.
+\newblock \urlprefix\url{http://journals.sagepub.com/doi/10.4137/ACI.S12304},
+  \href{https://dx.doi.org/10.4137/ACI.S12304}{\doiprefix
+  \detokenize{10.4137/ACI.S12304}}.
 
 \bibitem[{Sterling and Irwin(2015)Sterling, Teague and Irwin, John
   J.}]{sterling_zinc_2015}
@@ -196,34 +299,9 @@ OEMedChem Toolkit 2017.Feb.1;.
 \newblock OpenEye Scientific Software, Santa Fe, NM.
 \newblock \url{http://www.eyesopen.com.}
 
-\bibitem[{Tam and Takács-Novák(2001)Tam, Kin Y. and Takács-Novák,
-  Krisztina}]{tam_multi-wavelength_2001}
-\textbf{\color{eLifeMediumGrey} Tam KY}, Takács-Novák K.
-\newblock Multi-wavelength spectrophotometric determination of acid
-  dissociation constants: a validation study.
-\newblock Analytica chimica acta.  2001; 434(1):157--167.
-
-\bibitem[{Allen et~al.(1998)Allen, R. I. and Box, K. J. and Comer, J. E. A. and
-  Peake, C. and Tam, K. Y.}]{allen_multiwavelength_1998}
-\textbf{\color{eLifeMediumGrey} Allen RI}, Box KJ, Comer JEA, Peake C, Tam KY.
-\newblock Multiwavelength spectrophotometric determination of acid dissociation
-  constants of ionizable drugs.
-\newblock Journal of pharmaceutical and biomedical analysis.  1998;
-  17(4):699--712.
-
 \bibitem[{noa(2008)}]{noauthor_sirius_2008}
 Sirius {T}3 {User} {Manual}, v1.1.
 \newblock Sirius Analytical Instruments Ltd, East Sussex, UK; 2008.
-
-\bibitem[{Avdeef et~al.(1999)Avdeef, A. and Box, K. J. and Comer, J. E. A. and
-  Gilges, M. and Hadley, M. and Hibbert, C. and Patterson, W. and Tam, K.
-  Y.}]{avdeef_ph-metric_1999}
-\textbf{\color{eLifeMediumGrey} Avdeef A}, Box KJ, Comer JEA, Gilges M, Hadley
-  M, Hibbert C, Patterson W, Tam KY.
-\newblock {PH}-metric {logP} 11. {pK} a determination of water-insoluble drugs
-  in organic solvent–water mixtures.
-\newblock Journal of pharmaceutical and biomedical analysis.  1999;
-  20(4):631--641.
 
 \bibitem[{Avdeef et~al.(1993)Avdeef, Alex. and Comer, John E. A. and Thomson,
   Simon J.}]{doi:10.1021/ac00049a010}
@@ -250,6 +328,15 @@ Sirius {T}3 {User} {Manual}, v1.1.
 OEDepict Toolkit 2017.Feb.1;.
 \newblock OpenEye Scientific Software, Santa Fe, NM.
 \newblock \url{http://www.eyesopen.com.}
+
+\bibitem[{Fraczkiewicz(2013)Fraczkiewicz, R.}]{fraczkiewicz_silico_2013}
+\textbf{\color{eLifeMediumGrey} Fraczkiewicz R}.
+\newblock In {Silico} {Prediction} of {Ionization}.
+\newblock In: \emph{Reference {Module} in {Chemistry}, {Molecular} {Sciences}
+  and {Chemical} {Engineering}} Elsevier;
+  2013.\urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/B978012409547202610X},
+  \href{https://dx.doi.org/10.1016/B978-0-12-409547-2.02610-X}{\doiprefix
+  \detokenize{10.1016/B978-0-12-409547-2.02610-X}}.
 
 \bibitem[{Manallack(2007)Manallack, David T.}]{manallack_pk_2007}
 \textbf{\color{eLifeMediumGrey} Manallack DT}.

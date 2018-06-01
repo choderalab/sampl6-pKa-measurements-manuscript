@@ -1,21 +1,27 @@
 \BOOKMARK [2][-]{subsection*.1}{Keywords}{}% 1
 \BOOKMARK [2][-]{subsection*.2}{Abbreviations}{}% 2
 \BOOKMARK [1][-]{section*.3}{Introduction}{}% 3
-\BOOKMARK [1][-]{section*.7}{Methods}{}% 4
-\BOOKMARK [2][-]{subsection*.8}{Compound selection and procurement}{section*.7}% 5
-\BOOKMARK [2][-]{subsection*.10}{UV-metric pKa measurements}{section*.7}% 6
-\BOOKMARK [2][-]{subsection*.11}{UV-metric pKa measurement with cosolvent}{section*.7}% 7
-\BOOKMARK [2][-]{subsection*.13}{Calculation of uncertainty in pKa measurements}{section*.7}% 8
-\BOOKMARK [2][-]{subsection*.14}{Protonation site determination with NMR}{section*.7}% 9
-\BOOKMARK [2][-]{subsection*.16}{Quality control for chemicals}{section*.7}% 10
-\BOOKMARK [1][-]{section*.17}{Results}{}% 11
-\BOOKMARK [2][-]{subsection*.18}{Spectrophotometric pKa measurements}{section*.17}% 12
-\BOOKMARK [2][-]{subsection*.22}{Impact of cosolvent to UV-metric pKa measurements}{section*.17}% 13
-\BOOKMARK [2][-]{subsection*.24}{Purity of SAMPL6 compounds}{section*.17}% 14
-\BOOKMARK [2][-]{subsection*.25}{Characterization of SM07 microstates with NMR}{section*.17}% 15
-\BOOKMARK [1][-]{section*.27}{Discussion}{}% 16
-\BOOKMARK [1][-]{section*.35}{Code and data availability}{}% 17
-\BOOKMARK [1][-]{section*.37}{Overview of supplementary information}{}% 18
-\BOOKMARK [1][-]{section*.38}{Author Contributions}{}% 19
-\BOOKMARK [1][-]{section*.40}{Acknowledgments}{}% 20
-\BOOKMARK [1][-]{section*.42}{Disclosures}{}% 21
+\BOOKMARK [1][-]{section*.11}{Methods}{}% 4
+\BOOKMARK [2][-]{subsection*.12}{Compound selection and procurement}{section*.11}% 5
+\BOOKMARK [2][-]{subsection*.17}{UV-metric pKa measurements}{section*.11}% 6
+\BOOKMARK [2][-]{subsection*.18}{UV-metric pKa measurement with cosolvent}{section*.11}% 7
+\BOOKMARK [2][-]{subsection*.20}{Calculation of uncertainty in pKa measurements}{section*.11}% 8
+\BOOKMARK [2][-]{subsection*.21}{Protonation site determination with NMR}{section*.11}% 9
+\BOOKMARK [2][-]{subsection*.23}{Quality control for chemicals}{section*.11}% 10
+\BOOKMARK [1][-]{section*.24}{Results}{}% 11
+\BOOKMARK [2][-]{subsection*.25}{Spectrophotometric pKa measurements}{section*.24}% 12
+\BOOKMARK [2][-]{subsection*.29}{Impact of cosolvent to UV-metric pKa measurements}{section*.24}% 13
+\BOOKMARK [2][-]{subsection*.32}{Purity of SAMPL6 compounds}{section*.24}% 14
+\BOOKMARK [2][-]{subsection*.34}{Characterization of SM07 microstates with NMR}{section*.24}% 15
+\BOOKMARK [2][-]{subsection*.36}{Characterization of SM14 microstates with NMR}{section*.24}% 16
+\BOOKMARK [1][-]{section*.39}{Discussion}{}% 17
+\BOOKMARK [2][-]{subsection*.40}{Sample preparation and effect of cosolvents}{section*.39}% 18
+\BOOKMARK [2][-]{subsection*.42}{Impact of impurities}{section*.39}% 19
+\BOOKMARK [2][-]{subsection*.43}{Interpretation of UV-metric pKa measurements}{section*.39}% 20
+\BOOKMARK [2][-]{subsection*.44}{NMR microstate characterization}{section*.39}% 21
+\BOOKMARK [2][-]{subsection*.48}{Suggestions for future pKa data collection for computational challenges}{section*.39}% 22
+\BOOKMARK [1][-]{section*.49}{Code and data availability}{}% 23
+\BOOKMARK [1][-]{section*.51}{Overview of supplementary information}{}% 24
+\BOOKMARK [1][-]{section*.52}{Author Contributions}{}% 25
+\BOOKMARK [1][-]{section*.53}{Acknowledgments}{}% 26
+\BOOKMARK [1][-]{section*.55}{Disclosures}{}% 27

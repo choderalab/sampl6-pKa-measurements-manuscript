@@ -3,7 +3,12 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: elife-template.aux
 The style file: vancouver-elife.bst
 Database file #1: elife-sample.bib
+Warning--entry type for "sample_D3R_website" isn't style-file defined
+--line 459 of file elife-sample.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty author and editor in sample_D3R_website
+Warning--missing publisher in sample_D3R_website
+Warning--there's a month but no year in sample_D3R_website
 Warning--empty pages in comer_ionization_2014
 Warning--empty author in eMolecules_ref_2017
 Warning--empty author and editor in eMolecules_ref_2017
@@ -43,45 +48,46 @@ Warning--empty author in oedepict_openeye_2017
 Warning--empty author and editor in oedepict_openeye_2017
 Warning--missing publisher in oedepict_openeye_2017
 Warning--there's a month but no year in oedepict_openeye_2017
-You've used 31 entries,
+Warning--empty pages in fraczkiewicz_silico_2013
+You've used 40 entries,
             3447 wiz_defined-function locations,
-            904 strings with 12070 characters,
-and the built_in function-call counts, 55058 in all, are:
-= -- 7164
-> -- 344
-< -- 9
-+ -- 248
-- -- 86
-* -- 4818
-:= -- 5655
-add.period$ -- 101
-call.type$ -- 31
-change.case$ -- 8
-chr.to.int$ -- 30
-cite$ -- 90
-duplicate$ -- 5519
-empty$ -- 5176
-format.name$ -- 137
-if$ -- 12860
+            967 strings with 14551 characters,
+and the built_in function-call counts, 75587 in all, are:
+= -- 9884
+> -- 472
+< -- 12
++ -- 328
+- -- 118
+* -- 6641
+:= -- 7769
+add.period$ -- 132
+call.type$ -- 40
+change.case$ -- 11
+chr.to.int$ -- 39
+cite$ -- 103
+duplicate$ -- 7612
+empty$ -- 7081
+format.name$ -- 187
+if$ -- 17665
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 304
-newline$ -- 169
-num.names$ -- 42
-pop$ -- 555
+missing$ -- 401
+newline$ -- 218
+num.names$ -- 60
+pop$ -- 725
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 419
+skip$ -- 540
 stack$ -- 0
-substring$ -- 9706
-swap$ -- 709
+substring$ -- 13467
+swap$ -- 930
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 184
-warning$ -- 39
-while$ -- 223
+type$ -- 238
+warning$ -- 43
+while$ -- 306
 width$ -- 0
-write$ -- 428
-(There were 39 warnings)
+write$ -- 561
+(There were 44 warnings)
