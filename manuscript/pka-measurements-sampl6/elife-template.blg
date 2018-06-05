@@ -4,7 +4,12 @@ The top-level auxiliary file: elife-template.aux
 The style file: vancouver-elife.bst
 Database file #1: elife-sample.bib
 Warning--entry type for "sample_D3R_website" isn't style-file defined
---line 459 of file elife-sample.bib
+--line 444 of file elife-sample.bib
+Database file #2: sampl.bib
+Repeated entry---line 1066 of file sampl.bib
+ : @article{rustenburg_measuring_2016
+ :                                   ,
+I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty author and editor in sample_D3R_website
 Warning--missing publisher in sample_D3R_website
@@ -49,45 +54,45 @@ Warning--empty author and editor in oedepict_openeye_2017
 Warning--missing publisher in oedepict_openeye_2017
 Warning--there's a month but no year in oedepict_openeye_2017
 Warning--empty pages in fraczkiewicz_silico_2013
-You've used 40 entries,
+You've used 146 entries,
             3447 wiz_defined-function locations,
-            967 strings with 14551 characters,
-and the built_in function-call counts, 75587 in all, are:
-= -- 9884
-> -- 472
-< -- 12
-+ -- 328
-- -- 118
-* -- 6641
-:= -- 7769
-add.period$ -- 132
-call.type$ -- 40
+            1531 strings with 40599 characters,
+and the built_in function-call counts, 339446 in all, are:
+= -- 44262
+> -- 2244
+< -- 42
++ -- 1413
+- -- 561
+* -- 30156
+:= -- 35055
+add.period$ -- 543
+call.type$ -- 146
 change.case$ -- 11
-chr.to.int$ -- 39
-cite$ -- 103
-duplicate$ -- 7612
-empty$ -- 7081
-format.name$ -- 187
-if$ -- 17665
-int.to.chr$ -- 2
+chr.to.int$ -- 144
+cite$ -- 209
+duplicate$ -- 33090
+empty$ -- 31763
+format.name$ -- 884
+if$ -- 79349
+int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 401
-newline$ -- 218
-num.names$ -- 60
-pop$ -- 725
+missing$ -- 1684
+newline$ -- 841
+num.names$ -- 272
+pop$ -- 2782
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 540
+skip$ -- 1968
 stack$ -- 0
-substring$ -- 13467
-swap$ -- 930
+substring$ -- 63490
+swap$ -- 4107
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 238
+type$ -- 872
 warning$ -- 43
-while$ -- 306
+while$ -- 1385
 width$ -- 0
-write$ -- 561
-(There were 44 warnings)
+write$ -- 2125
+(There was 1 error message)

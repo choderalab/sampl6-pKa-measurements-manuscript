@@ -1,4 +1,4 @@
-\begin{thebibliography}{40}
+\begin{thebibliography}{146}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\urlprefix}{}
 \providecommand{\doiprefix}{doi: }
@@ -15,9 +15,132 @@
 \textbf{\color{eLifeMediumGrey} {Drug Design Data Resource}}, SAMPL;.
 \newblock \urlprefix\url{https://drugdesigndata.org/about/sampl}.
 
-\bibitem[{Bannan et~al.(2016)Bannan, Caitlin C. and Burley, Kalistyn H. and
-  Chiu, Michael and Shirts, Michael R. and Gilson, Michael K. and Mobley, David
-  L.}]{bannan_blind_2016}
+\bibitem[{Nicholls et~al.(2008)Nicholls, Anthony and Mobley, David L. and
+  Guthrie, J. Peter and Chodera, John D. and Bayly, Christopher I. and Cooper,
+  Matthew D. and Pande, Vijay S.}]{nicholls_predicting_2008}
+\textbf{\color{eLifeMediumGrey} Nicholls A}, Mobley DL, Guthrie JP, Chodera JD,
+  Bayly CI, Cooper MD, Pande VS.
+\newblock Predicting {{Small}}-{{Molecule Solvation Free Energies}}: {{An
+  Informal Blind Test}} for {{Computational Chemistry}}.
+\newblock J Med Chem.  2008 Feb; 51(4):769--779.
+\newblock \href{https://dx.doi.org/10.1021/jm070549+}{\doiprefix
+  \detokenize{10.1021/jm070549+}}.
+
+\bibitem[{Guthrie(2009)Guthrie, J Peter}]{guthrie_blind_2009}
+\textbf{\color{eLifeMediumGrey} Guthrie JP}.
+\newblock A {{Blind Challenge}} for {{Computational Solvation Free Energies}}:
+  {{Introduction}} and {{Overview}}.
+\newblock J Phys Chem B.  2009 Jan; 113(14):4501--4507.
+
+\bibitem[{Skillman et~al.(2010)Skillman, A. Geoffrey and Geballe, Matthew T.
+  and Nicholls, Anthony}]{skillman_sampl2_2010}
+\textbf{\color{eLifeMediumGrey} Skillman AG}, Geballe MT, Nicholls A.
+\newblock {{SAMPL2}} Challenge: Prediction of Solvation Energies and Tautomer
+  Ratios.
+\newblock J Comput Aided Mol Des.  2010 Apr; 24(4):257--258.
+\newblock \href{https://dx.doi.org/10.1007/s10822-010-9358-0}{\doiprefix
+  \detokenize{10.1007/s10822-010-9358-0}}.
+
+\bibitem[{Geballe et~al.(2010)Geballe, Matthew T. and Skillman, A. Geoffrey and
+  Nicholls, Anthony and Guthrie, J. Peter and Taylor, Peter
+  J.}]{geballe_sampl2_2010}
+\textbf{\color{eLifeMediumGrey} Geballe MT}, Skillman AG, Nicholls A, Guthrie
+  JP, Taylor PJ.
+\newblock The {{SAMPL2}} Blind Prediction Challenge: Introduction and Overview.
+\newblock J Comput Aided Mol Des.  2010 May; 24(4):259--279.
+\newblock \href{https://dx.doi.org/10.1007/s10822-010-9350-8}{\doiprefix
+  \detokenize{10.1007/s10822-010-9350-8}}.
+
+\bibitem[{Skillman(2012)Skillman, A. Geoffrey}]{skillman_sampl3_2012}
+\textbf{\color{eLifeMediumGrey} Skillman AG}.
+\newblock {{SAMPL3}}: Blinded Prediction of Host\textendash{}guest Binding
+  Affinities, Hydration Free Energies, and Trypsin Inhibitors.
+\newblock J Comput Aided Mol Des.  2012 May; 26(5):473--474.
+\newblock \href{https://dx.doi.org/10.1007/s10822-012-9580-z}{\doiprefix
+  \detokenize{10.1007/s10822-012-9580-z}}.
+
+\bibitem[{Geballe and Guthrie(2012)Geballe, Matthew T. and Guthrie, J.
+  Peter}]{geballe_sampl3_2012}
+\textbf{\color{eLifeMediumGrey} Geballe MT}, Guthrie JP.
+\newblock The {{SAMPL3}} Blind Prediction Challenge: Transfer Energy Overview.
+\newblock J Comput Aided Mol Des.  2012 Apr; 26(5):489--496.
+\newblock \href{https://dx.doi.org/10.1007/s10822-012-9568-8}{\doiprefix
+  \detokenize{10.1007/s10822-012-9568-8}}.
+
+\bibitem[{Muddana et~al.(2012)Muddana, Hari S. and Varnado, C. Daniel and
+  Bielawski, Christopher W. and Urbach, Adam R. and Isaacs, Lyle and Geballe,
+  Matthew T. and Gilson, Michael K.}]{muddana_sampl3_2012}
+\textbf{\color{eLifeMediumGrey} Muddana HS}, Varnado CD, Bielawski CW, Urbach
+  AR, Isaacs L, Geballe MT, Gilson MK.
+\newblock Blind Prediction of Host\textendash{}guest Binding Affinities: {{A}}
+  New {{SAMPL3}} Challenge.
+\newblock J Comput Aided Mol Des.  2012 Feb; 26(5):475--487.
+\newblock \href{https://dx.doi.org/10.1007/s10822-012-9554-1}{\doiprefix
+  \detokenize{10.1007/s10822-012-9554-1}}.
+
+\bibitem[{Guthrie(2014)Guthrie, J. Peter}]{guthrie_sampl4_2014}
+\textbf{\color{eLifeMediumGrey} Guthrie JP}.
+\newblock {{SAMPL4}}, a Blind Challenge for Computational Solvation Free
+  Energies: The Compounds Considered.
+\newblock J Comput Aided Mol Des.  2014 Apr; 28(3):151--168.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9738-y}{\doiprefix
+  \detokenize{10.1007/s10822-014-9738-y}}.
+
+\bibitem[{Mobley et~al.(2014)Mobley, David L and Wymer, Karisa L and Lim,
+  Nathan M and Guthrie, J Peter}]{Mobley:2014:JComputAidedMolDesa}
+\textbf{\color{eLifeMediumGrey} Mobley DL}, Wymer KL, Lim NM, Guthrie JP.
+\newblock Blind Prediction of Solvation Free Energies from the {{SAMPL4}}
+  Challenge.
+\newblock J Comput Aided Mol Des.  2014 Mar; 28(3):135--150.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9718-2}{\doiprefix
+  \detokenize{10.1007/s10822-014-9718-2}}.
+
+\bibitem[{Muddana et~al.(2014)Muddana, Hari S and Fenley, Andrew T and Mobley,
+  David L and Gilson, Michael K}]{muddana_sampl4_2014}
+\textbf{\color{eLifeMediumGrey} Muddana HS}, Fenley AT, Mobley DL, Gilson MK.
+\newblock The {{SAMPL4}} Host\textendash{}guest Blind Prediction Challenge: An
+  Overview.
+\newblock J Comput Aided Mol Des.  2014 Mar; 28(4):305--317.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9735-1}{\doiprefix
+  \detokenize{10.1007/s10822-014-9735-1}}.
+
+\bibitem[{Mobley et~al.(2014)Mobley, David L. and Liu, Shuai and Lim, Nathan M.
+  and Wymer, Karisa L. and Perryman, Alexander L. and Forli, Stefano and Deng,
+  Nanjie and Su, Justin and Branson, Kim and Olson, Arthur
+  J.}]{mobley_blind_2014}
+\textbf{\color{eLifeMediumGrey} Mobley DL}, Liu S, Lim NM, Wymer KL, Perryman
+  AL, Forli S, Deng N, Su J, Branson K, Olson AJ.
+\newblock Blind Prediction of {{HIV}} Integrase Binding from the {{SAMPL4}}
+  Challenge.
+\newblock J Comput Aided Mol Des.  2014 Mar; 28(4):327--345.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9723-5}{\doiprefix
+  \detokenize{10.1007/s10822-014-9723-5}}.
+
+\bibitem[{Yin et~al.(2017)Yin, Jian and Henriksen, Niel M. and Slochower, David
+  R. and Shirts, Michael R. and Chiu, Michael W. and Mobley, David L. and
+  Gilson, Michael K.}]{yin_overview_2016}
+\textbf{\color{eLifeMediumGrey} Yin J}, Henriksen NM, Slochower DR, Shirts MR,
+  Chiu MW, Mobley DL, Gilson MK.
+\newblock Overview of the {{SAMPL5}} Host\textendash{}guest Challenge: {{Are}}
+  We Doing Better?
+\newblock J Comput Aided Mol Des.  2017; 31(1):1--19.
+\newblock \href{https://dx.doi.org/10.1007/s10822-016-9974-4}{\doiprefix
+  \detokenize{10.1007/s10822-016-9974-4}}.
+
+\bibitem[{Bannan et~al.(2016{\natexlab{a}})Bannan, Caitlin C. and Burley,
+  Kalistyn H. and Chiu, Michael and Shirts, Michael R. and Gilson, Michael K.
+  and Mobley, David L.}]{Bannan:2016:JComputAidedMolDes}
+\textbf{\color{eLifeMediumGrey} Bannan CC}, Burley KH, Chiu M, Shirts MR,
+  Gilson MK, Mobley DL.
+\newblock Blind Prediction of Cyclohexane\textendash{}water Distribution
+  Coefficients from the {{SAMPL5}} Challenge.
+\newblock J Comput Aided Mol Des.  2016 Sep; 30(11):1--18.
+\newblock \href{https://dx.doi.org/10.1007/s10822-016-9954-8}{\doiprefix
+  \detokenize{10.1007/s10822-016-9954-8}}.
+
+\bibitem[{Bannan et~al.(2016{\natexlab{b}})Bannan, Caitlin C. and Burley,
+  Kalistyn H. and Chiu, Michael and Shirts, Michael R. and Gilson, Michael K.
+  and Mobley, David L.}]{bannan_blind_2016}
 \textbf{\color{eLifeMediumGrey} Bannan CC}, Burley KH, Chiu M, Shirts MR,
   Gilson MK, Mobley DL.
 \newblock Blind prediction of cyclohexane–water distribution coefficients
@@ -54,6 +177,11 @@
   \href{https://dx.doi.org/10.1007/s10822-016-9955-7}{\doiprefix
   \detokenize{10.1007/s10822-016-9955-7}}.
 
+\bibitem[{Bodner(1986)Bodner, George M.}]{bodner_assigning_1986}
+\textbf{\color{eLifeMediumGrey} Bodner GM}.
+\newblock Assigning the {pKa}'s of polyprotic acids.
+\newblock J Chem Educ.  1986; 63(3):246.
+
 \bibitem[{Darvey(1995)Darvey, Ivan G.}]{darvey_assignment_1995}
 \textbf{\color{eLifeMediumGrey} Darvey IG}.
 \newblock The assignment of {pKa} values to functional groups in amino acids.
@@ -89,6 +217,24 @@
 \newblock \urlprefix\url{http://doi.wiley.com/10.1002/jrs.2716},
   \href{https://dx.doi.org/10.1002/jrs.2716}{\doiprefix
   \detokenize{10.1002/jrs.2716}}.
+
+\bibitem[{Sober and Company(1970)Sober, H.A. and Company, Chemical
+  Rubber}]{sober_handbook_1970}
+\textbf{\color{eLifeMediumGrey} Sober HA}, Company CR.
+\newblock Handbook of {Biochemistry}: {Selected} {Data} for {Molecular}
+  {Biology}.
+\newblock Handbook of {Biochemistry}: {Selected} {Data} for {Molecular}
+  {Biology}, Chemical Rubber Company; 1970.
+\newblock \urlprefix\url{https://books.google.com/books?id=16QRAQAAMAAJ}.
+
+\bibitem[{Benesch and Benesch(1955)Benesch, Ruth E. and Benesch,
+  Reinhold}]{doi:10.1021/ja01627a030}
+\textbf{\color{eLifeMediumGrey} Benesch RE}, Benesch R.
+\newblock The Acid Strength of the -SH Group in Cysteine and Related Compounds.
+\newblock Journal of the American Chemical Society.  1955; 77(22):5877--5881.
+\newblock \urlprefix\url{https://doi.org/10.1021/ja01627a030},
+  \href{https://dx.doi.org/10.1021/ja01627a030}{\doiprefix
+  \detokenize{10.1021/ja01627a030}}.
 
 \bibitem[{Rupp et~al.(2011)Rupp, Matthias and Korner, Robert and V Tetko,
   Igor}]{rupp_predicting_2011}
@@ -145,19 +291,6 @@
 \newblock Journal of pharmaceutical and biomedical analysis.  1999;
   20(4):631--641.
 
-\bibitem[{Wan et~al.(2002)Hong Wan and Anders HolmÃ©n and Mats NÃ¥gÃ¥rd
-  and Walter Lindberg}]{WAN2002369}
-\textbf{\color{eLifeMediumGrey} Wan H}, HolmÃ©n A, NÃ¥gÃ¥rd M, Lindberg
-  W.
-\newblock Rapid screening of pKa values of pharmaceuticals by pressure-assisted
-  capillary electrophoresis combined with short-end injection.
-\newblock Journal of Chromatography A.  2002; 979(1):369 -- 377.
-\newblock
-  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0021967302012621},
-  \href{https://dx.doi.org/https://doi.org/10.1016/S0021-9673(02)01262-1}{\doiprefix
-  \detokenize{https://doi.org/10.1016/S0021-9673(02)01262-1}}, 15th
-  International Symposium on Microscale Separations and Analysis.
-
 \bibitem[{Cabot et~al.(2015)Cabot, Joan M. and Fuguet, Elisabet and Rosés,
   Martí and Smejkal, Petr and Breadmore, Michael C.}]{cabot_novel_2015}
 \textbf{\color{eLifeMediumGrey} Cabot JM}, Fuguet E, Rosés M, Smejkal P,
@@ -168,6 +301,15 @@
 \newblock \urlprefix\url{http://pubs.acs.org/doi/10.1021/acs.analchem.5b00845},
   \href{https://dx.doi.org/10.1021/acs.analchem.5b00845}{\doiprefix
   \detokenize{10.1021/acs.analchem.5b00845}}.
+
+\bibitem[{Wan et~al.(2002)Wan, Hong and Holmén, Anders and N{\textbackslash}a
+  ag{\textbackslash}a ard, Mats and Lindberg, Walter}]{wan_rapid_2002}
+\textbf{\color{eLifeMediumGrey} Wan H}, Holmén A,
+  N{\textbackslash}a~ag{\textbackslash}a ard M, Lindberg W.
+\newblock Rapid screening of {pKa} values of pharmaceuticals by
+  pressure-assisted capillary electrophoresis combined with short-end
+  injection.
+\newblock Journal of Chromatography A.  2002; 979(1-2):369--377.
 
 \bibitem[{Reijenga et~al.(2013)Reijenga, Jetse and van Hoof, Arno and van Loon,
   Antonie and Teunissen, Bram}]{reijenga_development_2013}
@@ -324,6 +466,36 @@ Sirius {T}3 {User} {Manual}, v1.1.
   \href{https://dx.doi.org/https://doi.org/10.1016/S0378-5173(97)04907-7}{\doiprefix
   \detokenize{https://doi.org/10.1016/S0378-5173(97)04907-7}}.
 
+\bibitem[{Szakacs et~al.(2005)Szakacs, Zoltan and Beni, Szabolcs and Varga,
+  Zoltan and Orfi, Laszlo and Keri, Gyorgy and Noszal,
+  Bela}]{NMR1_szakacs_acidbase_2005}
+\textbf{\color{eLifeMediumGrey} Szakacs Z}, Beni S, Varga Z, Orfi L, Keri G,
+  Noszal B.
+\newblock Acid-Base Profiling of Imatinib (Gleevec) and Its Fragments.
+\newblock Journal of Medicinal Chemistry.  2005; 48(1):249--255.
+\newblock \urlprefix\url{https://doi.org/10.1021/jm049546c},
+  \href{https://dx.doi.org/10.1021/jm049546c}{\doiprefix
+  \detokenize{10.1021/jm049546c}}, pMID: 15634018.
+
+\bibitem[{Szakacs et~al.(2004)Szakacs, Zoltan and Kraszni, Marta and Noszal,
+  Bela}]{NMR2_szakcs_determination_2004}
+\textbf{\color{eLifeMediumGrey} Szakacs Z}, Kraszni M, Noszal B.
+\newblock Determination of microscopic acid?base parameters from {NMR}?{pH}
+  titrations.
+\newblock Analytical and Bioanalytical Chemistry.  2004 Mar; 378(6):1428--1448.
+\newblock \urlprefix\url{http://link.springer.com/10.1007/s00216-003-2390-3},
+  \href{https://dx.doi.org/10.1007/s00216-003-2390-3}{\doiprefix
+  \detokenize{10.1007/s00216-003-2390-3}}.
+
+\bibitem[{Dozol et~al.(2002)Dozol, Hélene and Blum-Held, Corinne and Guédat,
+  Philippe and Maechling, Clarisse and Lanners, Steve and Schlewer, Gilbert and
+  Spiess, Bernard}]{NMR3_dozol_inframolecular_2002}
+\textbf{\color{eLifeMediumGrey} Dozol H}, Blum-Held C, Guédat P, Maechling C,
+  Lanners S, Schlewer G, Spiess B.
+\newblock Inframolecular acid–base studies of the tris and tetrakis
+  myo-inositol phosphates including the 1, 2, 3-trisphosphate motif.
+\newblock Journal of molecular structure.  2002; 643(1-3):171--181.
+
 \bibitem[{oed(????)}]{oedepict_openeye_2017}
 OEDepict Toolkit 2017.Feb.1;.
 \newblock OpenEye Scientific Software, Santa Fe, NM.
@@ -343,5 +515,841 @@ OEDepict Toolkit 2017.Feb.1;.
 \newblock The {pK}(a) {Distribution} of {Drugs}: {Application} to {Drug}
   {Discovery}.
 \newblock Perspectives in Medicinal Chemistry.  2007 Sep; 1:25--38.
+
+\bibitem[{Gibb and Gibb(2013)Gibb, Corinne L. D. and Gibb, Bruce
+  C.}]{gibb_binding_2013}
+\textbf{\color{eLifeMediumGrey} Gibb CLD}, Gibb BC.
+\newblock Binding of Cyclic Carboxylates to Octa-Acid Deep-Cavity Cavitand.
+\newblock J Comput Aided Mol Des.  2013 Nov; 28(4):319--325.
+\newblock \href{https://dx.doi.org/10.1007/s10822-013-9690-2}{\doiprefix
+  \detokenize{10.1007/s10822-013-9690-2}}.
+
+\bibitem[{Sullivan et~al.(2017)Sullivan, Matthew R. and Sokkalingam, Punidha
+  and Nguyen, Thong and Donahue, James P. and Gibb, Bruce
+  C.}]{sullivan_binding_2016}
+\textbf{\color{eLifeMediumGrey} Sullivan MR}, Sokkalingam P, Nguyen T, Donahue
+  JP, Gibb BC.
+\newblock Binding of Carboxylate and Trimethylammonium Salts to Octa-Acid and
+  {{TEMOA}} Deep-Cavity Cavitands.
+\newblock J Comput Aided Mol Des.  2017; 31(1):1--8.
+\newblock \href{https://dx.doi.org/10.1007/s10822-016-9925-0}{\doiprefix
+  \detokenize{10.1007/s10822-016-9925-0}}.
+
+\bibitem[{Gallicchio et~al.(2015)Gallicchio, Emilio and Chen, Haoyuan and Chen,
+  He and Fitzgerald, Michael and Gao, Yang and He, Peng and Kalyanikar, Malathi
+  and Kao, Chuan and Lu, Beidi and Niu, Yijie and Pethe, Manasi and Zhu, Jie
+  and Levy, Ronald M.}]{gallicchio_bedam_2015-1}
+\textbf{\color{eLifeMediumGrey} Gallicchio E}, Chen H, Chen H, Fitzgerald M,
+  Gao Y, He P, Kalyanikar M, Kao C, Lu B, Niu Y, Pethe M, Zhu J, Levy RM.
+\newblock {{BEDAM}} Binding Free Energy Predictions for the {{SAMPL4}}
+  Octa-Acid Host Challenge.
+\newblock J Comput Aided Mol Des.  2015 Mar; 29(4):315--325.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9795-2}{\doiprefix
+  \detokenize{10.1007/s10822-014-9795-2}}.
+
+\bibitem[{Yang et~al.(2017)Yang, Xiu and Lei, Huan and Gao, Peiyuan and Thomas,
+  Dennis G. and Mobley, David and Baker, Nathan
+  A.}]{Yang:2017:arXiv:1705.10035[q-bio]}
+\textbf{\color{eLifeMediumGrey} Yang X}, Lei H, Gao P, Thomas DG, Mobley D,
+  Baker NA.
+\newblock Atomic Radius and Charge Parameter Uncertainty in Biomolecular
+  Solvation Energy Calculations.
+\newblock ArXiv170510035 Q-Bio.  2017 May; .
+
+\bibitem[{Genheden and Essex(2016)Genheden, Samuel and Essex, Jonathan
+  W.}]{genheden_all-atom/coarse-grained_2016}
+\textbf{\color{eLifeMediumGrey} Genheden S}, Essex JW.
+\newblock All-Atom/Coarse-Grained Hybrid Predictions of Distribution
+  Coefficients in {{SAMPL5}}.
+\newblock J Comput Aided Mol Des.  2016 Jul; 30(11):969--976.
+\newblock \href{https://dx.doi.org/10.1007/s10822-016-9926-z}{\doiprefix
+  \detokenize{10.1007/s10822-016-9926-z}}.
+
+\bibitem[{Mobley et~al.(2012)Mobley, David L and Liu, Shaui and Cerutti, David
+  S and Swope, William C and Rice, Julia E}]{mobley_alchemical_2012}
+\textbf{\color{eLifeMediumGrey} Mobley DL}, Liu S, Cerutti DS, Swope WC, Rice
+  JE.
+\newblock Alchemical Prediction of Hydration Free Energies for {{SAMPL}}.
+\newblock J Comput Aided Mol Des.  2012 May; 26(5):551--562.
+\newblock \href{https://dx.doi.org/10.1007/s10822-011-9528-8}{\doiprefix
+  \detokenize{10.1007/s10822-011-9528-8}}.
+
+\bibitem[{Brini et~al.(2016)Brini, Emiliano and Paranahewage, S. Shanaka and
+  Fennell, Christopher J. and Dill, Ken A.}]{brini_adapting_2016}
+\textbf{\color{eLifeMediumGrey} Brini E}, Paranahewage SS, Fennell CJ, Dill KA.
+\newblock Adapting the Semi-Explicit Assembly Solvation Model for Estimating
+  Water-Cyclohexane Partitioning with the {{SAMPL5}} Molecules.
+\newblock J Comput Aided Mol Des.  2016 Sep; 30(11):1067--1077.
+\newblock \href{https://dx.doi.org/10.1007/s10822-016-9961-9}{\doiprefix
+  \detokenize{10.1007/s10822-016-9961-9}}.
+
+\bibitem[{Lee et~al.(2017)Lee, Juyong and Tofoleanu, Florentina and Pickard,
+  Frank C. and K{\"o}nig, Gerhard and Huang, Jing and Damjanovi{\'c}, Ana and
+  Baek, Minkyung and Seok, Chaok and Brooks, Bernard
+  R.}]{Lee:2016:JComputAidedMolDes}
+\textbf{\color{eLifeMediumGrey} Lee J}, Tofoleanu F, Pickard FC, K{\"o}nig G,
+  Huang J, Damjanovi{\'c} A, Baek M, Seok C, Brooks BR.
+\newblock Absolute Binding Free Energy Calculations of {{CBClip}}
+  Host\textendash{}guest Systems in the {{SAMPL5}} Blind Challenge.
+\newblock J Comput Aided Mol Des.  2017; 31(1):71--85.
+\newblock \href{https://dx.doi.org/10.1007/s10822-016-9968-2}{\doiprefix
+  \detokenize{10.1007/s10822-016-9968-2}}.
+
+\bibitem[{Cao and Isaacs(2014)Cao, Liping and Isaacs, Lyle}]{cao_absolute_2014}
+\textbf{\color{eLifeMediumGrey} Cao L}, Isaacs L.
+\newblock Absolute and Relative Binding Affinity of Cucurbit[7]Uril towards a
+  Series of Cationic Guests.
+\newblock Supramol Chem.  2014 Mar; 26(3-4):251--258.
+\newblock \href{https://dx.doi.org/10.1080/10610278.2013.852674}{\doiprefix
+  \detokenize{10.1080/10610278.2013.852674}}.
+
+\bibitem[{Pal et~al.(2017)Pal, Rajat Kumar and Haider, Kamran and Kaur, Divya
+  and Flynn, William and Xia, Junchao and Levy, Ronald M. and Taran, Tetiana
+  and Wickstrom, Lauren and Kurtzman, Tom and Gallicchio,
+  Emilio}]{pal_combined_2016}
+\textbf{\color{eLifeMediumGrey} Pal RK}, Haider K, Kaur D, Flynn W, Xia J, Levy
+  RM, Taran T, Wickstrom L, Kurtzman T, Gallicchio E.
+\newblock A Combined Treatment of Hydration and Dynamical Effects for the
+  Modeling of Host-Guest Binding Thermodynamics: {{The SAMPL5}} Blinded
+  Challenge.
+\newblock J Comput Aided Mol Des.  2017; 31(1):29--44.
+
+\bibitem[{Perryman et~al.(2014)Perryman, Alexander L. and Santiago, Daniel N.
+  and Forli, Stefano and Santos-Martins, Diogo and Olson, Arthur
+  J.}]{perryman_virtual_2014}
+\textbf{\color{eLifeMediumGrey} Perryman AL}, Santiago DN, Forli S,
+  Santos-Martins D, Olson AJ.
+\newblock Virtual Screening with {{AutoDock Vina}} and the Common Pharmacophore
+  Engine of a Low Diversity Library of Fragments and Hits against the Three
+  Allosteric Sites of {{HIV}} Integrase: Participation in the {{SAMPL4}}
+  Protein\textendash{}ligand Binding Challenge.
+\newblock J Comput Aided Mol Des.  2014 Feb; 28(4):429--441.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9709-3}{\doiprefix
+  \detokenize{10.1007/s10822-014-9709-3}}.
+
+\bibitem[{Colas and Iorga(2014)Colas, Claire and Iorga, Bogdan
+  I.}]{colas_virtual_2014}
+\textbf{\color{eLifeMediumGrey} Colas C}, Iorga BI.
+\newblock Virtual Screening of the {{SAMPL4}} Blinded {{HIV}} Integrase
+  Inhibitors Dataset.
+\newblock J Comput Aided Mol Des.  2014 Jan; 28(4):455--462.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9707-5}{\doiprefix
+  \detokenize{10.1007/s10822-014-9707-5}}.
+
+\bibitem[{Gallicchio et~al.(2014)Gallicchio, Emilio and Deng, Nanjie and He,
+  Peng and Wickstrom, Lauren and Perryman, Alexander L. and Santiago, Daniel N.
+  and Forli, Stefano and Olson, Arthur J. and Levy, Ronald
+  M.}]{gallicchio_virtual_2014}
+\textbf{\color{eLifeMediumGrey} Gallicchio E}, Deng N, He P, Wickstrom L,
+  Perryman AL, Santiago DN, Forli S, Olson AJ, Levy RM.
+\newblock Virtual Screening of Integrase Inhibitors by Large Scale Binding Free
+  Energy Calculations: The {{SAMPL4}} Challenge.
+\newblock J Comput Aided Mol Des.  2014 Feb; 28(4):475--490.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9711-9}{\doiprefix
+  \detokenize{10.1007/s10822-014-9711-9}}.
+
+\bibitem[{Lawrenz et~al.(2012)Lawrenz, Morgan and Wereszczynski, Jeff and
+  Ortiz-S{\'a}nchez, Juan Manuel and Nichols, Sara E. and McCammon, J.
+  Andrew}]{lawrenz_thermodynamic_2012}
+\textbf{\color{eLifeMediumGrey} Lawrenz M}, Wereszczynski J, Ortiz-S{\'a}nchez
+  JM, Nichols SE, McCammon JA.
+\newblock Thermodynamic Integration to Predict Host-Guest Binding Affinities.
+\newblock J Comput Aided Mol Des.  2012 Feb; 26(5):569--576.
+\newblock \href{https://dx.doi.org/10.1007/s10822-012-9542-5}{\doiprefix
+  \detokenize{10.1007/s10822-012-9542-5}}.
+
+\bibitem[{Kehoe et~al.(2011)Kehoe, Charles W. and Fennell, Christopher J. and
+  Dill, Ken A.}]{kehoe_testing_2011}
+\textbf{\color{eLifeMediumGrey} Kehoe CW}, Fennell CJ, Dill KA.
+\newblock Testing the Semi-Explicit Assembly Solvation Model in the {{SAMPL3}}
+  Community Blind Test.
+\newblock J Comput Aided Mol Des.  2011 Dec; 26(5):563--568.
+\newblock \href{https://dx.doi.org/10.1007/s10822-011-9536-8}{\doiprefix
+  \detokenize{10.1007/s10822-011-9536-8}}.
+
+\bibitem[{Li et~al.(2014)Li, Libo and Dill, Ken A. and Fennell, Christopher
+  J.}]{li_testing_2014}
+\textbf{\color{eLifeMediumGrey} Li L}, Dill KA, Fennell CJ.
+\newblock Testing the Semi-Explicit Assembly Model of Aqueous Solvation in the
+  {{SAMPL4}} Challenge.
+\newblock J Comput Aided Mol Des.  2014 Jan; 28(3):259--264.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9712-8}{\doiprefix
+  \detokenize{10.1007/s10822-014-9712-8}}.
+
+\bibitem[{Klamt and Diedenhofen(2010)Klamt, Andreas and Diedenhofen,
+  Michael}]{klamt_conclusions_2010}
+\textbf{\color{eLifeMediumGrey} Klamt A}, Diedenhofen M.
+\newblock Some Conclusions Regarding the Predictions of Tautomeric Equilibria
+  in Solution Based on the {{SAMPL2}} Challenge.
+\newblock J Comput Aided Mol Des.  2010 Apr; 24(6-7):621--625.
+\newblock \href{https://dx.doi.org/10.1007/s10822-010-9332-x}{\doiprefix
+  \detokenize{10.1007/s10822-010-9332-x}}.
+
+\bibitem[{Luchko et~al.(2016)Luchko, Tyler and Blinov, Nikolay and Limon,
+  Garrett C. and Joyce, Kevin P. and Kovalenko, Andriy}]{luchko_sampl5:_2016}
+\textbf{\color{eLifeMediumGrey} Luchko T}, Blinov N, Limon GC, Joyce KP,
+  Kovalenko A.
+\newblock {{SAMPL5}}: {{3D}}-{{RISM}} Partition Coefficient Calculations with
+  Partial Molar Volume Corrections and Solute Conformational Sampling.
+\newblock J Comput Aided Mol Des.  2016 Sep; 30(11):1--13.
+\newblock \href{https://dx.doi.org/10.1007/s10822-016-9947-7}{\doiprefix
+  \detokenize{10.1007/s10822-016-9947-7}}.
+
+\bibitem[{Nicholls et~al.(2010)Nicholls, Anthony and Wlodek, Stanislaw and
+  Grant, J. Andrew}]{nicholls_sampl2_2010}
+\textbf{\color{eLifeMediumGrey} Nicholls A}, Wlodek S, Grant JA.
+\newblock {{SAMPL2}} and Continuum Modeling.
+\newblock J Comput Aided Mol Des.  2010 Apr; 24(4):293--306.
+\newblock \href{https://dx.doi.org/10.1007/s10822-010-9334-8}{\doiprefix
+  \detokenize{10.1007/s10822-010-9334-8}}.
+
+\bibitem[{Meunier and Truchon(2010)Meunier, Alexandre and Truchon, Jean-Fran{\c
+  c}ois}]{meunier_predictions_2010}
+\textbf{\color{eLifeMediumGrey} Meunier A}, Truchon JF.
+\newblock Predictions of Hydration Free Energies from Continuum Solvent with
+  Solute Polarizable Models: The {{SAMPL2}} Blind Challenge.
+\newblock J Comput Aided Mol Des.  2010 Mar; 24(4):361--372.
+\newblock \href{https://dx.doi.org/10.1007/s10822-010-9339-3}{\doiprefix
+  \detokenize{10.1007/s10822-010-9339-3}}.
+
+\bibitem[{Mobley et~al.(2009)Mobley, David L and Bayly, Christopher I and
+  Cooper, Matthew D and Dill, Ken A}]{mobley_predictions_2009}
+\textbf{\color{eLifeMediumGrey} Mobley DL}, Bayly CI, Cooper MD, Dill KA.
+\newblock Predictions of {{Hydration Free Energies}} from {{All}}-{{Atom
+  Molecular Dynamics Simulations}}.
+\newblock J Phys Chem B.  2009 Jan; 113:4533--4537.
+
+\bibitem[{Yin et~al.(2017)Yin, Jian and Henriksen, Niel M. and Slochower, David
+  R. and Gilson, Michael K.}]{yin_sampl5_2016}
+\textbf{\color{eLifeMediumGrey} Yin J}, Henriksen NM, Slochower DR, Gilson MK.
+\newblock The {{SAMPL5 Host}}-{{Guest Challenge}}: {{Computing Binding Free
+  Energies}} and {{Enthalpies}} from {{Explicit Solvent Simulations}} by the
+  {{Attach}}-{{Pull}}-{{Release}} ({{APR}}) {{Method}}.
+\newblock J Comput Aided Mol Des.  2017; 31(1):133--145.
+\newblock \href{https://dx.doi.org/10.1007/s10822-016-9970-8}{\doiprefix
+  \detokenize{10.1007/s10822-016-9970-8}}.
+
+\bibitem[{Tielker et~al.(2016)Tielker, Nicolas and Tomazic, Daniel and Heil,
+  Jochen and Kloss, Thomas and Ehrhart, Sebastian and G{\"u}ssregen, Stefan and
+  Schmidt, K. Friedemann and Kast, Stefan M.}]{tielker_sampl5_2016}
+\textbf{\color{eLifeMediumGrey} Tielker N}, Tomazic D, Heil J, Kloss T, Ehrhart
+  S, G{\"u}ssregen S, Schmidt KF, Kast SM.
+\newblock The {{SAMPL5}} Challenge for Embedded-Cluster Integral Equation
+  Theory: Solvation Free Energies, Aqueous {{pKa}}, and
+  Cyclohexane\textendash{}water Log {{D}}.
+\newblock J Comput Aided Mol Des.  2016 Aug; 30:1035--1044.
+\newblock \href{https://dx.doi.org/10.1007/s10822-016-9939-7}{\doiprefix
+  \detokenize{10.1007/s10822-016-9939-7}}.
+
+\bibitem[{Muddana et~al.(2014)Muddana, Hari S. and Sapra, Neil V. and Fenley,
+  Andrew T. and Gilson, Michael K.}]{muddana_sampl4_2014-1}
+\textbf{\color{eLifeMediumGrey} Muddana HS}, Sapra NV, Fenley AT, Gilson MK.
+\newblock The {{SAMPL4}} Hydration Challenge: Evaluation of Partial Charge Sets
+  with Explicit-Water Molecular Dynamics Simulations.
+\newblock J Comput Aided Mol Des.  2014 Jan; 28(3):277--287.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9714-6}{\doiprefix
+  \detokenize{10.1007/s10822-014-9714-6}}.
+
+\bibitem[{Nicholls et~al.(2009)Nicholls, Anthony and Wlodek, Stanislaw and
+  Grant, J. Andrew}]{nicholls_samp1_2009}
+\textbf{\color{eLifeMediumGrey} Nicholls A}, Wlodek S, Grant JA.
+\newblock The {{SAMP1 Solvation Challenge}}: {{Further Lessons Regarding}} the
+  {{Pitfalls}} of {{Parametrization}}.
+\newblock J Phys Chem B.  2009 Apr; 113(14):4521--4532.
+\newblock \href{https://dx.doi.org/10.1021/jp806855q}{\doiprefix
+  \detokenize{10.1021/jp806855q}}.
+
+\bibitem[{Newman et~al.(2011)Newman, Janet and Dolezal, Olan and Fazio, Vincent
+  and Caradoc-Davies, Tom and Peat, Thomas S.}]{Newman:2011:JComputAidedMolDes}
+\textbf{\color{eLifeMediumGrey} Newman J}, Dolezal O, Fazio V, Caradoc-Davies
+  T, Peat TS.
+\newblock The {{DINGO}} Dataset: A Comprehensive Set of Data for the {{SAMPL}}
+  Challenge.
+\newblock J Comput Aided Mol Des.  2011 Dec; 26(5):497--503.
+\newblock \href{https://dx.doi.org/10.1007/s10822-011-9521-2}{\doiprefix
+  \detokenize{10.1007/s10822-011-9521-2}}.
+
+\bibitem[{Koziara et~al.(2014)Koziara, Katarzyna B. and Stroet, Martin and
+  Malde, Alpeshkumar K. and Mark, Alan E.}]{koziara_testing_2014}
+\textbf{\color{eLifeMediumGrey} Koziara KB}, Stroet M, Malde AK, Mark AE.
+\newblock Testing and Validation of the {{Automated Topology Builder}}
+  ({{ATB}}) Version 2.0: Prediction of Hydration Free Enthalpies.
+\newblock J Comput Aided Mol Des.  2014 Jan; 28(3):221--233.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9713-7}{\doiprefix
+  \detokenize{10.1007/s10822-014-9713-7}}.
+
+\bibitem[{Coleman et~al.(2014)Coleman, Ryan G. and Sterling, Teague and Weiss,
+  Dahlia R.}]{coleman_sampl4_2014}
+\textbf{\color{eLifeMediumGrey} Coleman RG}, Sterling T, Weiss DR.
+\newblock {{SAMPL4}} \& {{DOCK3}}.7: Lessons for Automated Docking Procedures.
+\newblock J Comput Aided Mol Des.  2014 Feb; 28(3):201--209.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9722-6}{\doiprefix
+  \detokenize{10.1007/s10822-014-9722-6}}.
+
+\bibitem[{Bhakat and S{\"o}derhjelm(2017)Bhakat, Soumendranath and
+  S{\"o}derhjelm, P{\"a}r}]{bhakat_resolving_2016}
+\textbf{\color{eLifeMediumGrey} Bhakat S}, S{\"o}derhjelm P.
+\newblock Resolving the Problem of Trapped Water in Binding Cavities:
+  {{Prediction}} of Host-Guest Binding Free Energies in the {{SAMPL5}}
+  Challenge by Funnel Metadynamics.
+\newblock J Comput Aided Mol Des.  2017; 31(1):119--132.
+
+\bibitem[{Purisima et~al.(2010)Purisima, Enrico O. and Corbeil, Christopher R.
+  and Sulea, Traian}]{purisima_rapid_2010}
+\textbf{\color{eLifeMediumGrey} Purisima EO}, Corbeil CR, Sulea T.
+\newblock Rapid Prediction of Solvation Free Energy. 3. {{Application}} to the
+  {{SAMPL2}} Challenge.
+\newblock J Comput Aided Mol Des.  2010 Apr; 24(4):373--383.
+\newblock \href{https://dx.doi.org/10.1007/s10822-010-9341-9}{\doiprefix
+  \detokenize{10.1007/s10822-010-9341-9}}.
+
+\bibitem[{Hsiao and S{\"o}derhjelm(2014)Hsiao, Ya-Wen and S{\"o}derhjelm,
+  P{\"a}r}]{hsiao_prediction_2014}
+\textbf{\color{eLifeMediumGrey} Hsiao YW}, S{\"o}derhjelm P.
+\newblock Prediction of {{SAMPL4}} Host\textendash{}guest Binding Affinities
+  Using Funnel Metadynamics.
+\newblock J Comput Aided Mol Des.  2014 Feb; 28(4):443--454.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9724-4}{\doiprefix
+  \detokenize{10.1007/s10822-014-9724-4}}.
+
+\bibitem[{Muddana and Gilson(2012)Muddana, Hari S. and Gilson, Michael
+  K.}]{muddana_prediction_2012}
+\textbf{\color{eLifeMediumGrey} Muddana HS}, Gilson MK.
+\newblock Prediction of {{SAMPL3}} Host\textendash{}guest Binding Affinities:
+  Evaluating the Accuracy of Generalized Force-Fields.
+\newblock J Comput Aided Mol Des.  2012 Jan; 26(5):517--525.
+\newblock \href{https://dx.doi.org/10.1007/s10822-012-9544-3}{\doiprefix
+  \detokenize{10.1007/s10822-012-9544-3}}.
+
+\bibitem[{Beckstein and Iorga(2011)Beckstein, Oliver and Iorga, Bogdan
+  I.}]{beckstein_prediction_2011}
+\textbf{\color{eLifeMediumGrey} Beckstein O}, Iorga BI.
+\newblock Prediction of Hydration Free Energies for Aliphatic and Aromatic
+  Chloro Derivatives Using Molecular Dynamics Simulations with the
+  {{OPLS}}-{{AA}} Force Field.
+\newblock J Comput Aided Mol Des.  2011 Dec; 26(5):635--645.
+\newblock \href{https://dx.doi.org/10.1007/s10822-011-9527-9}{\doiprefix
+  \detokenize{10.1007/s10822-011-9527-9}}.
+
+\bibitem[{Reinisch et~al.(2012)Reinisch, Jens and Klamt, Andreas and
+  Diedenhofen, Michael}]{reinisch_prediction_2012}
+\textbf{\color{eLifeMediumGrey} Reinisch J}, Klamt A, Diedenhofen M.
+\newblock Prediction of Free Energies of Hydration with {{COSMO}}-{{RS}} on the
+  {{SAMPL3}} Data Set.
+\newblock J Comput Aided Mol Des.  2012 May; 26(5):669--673.
+\newblock \href{https://dx.doi.org/10.1007/s10822-012-9576-8}{\doiprefix
+  \detokenize{10.1007/s10822-012-9576-8}}.
+
+\bibitem[{Kenney et~al.(2016)Kenney, Ian M. and Beckstein, Oliver and Iorga,
+  Bogdan I.}]{kenney_prediction_2016}
+\textbf{\color{eLifeMediumGrey} Kenney IM}, Beckstein O, Iorga BI.
+\newblock Prediction of Cyclohexane-Water Distribution Coefficients for the
+  {{SAMPL5}} Data Set Using Molecular Dynamics Simulations with the
+  {{OPLS}}-{{AA}} Force Field.
+\newblock J Comput Aided Mol Des.  2016 Aug; 30(11):1--14.
+\newblock \href{https://dx.doi.org/10.1007/s10822-016-9949-5}{\doiprefix
+  \detokenize{10.1007/s10822-016-9949-5}}.
+
+\bibitem[{Kamath et~al.(2016)Kamath, Ganesh and Kurnikov, Igor and Fain, Boris
+  and Leontyev, Igor and Illarionov, Alexey and Butin, Oleg and Olevanov,
+  Michael and Pereyaslavets, Leonid}]{kamath_prediction_2016}
+\textbf{\color{eLifeMediumGrey} Kamath G}, Kurnikov I, Fain B, Leontyev I,
+  Illarionov A, Butin O, Olevanov M, Pereyaslavets L.
+\newblock Prediction of Cyclohexane-Water Distribution Coefficient for
+  {{SAMPL5}} Drug-like Compounds with the {{QMPFF3}} and {{ARROW}} Polarizable
+  Force Fields.
+\newblock J Comput Aided Mol Des.  2016 Sep; 30(11):977--988.
+\newblock \href{https://dx.doi.org/10.1007/s10822-016-9958-4}{\doiprefix
+  \detokenize{10.1007/s10822-016-9958-4}}.
+
+\bibitem[{Sandberg(2014)Sandberg, Lars}]{sandberg_predicting_2014}
+\textbf{\color{eLifeMediumGrey} Sandberg L}.
+\newblock Predicting Hydration Free Energies with Chemical Accuracy: The
+  {{SAMPL4}} Challenge.
+\newblock J Comput Aided Mol Des.  2014 Feb; 28(3):211--219.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9725-3}{\doiprefix
+  \detokenize{10.1007/s10822-014-9725-3}}.
+
+\bibitem[{K{\"o}nig et~al.(2014)K{\"o}nig, Gerhard and Pickard, Frank C. and
+  Mei, Ye and Brooks, Bernard R.}]{konig_predicting_2014}
+\textbf{\color{eLifeMediumGrey} K{\"o}nig G}, Pickard FC, Mei Y, Brooks BR.
+\newblock Predicting Hydration Free Energies with a Hybrid {{QM}}/{{MM}}
+  Approach: An Evaluation of Implicit and Explicit Solvation Models in
+  {{SAMPL4}}.
+\newblock J Comput Aided Mol Des.  2014 Feb; 28(3):245--257.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9708-4}{\doiprefix
+  \detokenize{10.1007/s10822-014-9708-4}}.
+
+\bibitem[{Sulea and Purisima(2011)Sulea, Traian and Purisima, Enrico
+  O.}]{sulea_predicting_2011}
+\textbf{\color{eLifeMediumGrey} Sulea T}, Purisima EO.
+\newblock Predicting Hydration Free Energies of Polychlorinated Aromatic
+  Compounds from the {{SAMPL}}-3 Data Set with {{FiSH}} and {{LIE}} Models.
+\newblock J Comput Aided Mol Des.  2011 Dec; 26(5):661--667.
+\newblock \href{https://dx.doi.org/10.1007/s10822-011-9522-1}{\doiprefix
+  \detokenize{10.1007/s10822-011-9522-1}}.
+
+\bibitem[{Diaz-Rodriguez et~al.(2016)Diaz-Rodriguez, Sebastian and Bozada,
+  Samantha M. and Phifer, Jeremy R. and Paluch, Andrew
+  S.}]{diaz-rodriguez_predicting_2016}
+\textbf{\color{eLifeMediumGrey} Diaz-Rodriguez S}, Bozada SM, Phifer JR, Paluch
+  AS.
+\newblock Predicting Cyclohexane/Water Distribution Coefficients for the
+  {{SAMPL5}} Challenge Using {{MOSCED}} and the {{SMD}} Solvation Model.
+\newblock J Comput Aided Mol Des.  2016 Aug; 30(11):1007--1017.
+\newblock \href{https://dx.doi.org/10.1007/s10822-016-9945-9}{\doiprefix
+  \detokenize{10.1007/s10822-016-9945-9}}.
+
+\bibitem[{K{\"o}nig and Brooks(2011)K{\"o}nig, Gerhard and Brooks, Bernard
+  R.}]{konig_predicting_2011}
+\textbf{\color{eLifeMediumGrey} K{\"o}nig G}, Brooks BR.
+\newblock Predicting Binding Affinities of Host-Guest Systems in the {{SAMPL3}}
+  Blind Challenge: The Performance of Relative Free Energy Calculations.
+\newblock J Comput Aided Mol Des.  2011 Dec; 26(5):543--550.
+\newblock \href{https://dx.doi.org/10.1007/s10822-011-9525-y}{\doiprefix
+  \detokenize{10.1007/s10822-011-9525-y}}.
+
+\bibitem[{Benson et~al.(2012)Benson, Mark L. and Faver, John C. and Ucisik,
+  Melek N. and Dashti, Danial S. and Zheng, Zheng and Merz, Kenneth
+  M.}]{benson_prediction_2012}
+\textbf{\color{eLifeMediumGrey} Benson ML}, Faver JC, Ucisik MN, Dashti DS,
+  Zheng Z, Merz KM.
+\newblock Prediction of Trypsin/Molecular Fragment Binding Affinities by Free
+  Energy Decomposition and Empirical Scores.
+\newblock J Comput Aided Mol Des.  2012 Apr; 26(5):647--659.
+\newblock \href{https://dx.doi.org/10.1007/s10822-012-9567-9}{\doiprefix
+  \detokenize{10.1007/s10822-012-9567-9}}.
+
+\bibitem[{Klamt et~al.(2009)Klamt, Andreas and Eckert, Frank and Diedenhofen,
+  Michael}]{klamt_prediction_2009}
+\textbf{\color{eLifeMediumGrey} Klamt A}, Eckert F, Diedenhofen M.
+\newblock Prediction of the {{Free Energy}} of {{Hydration}} of a {{Challenging
+  Set}} of {{Pesticide}}-{{Like Compounds}}\textdagger{}.
+\newblock J Phys Chem B.  2009 Jan; .
+
+\bibitem[{Kast et~al.(2010)Kast, Stefan M. and Heil, Jochen and G{\"u}ssregen,
+  Stefan and Schmidt, K. Friedemann}]{kast_prediction_2010}
+\textbf{\color{eLifeMediumGrey} Kast SM}, Heil J, G{\"u}ssregen S, Schmidt KF.
+\newblock Prediction of Tautomer Ratios by Embedded-Cluster Integral Equation
+  Theory.
+\newblock J Comput Aided Mol Des.  2010 Mar; 24(4):343--353.
+\newblock \href{https://dx.doi.org/10.1007/s10822-010-9340-x}{\doiprefix
+  \detokenize{10.1007/s10822-010-9340-x}}.
+
+\bibitem[{Gallicchio and Levy(2012)Gallicchio, Emilio and Levy, Ronald
+  M.}]{gallicchio_prediction_2012}
+\textbf{\color{eLifeMediumGrey} Gallicchio E}, Levy RM.
+\newblock Prediction of {{SAMPL3}} Host-Guest Affinities with the Binding
+  Energy Distribution Analysis Method ({{BEDAM}}).
+\newblock J Comput Aided Mol Des.  2012 Feb; 26(5):505--516.
+\newblock \href{https://dx.doi.org/10.1007/s10822-012-9552-3}{\doiprefix
+  \detokenize{10.1007/s10822-012-9552-3}}.
+
+\bibitem[{Ribeiro et~al.(2010)Ribeiro, Raphael F. and Marenich, Aleksandr V.
+  and Cramer, Christopher J. and Truhlar, Donald G.}]{ribeiro_prediction_2010}
+\textbf{\color{eLifeMediumGrey} Ribeiro RF}, Marenich AV, Cramer CJ, Truhlar
+  DG.
+\newblock Prediction of {{SAMPL2}} Aqueous Solvation Free Energies and
+  Tautomeric Ratios Using the {{SM8}}, {{SM8AD}}, and {{SMD}} Solvation Models.
+\newblock J Comput Aided Mol Des.  2010 Apr; 24(4):317--333.
+\newblock \href{https://dx.doi.org/10.1007/s10822-010-9333-9}{\doiprefix
+  \detokenize{10.1007/s10822-010-9333-9}}.
+
+\bibitem[{Sulea et~al.(2009)Sulea, Traian and Wanapun, Duangporn and Dennis,
+  Sheldon and Purisima, Enrico O.}]{sulea_prediction_2009}
+\textbf{\color{eLifeMediumGrey} Sulea T}, Wanapun D, Dennis S, Purisima EO.
+\newblock Prediction of {{SAMPL}}-1 {{Hydration Free Energies Using}} a
+  {{Continuum Electrostatics}}-{{Dispersion Model}}.
+\newblock J Phys Chem B.  2009 Apr; 113(14):4511--4520.
+\newblock \href{https://dx.doi.org/10.1021/jp8061477}{\doiprefix
+  \detokenize{10.1021/jp8061477}}.
+
+\bibitem[{Beckstein et~al.(2014)Beckstein, Oliver and Fourrier, Ana{\"\i}s and
+  Iorga, Bogdan I.}]{beckstein_prediction_2014}
+\textbf{\color{eLifeMediumGrey} Beckstein O}, Fourrier A, Iorga BI.
+\newblock Prediction of Hydration Free Energies for the {{SAMPL4}} Diverse Set
+  of Compounds Using Molecular Dynamics Simulations with the {{OPLS}}-{{AA}}
+  Force Field.
+\newblock J Comput Aided Mol Des.  2014 Feb; 28(3):265--276.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9727-1}{\doiprefix
+  \detokenize{10.1007/s10822-014-9727-1}}.
+
+\bibitem[{Manzoni and S{\"o}derhjelm(2014)Manzoni, Francesco and
+  S{\"o}derhjelm, P{\"a}r}]{manzoni_prediction_2014}
+\textbf{\color{eLifeMediumGrey} Manzoni F}, S{\"o}derhjelm P.
+\newblock Prediction of Hydration Free Energies for the {{SAMPL4}} Data Set
+  with the {{AMOEBA}} Polarizable Force Field.
+\newblock J Comput Aided Mol Des.  2014 Mar; 28(3):235--244.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9733-3}{\doiprefix
+  \detokenize{10.1007/s10822-014-9733-3}}.
+
+\bibitem[{Reinisch and Klamt(2014)Reinisch, Jens and Klamt,
+  Andreas}]{reinisch_prediction_2014}
+\textbf{\color{eLifeMediumGrey} Reinisch J}, Klamt A.
+\newblock Prediction of Free Energies of Hydration with {{COSMO}}-{{RS}} on the
+  {{SAMPL4}} Data Set.
+\newblock J Comput Aided Mol Des.  2014 Jan; 28(3):169--173.
+\newblock \href{https://dx.doi.org/10.1007/s10822-013-9701-3}{\doiprefix
+  \detokenize{10.1007/s10822-013-9701-3}}.
+
+\bibitem[{Klamt et~al.(2016)Klamt, Andreas and Eckert, Frank and Reinisch, Jens
+  and Wichmann, Karin}]{klamt_prediction_2016}
+\textbf{\color{eLifeMediumGrey} Klamt A}, Eckert F, Reinisch J, Wichmann K.
+\newblock Prediction of Cyclohexane-Water Distribution Coefficients with
+  {{COSMO}}-{{RS}} on the {{SAMPL5}} Data Set.
+\newblock J Comput Aided Mol Des.  2016 Jul; 30(11):959--967.
+\newblock \href{https://dx.doi.org/10.1007/s10822-016-9927-y}{\doiprefix
+  \detokenize{10.1007/s10822-016-9927-y}}.
+
+\bibitem[{Paranahewage et~al.(2016)Paranahewage, S. Shanaka and Gierhart,
+  Cassidy S. and Fennell, Christopher J.}]{paranahewage_predicting_2016}
+\textbf{\color{eLifeMediumGrey} Paranahewage SS}, Gierhart CS, Fennell CJ.
+\newblock Predicting Water-to-Cyclohexane Partitioning of the {{SAMPL5}}
+  Molecules Using Dielectric Balancing of Force Fields.
+\newblock J Comput Aided Mol Des.  2016 Aug; 30(11):1059--1065.
+\newblock \href{https://dx.doi.org/10.1007/s10822-016-9950-z}{\doiprefix
+  \detokenize{10.1007/s10822-016-9950-z}}.
+
+\bibitem[{Klimovich and Mobley(2010)Klimovich, Pavel V and Mobley, David
+  L}]{klimovich_predicting_2010}
+\textbf{\color{eLifeMediumGrey} Klimovich PV}, Mobley DL.
+\newblock Predicting Hydration Free Energies Using All-Atom Molecular Dynamics
+  Simulations and Multiple Starting Conformations.
+\newblock J Comput Aided Mol Des.  2010 Apr; 24(4):307--316.
+\newblock \href{https://dx.doi.org/10.1007/s10822-010-9343-7}{\doiprefix
+  \detokenize{10.1007/s10822-010-9343-7}}.
+
+\bibitem[{Newman et~al.(2009)Newman, J and Fazio, VJ and Caradoc-Davies, TT and
+  Branson, Kim and Peat, Thomas S}]{newman_practical_2009}
+\textbf{\color{eLifeMediumGrey} Newman J}, Fazio V, Caradoc-Davies T, Branson
+  K, Peat TS.
+\newblock Practical {{Aspects}} of the {{SAMPL Challenge}}: {{Providing}} an
+  {{Extensive Experimental Data Set}} for the {{Modeling Community}}.
+\newblock Journal of Biomolecular Screening.  2009 Jan; 14(10):1245.
+
+\bibitem[{Mikulskis et~al.(2014)Mikulskis, Paulius and Cioloboc, Daniela and
+  Andreji{\'c}, Milica and Khare, Sakshi and Brorsson, Joakim and Genheden,
+  Samuel and Mata, Ricardo A. and S{\"o}derhjelm, P{\"a}r and Ryde,
+  Ulf}]{mikulskis_free-energy_2014}
+\textbf{\color{eLifeMediumGrey} Mikulskis P}, Cioloboc D, Andreji{\'c} M, Khare
+  S, Brorsson J, Genheden S, Mata RA, S{\"o}derhjelm P, Ryde U.
+\newblock Free-Energy Perturbation and Quantum Mechanical Study of {{SAMPL4}}
+  Octa-Acid Host\textendash{}guest Binding Energies.
+\newblock J Comput Aided Mol Des.  2014 Apr; 28(4):375--400.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9739-x}{\doiprefix
+  \detokenize{10.1007/s10822-014-9739-x}}.
+
+\bibitem[{Sulea et~al.(2011)Sulea, Traian and Hogues, Herv{\'e} and Purisima,
+  Enrico O.}]{sulea_exhaustive_2011}
+\textbf{\color{eLifeMediumGrey} Sulea T}, Hogues H, Purisima EO.
+\newblock Exhaustive Search and Solvated Interaction Energy ({{SIE}}) for
+  Virtual Screening and Affinity Prediction.
+\newblock J Comput Aided Mol Des.  2011 Dec; 26(5):617--633.
+\newblock \href{https://dx.doi.org/10.1007/s10822-011-9529-7}{\doiprefix
+  \detokenize{10.1007/s10822-011-9529-7}}.
+
+\bibitem[{Hogues et~al.(2014)Hogues, Herv{\'e} and Sulea, Traian and Purisima,
+  Enrico O.}]{hogues_exhaustive_2014}
+\textbf{\color{eLifeMediumGrey} Hogues H}, Sulea T, Purisima EO.
+\newblock Exhaustive Docking and Solvated Interaction Energy Scoring: Lessons
+  Learned from the {{SAMPL4}} Challenge.
+\newblock J Comput Aided Mol Des.  2014 Jan; 28(4):417--427.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9715-5}{\doiprefix
+  \detokenize{10.1007/s10822-014-9715-5}}.
+
+\bibitem[{Surpateanu and Iorga(2011)Surpateanu, Georgiana and Iorga, Bogdan
+  I.}]{surpateanu_evaluation_2011}
+\textbf{\color{eLifeMediumGrey} Surpateanu G}, Iorga BI.
+\newblock Evaluation of Docking Performance in a Blinded Virtual Screening of
+  Fragment-like Trypsin Inhibitors.
+\newblock J Comput Aided Mol Des.  2011 Dec; 26(5):595--601.
+\newblock \href{https://dx.doi.org/10.1007/s10822-011-9526-x}{\doiprefix
+  \detokenize{10.1007/s10822-011-9526-x}}.
+
+\bibitem[{Ellingson et~al.(2014)Ellingson, Benjamin A. and Geballe, Matthew T.
+  and Wlodek, Stanislaw and Bayly, Christopher I. and Skillman, A. Geoffrey and
+  Nicholls, Anthony}]{ellingson_efficient_2014}
+\textbf{\color{eLifeMediumGrey} Ellingson BA}, Geballe MT, Wlodek S, Bayly CI,
+  Skillman AG, Nicholls A.
+\newblock Efficient Calculation of {{SAMPL4}} Hydration Free Energies Using
+  {{OMEGA}}, {{SZYBKI}}, {{QUACPAC}}, and {{Zap TK}}.
+\newblock J Comput Aided Mol Des.  2014 Mar; 28(3):289--298.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9720-8}{\doiprefix
+  \detokenize{10.1007/s10822-014-9720-8}}.
+
+\bibitem[{Deng et~al.(2015)Deng, Nanjie and Forli, Stefano and He, Peng and
+  Perryman, Alex and Wickstrom, Lauren and Vijayan, R. S. K. and Tiefenbrunn,
+  Theresa and Stout, David and Gallicchio, Emilio and Olson, Arthur J. and
+  Levy, Ronald M.}]{deng_distinguishing_2015}
+\textbf{\color{eLifeMediumGrey} Deng N}, Forli S, He P, Perryman A, Wickstrom
+  L, Vijayan RSK, Tiefenbrunn T, Stout D, Gallicchio E, Olson AJ, Levy RM.
+\newblock Distinguishing {{Binders}} from {{False Positives}} by {{Free Energy
+  Calculations}}: {{Fragment Screening Against}} the {{Flap Site}} of {{HIV
+  Protease}}.
+\newblock J Phys Chem B.  2015 Jan; 119(3):976--988.
+\newblock \href{https://dx.doi.org/10.1021/jp506376z}{\doiprefix
+  \detokenize{10.1021/jp506376z}}.
+
+\bibitem[{Kumar and Zhang(2012)Kumar, Ashutosh and Zhang, Kam Y.
+  J.}]{kumar_computational_2012}
+\textbf{\color{eLifeMediumGrey} Kumar A}, Zhang KYJ.
+\newblock Computational Fragment-Based Screening Using {{RosettaLigand}}: The
+  {{SAMPL3}} Challenge.
+\newblock J Comput Aided Mol Des.  2012 Jan; 26(5):603--616.
+\newblock \href{https://dx.doi.org/10.1007/s10822-011-9523-0}{\doiprefix
+  \detokenize{10.1007/s10822-011-9523-0}}.
+
+\bibitem[{Voet et~al.(2014)Voet, Arnout R. D. and Kumar, Ashutosh and Berenger,
+  Francois and Zhang, Kam Y. J.}]{voet_combining_2014}
+\textbf{\color{eLifeMediumGrey} Voet ARD}, Kumar A, Berenger F, Zhang KYJ.
+\newblock Combining in Silico and in Cerebro Approaches for Virtual Screening
+  and Pose Prediction in {{SAMPL4}}.
+\newblock J Comput Aided Mol Des.  2014 Jan; 28(4):363--373.
+\newblock \href{https://dx.doi.org/10.1007/s10822-013-9702-2}{\doiprefix
+  \detokenize{10.1007/s10822-013-9702-2}}.
+
+\bibitem[{Soteras et~al.(2010)Soteras, Ignacio and Orozco, Modesto and Luque,
+  F. Javier}]{soteras_performance_2010}
+\textbf{\color{eLifeMediumGrey} Soteras I}, Orozco M, Luque FJ.
+\newblock Performance of the {{IEF}}-{{MST}} Solvation Continuum Model in the
+  {{SAMPL2}} Blind Test Prediction of Hydration and Tautomerization Free
+  Energies.
+\newblock J Comput Aided Mol Des.  2010 Mar; 24(4):281--291.
+\newblock \href{https://dx.doi.org/10.1007/s10822-010-9331-y}{\doiprefix
+  \detokenize{10.1007/s10822-010-9331-y}}.
+
+\bibitem[{Chamberlin et~al.(2008)Chamberlin, Adam C. and Cramer, Christopher J.
+  and Truhlar, Donald G.}]{chamberlin_performance_2008}
+\textbf{\color{eLifeMediumGrey} Chamberlin AC}, Cramer CJ, Truhlar DG.
+\newblock Performance of {{SM8}} on a {{Test To Predict Small}}-{{Molecule
+  Solvation Free Energies}}.
+\newblock J Phys Chem B.  2008 Jul; 112(29):8651--8655.
+\newblock \href{https://dx.doi.org/10.1021/jp8028038}{\doiprefix
+  \detokenize{10.1021/jp8028038}}.
+
+\bibitem[{Marenich et~al.(2009)Marenich, Aleksandr V. and Cramer, Christopher
+  J. and Truhlar, Donald G.}]{marenich_performance_2009}
+\textbf{\color{eLifeMediumGrey} Marenich AV}, Cramer CJ, Truhlar DG.
+\newblock Performance of {{SM6}}, {{SM8}}, and {{SMD}} on the {{SAMPL1 Test
+  Set}} for the {{Prediction}} of {{Small}}-{{Molecule Solvation Free
+  Energies}}.
+\newblock J Phys Chem B.  2009 Apr; 113(14):4538--4543.
+\newblock \href{https://dx.doi.org/10.1021/jp809094y}{\doiprefix
+  \detokenize{10.1021/jp809094y}}.
+
+\bibitem[{Jones et~al.(2016)Jones, Michael R. and Brooks, Bernard R. and
+  Wilson, Angela K.}]{Jones:2016:JComputAidedMolDes}
+\textbf{\color{eLifeMediumGrey} Jones MR}, Brooks BR, Wilson AK.
+\newblock Partition Coefficients for the {{SAMPL5}} Challenge Using Transfer
+  Free Energies.
+\newblock J Comput Aided Mol Des.  2016 Sep; 30(11):1129--1138.
+\newblock \href{https://dx.doi.org/10.1007/s10822-016-9964-6}{\doiprefix
+  \detokenize{10.1007/s10822-016-9964-6}}.
+
+\bibitem[{Bansal et~al.(2017)Bansal, Nupur and Zheng, Zheng and Cerutti, David
+  S. and Merz, Kenneth M.}]{Bansal:2017:JComputAidedMolDes}
+\textbf{\color{eLifeMediumGrey} Bansal N}, Zheng Z, Cerutti DS, Merz KM.
+\newblock On the Fly Estimation of Host\textendash{}guest Binding Free Energies
+  Using the Movable Type Method: Participation in the {{SAMPL5}} Blind
+  Challenge.
+\newblock J Comput Aided Mol Des.  2017 Jan; 31(1):47--60.
+\newblock \href{https://dx.doi.org/10.1007/s10822-016-9980-6}{\doiprefix
+  \detokenize{10.1007/s10822-016-9980-6}}.
+
+\bibitem[{Fennell et~al.(2011)Fennell, Christopher J. and Kehoe, Charles W. and
+  Dill, Ken A.}]{fennell_modeling_2011}
+\textbf{\color{eLifeMediumGrey} Fennell CJ}, Kehoe CW, Dill KA.
+\newblock Modeling Aqueous Solvation with Semi-Explicit Assembly.
+\newblock PNAS.  2011 Feb; 108(8):3234--3239.
+\newblock \href{https://dx.doi.org/10.1073/pnas.1017130108}{\doiprefix
+  \detokenize{10.1073/pnas.1017130108}}.
+
+\bibitem[{Shirts et~al.(2017)Shirts, Michael R. and Klein, Christoph and
+  Swails, Jason M and Yin, Jian and Gilson, Michael K. and Mobley, David L. and
+  Case, David A. and Shirts, Michael R}]{shirts_lessons_2016}
+\textbf{\color{eLifeMediumGrey} Shirts MR}, Klein C, Swails JM, Yin J, Gilson
+  MK, Mobley DL, Case DA, Shirts MR.
+\newblock Lessons Learned from Comparing Molecular Dynamics Engines on the
+  {{SAMPL5}} Dataset.
+\newblock J Comput Aided Mol Des.  2017; 31(1):147--161.
+
+\bibitem[{Peat et~al.(2014)Peat, Thomas S. and Dolezal, Olan and Newman, Janet
+  and Mobley, David and Deadman, John J.}]{peat_interrogating_2014}
+\textbf{\color{eLifeMediumGrey} Peat TS}, Dolezal O, Newman J, Mobley D,
+  Deadman JJ.
+\newblock Interrogating {{HIV}} Integrase for Compounds That Bind- a {{SAMPL}}
+  Challenge.
+\newblock J Comput Aided Mol Des.  2014 Feb; 28(4):347--362.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9721-7}{\doiprefix
+  \detokenize{10.1007/s10822-014-9721-7}}.
+
+\bibitem[{Hamaguchi et~al.(2012)Hamaguchi, Nobuko and Fusti-Molnar, Laszlo and
+  Wlodek, Stanislaw}]{hamaguchi_force-field_2012}
+\textbf{\color{eLifeMediumGrey} Hamaguchi N}, Fusti-Molnar L, Wlodek S.
+\newblock Force-Field and Quantum-Mechanical Binding Study of Selected
+  {{SAMPL3}} Host-Guest Complexes.
+\newblock J Comput Aided Mol Des.  2012 Feb; 26(5):577--582.
+\newblock \href{https://dx.doi.org/10.1007/s10822-012-9553-2}{\doiprefix
+  \detokenize{10.1007/s10822-012-9553-2}}.
+
+\bibitem[{Genheden et~al.(2014)Genheden, Samuel and Martinez, Ana I. Cabedo and
+  Criddle, Michael P. and Essex, Jonathan W.}]{genheden_extensive_2014}
+\textbf{\color{eLifeMediumGrey} Genheden S}, Martinez AIC, Criddle MP, Essex
+  JW.
+\newblock Extensive All-Atom {{Monte Carlo}} Sampling and {{QM}}/{{MM}}
+  Corrections in the {{SAMPL4}} Hydration Free Energy Challenge.
+\newblock J Comput Aided Mol Des.  2014 Feb; 28(3):187--200.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9717-3}{\doiprefix
+  \detokenize{10.1007/s10822-014-9717-3}}.
+
+\bibitem[{Park(2014)Park, Hwangseo}]{park_extended_2014}
+\textbf{\color{eLifeMediumGrey} Park H}.
+\newblock Extended Solvent-Contact Model Approach to {{SAMPL4}} Blind
+  Prediction Challenge for Hydration Free Energies.
+\newblock J Comput Aided Mol Des.  2014 Feb; 28(3):175--186.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9729-z}{\doiprefix
+  \detokenize{10.1007/s10822-014-9729-z}}.
+
+\bibitem[{Chung and Park(2016)Chung, Kee-Choo and Park,
+  Hwangseo}]{chung_extended_2016}
+\textbf{\color{eLifeMediumGrey} Chung KC}, Park H.
+\newblock Extended Solvent-Contact Model Approach to Blind {{SAMPL5}}
+  Prediction Challenge for the Distribution Coefficients of Drug-like
+  Molecules.
+\newblock J Comput Aided Mol Des.  2016 Jul; 30(11):1019--1033.
+\newblock \href{https://dx.doi.org/10.1007/s10822-016-9928-x}{\doiprefix
+  \detokenize{10.1007/s10822-016-9928-x}}.
+
+\bibitem[{Monroe and Shirts(2014)Monroe, Jacob I. and Shirts, Michael
+  R.}]{monroe_converging_2014}
+\textbf{\color{eLifeMediumGrey} Monroe JI}, Shirts MR.
+\newblock Converging Free Energies of Binding in Cucurbit[7]Uril and Octa-Acid
+  Host\textendash{}guest Systems from {{SAMPL4}} Using Expanded Ensemble
+  Simulations.
+\newblock J Comput Aided Mol Des.  2014 Mar; 28(4):401--415.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9716-4}{\doiprefix
+  \detokenize{10.1007/s10822-014-9716-4}}.
+
+\bibitem[{Santos-Martins et~al.(2016)Santos-Martins, Diogo and Fernandes, Pedro
+  Alexandrino and Ramos, Maria Jo{\~a}o}]{santos-martins_calculation_2016}
+\textbf{\color{eLifeMediumGrey} Santos-Martins D}, Fernandes PA, Ramos MJ.
+\newblock Calculation of Distribution Coefficients in the {{SAMPL5}} Challenge
+  from Atomic Solvation Parameters and Surface Areas.
+\newblock J Comput Aided Mol Des.  2016 Sep; 30(11):1079--1086.
+\newblock \href{https://dx.doi.org/10.1007/s10822-016-9951-y}{\doiprefix
+  \detokenize{10.1007/s10822-016-9951-y}}.
+
+\bibitem[{K{\"o}nig et~al.(2016)K{\"o}nig, Gerhard and Pickard, Frank C. and
+  Huang, Jing and Simmonett, Andrew C. and Tofoleanu, Florentina and Lee,
+  Juyong and Dral, Pavlo O. and Prasad, Samarjeet and Jones, Michael and Shao,
+  Yihan and Thiel, Walter and Brooks, Bernard R.}]{konig_calculating_2016}
+\textbf{\color{eLifeMediumGrey} K{\"o}nig G}, Pickard FC, Huang J, Simmonett
+  AC, Tofoleanu F, Lee J, Dral PO, Prasad S, Jones M, Shao Y, Thiel W, Brooks
+  BR.
+\newblock Calculating Distribution Coefficients Based on Multi-Scale Free
+  Energy Simulations: An Evaluation of {{MM}} and {{QM}}/{{MM}} Explicit
+  Solvent Simulations of Water-Cyclohexane Transfer in the {{SAMPL5}}
+  Challenge.
+\newblock J Comput Aided Mol Des.  2016 Aug; 30(11):989--1006.
+\newblock \href{https://dx.doi.org/10.1007/s10822-016-9936-x}{\doiprefix
+  \detokenize{10.1007/s10822-016-9936-x}}.
+
+\bibitem[{Klamt and Diedenhofen(2010)Klamt, Andreas and Diedenhofen,
+  Michael}]{klamt_blind_2010}
+\textbf{\color{eLifeMediumGrey} Klamt A}, Diedenhofen M.
+\newblock Blind Prediction Test of Free Energies of Hydration with
+  {{COSMO}}-{{RS}}.
+\newblock J Comput Aided Mol Des.  2010 Apr; 24(4):357--360.
+\newblock \href{https://dx.doi.org/10.1007/s10822-010-9354-4}{\doiprefix
+  \detokenize{10.1007/s10822-010-9354-4}}.
+
+\bibitem[{Pickard et~al.(2016)Pickard, Frank C. and K{\"o}nig, Gerhard and
+  Tofoleanu, Florentina and Lee, Juyong and Simmonett, Andrew C. and Shao,
+  Yihan and Ponder, Jay W. and Brooks, Bernard
+  R.}]{Pickard:2016:JComputAidedMolDes}
+\textbf{\color{eLifeMediumGrey} Pickard FC}, K{\"o}nig G, Tofoleanu F, Lee J,
+  Simmonett AC, Shao Y, Ponder JW, Brooks BR.
+\newblock Blind Prediction of Distribution in the {{SAMPL5}} Challenge with
+  {{QM}} Based Protomer and {{pKa}} Corrections.
+\newblock J Comput Aided Mol Des.  2016 Sep; 30(11):1--14.
+\newblock \href{https://dx.doi.org/10.1007/s10822-016-9955-7}{\doiprefix
+  \detokenize{10.1007/s10822-016-9955-7}}.
+
+\bibitem[{Caldararu et~al.(2017)Caldararu, Octav and Olsson, Martin A. and
+  Riplinger, Christoph and Neese, Frank and Ryde, Ulf}]{caldararu_binding_2016}
+\textbf{\color{eLifeMediumGrey} Caldararu O}, Olsson MA, Riplinger C, Neese F,
+  Ryde U.
+\newblock Binding Free Energies in the {{SAMPL5}} Octa-Acid
+  Host\textendash{}guest Challenge Calculated with {{DFT}}-{{D3}} and
+  {{CCSD}}({{T}}).
+\newblock J Comput Aided Mol Des.  2017; 31(1):87--106.
+\newblock \href{https://dx.doi.org/10.1007/s10822-016-9957-5}{\doiprefix
+  \detokenize{10.1007/s10822-016-9957-5}}.
+
+\bibitem[{Mikulskis et~al.(2011)Mikulskis, Paulius and Genheden, Samuel and
+  Rydberg, Patrik and Sandberg, Lars and Olsen, Lars and Ryde,
+  Ulf}]{mikulskis_binding_2011}
+\textbf{\color{eLifeMediumGrey} Mikulskis P}, Genheden S, Rydberg P, Sandberg
+  L, Olsen L, Ryde U.
+\newblock Binding Affinities in the {{SAMPL3}} Trypsin and
+  Host\textendash{}guest Blind Tests Estimated with the {{MM}}/{{PBSA}} and
+  {{LIE}} Methods.
+\newblock J Comput Aided Mol Des.  2011 Dec; 26(5):527--541.
+\newblock \href{https://dx.doi.org/10.1007/s10822-011-9524-z}{\doiprefix
+  \detokenize{10.1007/s10822-011-9524-z}}.
+
+\bibitem[{Gosink et~al.(2017)Gosink, Luke J. and Overall, Christopher C. and
+  Reehl, Sarah M. and Whitney, Paul D. and Mobley, David L. and Baker, Nathan
+  A.}]{Gosink:2017:J.Phys.Chem.B}
+\textbf{\color{eLifeMediumGrey} Gosink LJ}, Overall CC, Reehl SM, Whitney PD,
+  Mobley DL, Baker NA.
+\newblock Bayesian {{Model Averaging}} for {{Ensemble}}-{{Based Estimates}} of
+  {{Solvation}}-{{Free Energies}}.
+\newblock J Phys Chem B.  2017 Apr; 121(15):3458--3472.
+\newblock \href{https://dx.doi.org/10.1021/acs.jpcb.6b09198}{\doiprefix
+  \detokenize{10.1021/acs.jpcb.6b09198}}.
+
+\bibitem[{Ellingson et~al.(2010)Ellingson, Benjamin A. and Skillman, A.
+  Geoffrey and Nicholls, Anthony}]{ellingson_analysis_2010}
+\textbf{\color{eLifeMediumGrey} Ellingson BA}, Skillman AG, Nicholls A.
+\newblock Analysis of {{SM8}} and {{Zap TK}} Calculations and Their Geometric
+  Sensitivity.
+\newblock J Comput Aided Mol Des.  2010 Apr; 24(4):335--342.
+\newblock \href{https://dx.doi.org/10.1007/s10822-010-9355-3}{\doiprefix
+  \detokenize{10.1007/s10822-010-9355-3}}.
+
+\bibitem[{Tofoleanu et~al.(2017)Tofoleanu, Florentina and Lee, Juyong and
+  Pickard IV., Frank C. and K{\"o}nig, Gerhard and Huang, Jing and Baek,
+  Minkyung and Seok, Chaok and Brooks, Bernard R.}]{tofoleanu_absolute_2016}
+\textbf{\color{eLifeMediumGrey} Tofoleanu F}, Lee J, Pickard~IV FC, K{\"o}nig
+  G, Huang J, Baek M, Seok C, Brooks BR.
+\newblock Absolute Binding Free Energy Calculations for Octa-Acids and Guests.
+\newblock J Comput Aided Mol Des.  2017; 31(1):107--118.
+
+\bibitem[{Kulp et~al.(2012)Kulp, John L. and Blumenthal, Seth N. and Wang,
+  Qiang and Bryan, Richard L. and Guarnieri, Frank}]{kulp_fragment-based_2012}
+\textbf{\color{eLifeMediumGrey} Kulp JL}, Blumenthal SN, Wang Q, Bryan RL,
+  Guarnieri F.
+\newblock A Fragment-Based Approach to the {{SAMPL3 Challenge}}.
+\newblock J Comput Aided Mol Des.  2012 Jan; 26(5):583--594.
+\newblock \href{https://dx.doi.org/10.1007/s10822-012-9546-1}{\doiprefix
+  \detokenize{10.1007/s10822-012-9546-1}}.
+
+\bibitem[{Bosisio et~al.(2017)Bosisio, Stefano and Mey, Antonia S. J. S. and
+  Michel, Julien}]{bosisio_blinded_2016}
+\textbf{\color{eLifeMediumGrey} Bosisio S}, Mey ASJS, Michel J.
+\newblock Blinded Predictions of Host-Guest Standard Free Energies of Binding
+  in the {{SAMPL5}} Challenge.
+\newblock J Comput Aided Mol Des.  2017; 31(1):61--70.
+
+\bibitem[{Muddana et~al.(2014)Muddana, Hari S. and Yin, Jian and Sapra, Neil V.
+  and Fenley, Andrew T. and Gilson, Michael K.}]{muddana_blind_2014}
+\textbf{\color{eLifeMediumGrey} Muddana HS}, Yin J, Sapra NV, Fenley AT, Gilson
+  MK.
+\newblock Blind Prediction of {{SAMPL4}} Cucurbit[7]Uril Binding Affinities
+  with the Mining Minima Method.
+\newblock J Comput Aided Mol Des.  2014 Feb; 28(4):463--474.
+\newblock \href{https://dx.doi.org/10.1007/s10822-014-9726-2}{\doiprefix
+  \detokenize{10.1007/s10822-014-9726-2}}.
 
 \end{thebibliography}
