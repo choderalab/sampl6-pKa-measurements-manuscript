@@ -511,6 +511,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/opensans/OpenSans-Regular-0
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/opensans/OpenSans-Regular-02.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/opensans/OpenSans-Regular-03.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/opensans/OpenSans-Regular-04.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/opensans/OpenSans-BoldItalic-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/opensans/OpenSans-Regular-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/opensans/OpenSans-Bold-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/opensans/OpenSans-Bold-t1.vf
@@ -518,6 +519,11 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/opensans/OpenSans-Bold-01.t
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/opensans/OpenSans-Bold-02.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/opensans/OpenSans-Bold-03.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/opensans/OpenSans-Bold-04.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/opensans/OpenSans-BoldItalic-t1.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/opensans/OpenSans-BoldItalic-01.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/opensans/OpenSans-BoldItalic-02.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/opensans/OpenSans-BoldItalic-03.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/opensans/OpenSans-BoldItalic-04.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/opensans/OpenSans-Bold-t1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/opensans/OpenSans-Bold-01.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/opensans/OpenSans-Bold-02.tfm
@@ -565,9 +571,9 @@ INPUT figures/SAMPL6_pKa_molecules_fig.pdf
 INPUT ./figures/SAMPL6_pKa_molecules_fig.pdf
 INPUT ./figures/SAMPL6_pKa_molecules_fig.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/opensans/OpenSans-Bold-t1.tfm
-INPUT figures/water_vs_cosolvent_pKa_values_correlation_figure.pdf
-INPUT ./figures/water_vs_cosolvent_pKa_values_correlation_figure.pdf
-INPUT ./figures/water_vs_cosolvent_pKa_values_correlation_figure.pdf
+INPUT figures/water_vs_cosolvent_pKa_values_correlation_plot.pdf
+INPUT ./figures/water_vs_cosolvent_pKa_values_correlation_plot.pdf
+INPUT ./figures/water_vs_cosolvent_pKa_values_correlation_plot.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/opensans/OpenSans-Bold-t1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/opensans/OpenSans-Bold-01.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/opensans/OpenSans-Bold-02.tfm
@@ -595,6 +601,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/opensans/opensans-02.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/opensans/opensans-04.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/opensans/opensans-03.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/opensans/OpenSans-Bold.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/opensans/OpenSans-BoldItalic.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/opensans/OpenSans-Italic.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/opensans/OpenSans-Regular.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb
