@@ -308,15 +308,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.1504824"
-     inkscape:cx="262.43482"
-     inkscape:cy="195.05855"
+     inkscape:zoom="1.1"
+     inkscape:cx="350.84297"
+     inkscape:cy="424.7703"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="710"
-     inkscape:window-x="1883"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      showguides="false" />
@@ -1093,7 +1093,9 @@
          id="tspan33082"
          x="528.91156"
          y="1043.0886"
-         style="fill:#0000ff;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:10px;">pKa<tspan
+         style="fill:#0000ff;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:10px;">pK<tspan
+   style="font-size:10px;baseline-shift:sub"
+   id="tspan4534">a</tspan><tspan
    style="font-size:10px;baseline-shift:sub;fill:#0000ff;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
    id="tspan33084">2</tspan></tspan></text>
     <g
@@ -1201,7 +1203,9 @@
            id="tspan33088"
            x="174.32155"
            y="1000.2462"
-           style="font-size:10px;fill:#0000ff;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">pKa<tspan
+           style="font-size:10px;fill:#0000ff;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">pK<tspan
+   style="font-size:10px;baseline-shift:sub"
+   id="tspan4528">a</tspan><tspan
    style="font-size:10px;baseline-shift:sub;fill:#0000ff;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
    id="tspan33090">1</tspan></tspan></text>
       <text
@@ -1215,7 +1219,9 @@
            id="tspan33100"
            x="260.47067"
            y="999.25116"
-           style="fill:#0000ff;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:10px;">pKa<tspan
+           style="fill:#0000ff;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:10px;">pK<tspan
+   style="font-size:10px;baseline-shift:sub"
+   id="tspan4530">a</tspan><tspan
    style="font-size:10px;baseline-shift:sub;fill:#0000ff;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
    id="tspan33102">2</tspan></tspan></text>
     </g>
@@ -1230,7 +1236,9 @@
          y="1043.0854"
          x="404.69614"
          id="tspan33106"
-         sodipodi:role="line">pKa<tspan
+         sodipodi:role="line">pK<tspan
+   style="font-size:10px;baseline-shift:sub"
+   id="tspan4532">a</tspan><tspan
    id="tspan33108"
    style="font-size:10px;baseline-shift:sub;fill:#0000ff;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">1</tspan></tspan></text>
     <text
@@ -1244,7 +1252,9 @@
          id="tspan33112"
          x="386.69614"
          y="873.08862"
-         style="font-size:10px;fill:#0000ff;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">pKa<tspan
+         style="font-size:10px;fill:#0000ff;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">pK<tspan
+   style="font-size:10px;baseline-shift:sub"
+   id="tspan4536">a</tspan><tspan
    style="font-size:10px;baseline-shift:sub;fill:#0000ff;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
    id="tspan33114">1</tspan></tspan></text>
     <text
@@ -1258,7 +1268,9 @@
          y="873.08862"
          x="416.91156"
          id="tspan33118"
-         sodipodi:role="line">pKa<tspan
+         sodipodi:role="line">pK<tspan
+   style="font-size:10px;baseline-shift:sub"
+   id="tspan4538">a</tspan><tspan
    id="tspan33120"
    style="font-size:10px;baseline-shift:sub;fill:#0000ff;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">2</tspan></tspan></text>
     <text
@@ -1272,7 +1284,9 @@
          id="tspan33124"
          x="528.91156"
          y="873.08862"
-         style="font-size:10px;fill:#0000ff;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">pKa<tspan
+         style="font-size:10px;fill:#0000ff;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">pK<tspan
+   style="font-size:10px;baseline-shift:sub"
+   id="tspan4540">a</tspan><tspan
    style="font-size:10px;baseline-shift:sub;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
    id="tspan33128">3</tspan></tspan></text>
     <text
@@ -1286,7 +1300,9 @@
          y="773.08862"
          x="76.696136"
          id="tspan33132"
-         sodipodi:role="line">pKa<tspan
+         sodipodi:role="line">pK<tspan
+   style="font-size:10px;baseline-shift:sub"
+   id="tspan4522">a</tspan><tspan
    id="tspan33134"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;baseline-shift:sub;fill:#0000ff">1</tspan></tspan></text>
     <text
@@ -1300,7 +1316,9 @@
          id="tspan33138"
          x="150.91156"
          y="773.08862"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;fill:#0000ff">pKa<tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;fill:#0000ff">pK<tspan
+   style="font-size:10px;baseline-shift:sub"
+   id="tspan4524">a</tspan><tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;baseline-shift:sub;fill:#0000ff"
    id="tspan33140">2</tspan></tspan></text>
     <text
@@ -1314,7 +1332,9 @@
          y="773.08862"
          x="226.91156"
          id="tspan33144"
-         sodipodi:role="line">pKa<tspan
+         sodipodi:role="line">pK<tspan
+   style="font-size:10px;baseline-shift:sub"
+   id="tspan4526">a</tspan><tspan
    id="tspan33146"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;baseline-shift:sub">3</tspan></tspan></text>
     <text
@@ -1332,13 +1352,13 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="106.21547"
-       y="579.30524"
+       y="573.30524"
        id="text33156"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan33158"
          x="106.21547"
-         y="579.30524"
+         y="573.30524"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">B    <tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:Helvetica"
    id="tspan33251">Microstates determined by NMR</tspan></tspan></text>
@@ -1359,26 +1379,26 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="6.3977661"
-       y="911.07214"
+       y="909.07214"
        id="text33172"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan33174"
          x="6.3977661"
-         y="911.07214">D  <tspan
+         y="909.07214">D  <tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:Helvetica"
    id="tspan33255">Macrostates observed by UV-metric titration</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="7.0325317"
-       y="579.30524"
+       y="573.30524"
        id="text33180"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan33182"
          x="7.0325317"
-         y="579.30524">A</tspan></text>
+         y="573.30524">A</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text30216"
