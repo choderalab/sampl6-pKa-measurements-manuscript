@@ -248,7 +248,7 @@
     \bigskip\@contribution\par\fi
     \ifx\empty\@presentaddress\else
     \bigskip\textbf{Present address: }\@presentaddress\par\fi
-    \bigskip
+    %\bigskip
     \ifx\empty\@deceased\else\@deceased\par\fi
 }
 
@@ -256,7 +256,8 @@
   %\marginpar{\raggedright\footnotesize
   %\par}
   \AB@affillist\par
-  \bigskip
+  %\bigskip
+  \vspace{0.1cm}
   {\small \themetadata}}{}{}
   
 \RequirePackage{environ}
