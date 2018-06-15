@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.13)  13 JUN 2018 23:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.13)  15 JUN 2018 21:32
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2631,7 +2631,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 355.
 
 
-<figures/SM22_cosolvent_extrapolation_fig.pdf, id=560, 256.0748pt x 512.1496pt>
+<figures/SM22_cosolvent_extrapolation_fig.pdf, id=572, 256.0748pt x 512.1496pt>
 File: figures/SM22_cosolvent_extrapolation_fig.pdf Graphic file (type pdf)
 <use figures/SM22_cosolvent_extrapolation_fig.pdf>
 Package pdftex.def Info: figures/SM22_cosolvent_extrapolation_fig.pdf used on i
@@ -2678,7 +2678,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 476.
 
-<figures/SAMPL6_pKa_molecules_fig.pdf, id=625, 542.025pt x 722.7pt>
+<figures/SAMPL6_pKa_molecules_fig.pdf, id=637, 542.025pt x 722.7pt>
 File: figures/SAMPL6_pKa_molecules_fig.pdf Graphic file (type pdf)
 
 <use figures/SAMPL6_pKa_molecules_fig.pdf>
@@ -2709,7 +2709,7 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  []
 
 [15 <./figures/SAMPL6_pKa_molecules_fig.pdf>]
-<figures/water_vs_cosolvent_pKa_values_correlation_plot.pdf, id=766, 433.62pt x
+<figures/water_vs_cosolvent_pKa_values_correlation_plot.pdf, id=778, 433.62pt x
  433.62pt>
 File: figures/water_vs_cosolvent_pKa_values_correlation_plot.pdf Graphic file (
 type pdf)
@@ -2723,12 +2723,15 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  []
 
 [16]
+Overfull \vbox (2.93277pt too high) has occurred while \output is active []
+
+
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
 [17 <./figures/water_vs_cosolvent_pKa_values_correlation_plot.pdf>]
-<figures/NMR_microstates_figure.pdf, id=931, 722.7pt x 542.025pt>
+<figures/NMR_microstates_figure.pdf, id=943, 722.7pt x 542.025pt>
 File: figures/NMR_microstates_figure.pdf Graphic file (type pdf)
 
 <use figures/NMR_microstates_figure.pdf>
@@ -2849,14 +2852,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 869.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 869.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 869.
 Package rerunfilecheck Info: File `elife-template.out' has not changed.
-(rerunfilecheck)             Checksum: A338E45DC9B6C9ECFB702235BC268074;2161.
+(rerunfilecheck)             Checksum: 2FE629C49E2F66DE7A07A23033B68FB2;2163.
  ) 
 Here is how much of TeX's memory you used:
- 38545 strings out of 493013
- 741879 string characters out of 6135682
- 961450 words of memory out of 5000000
+ 38551 strings out of 493013
+ 742017 string characters out of 6135682
+ 961773 words of memory out of 5000000
  40302 multiletter control sequences out of 15000+600000
- 279301 words of font info for 988 fonts, out of 8000000 for 9000
+ 279816 words of font info for 993 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,15n,72p,10429b,1016s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{/usr/share/t
@@ -2875,10 +2878,10 @@ ist/fonts/type1/public/stix/stix-mathex.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/stix/stix-mathit.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/stix/stix-mathrm.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/s
 tix/stix-mathscr.pfb>
-Output written on elife-template.pdf (27 pages, 2036982 bytes).
+Output written on elife-template.pdf (27 pages, 2042616 bytes).
 PDF statistics:
- 1243 PDF objects out of 1440 (max. 8388607)
- 952 compressed objects within 10 object streams
+ 1255 PDF objects out of 1440 (max. 8388607)
+ 960 compressed objects within 10 object streams
  136 named destinations out of 1000 (max. 500000)
  78613 words of extra memory for PDF output out of 89155 (max. 10000000)
 

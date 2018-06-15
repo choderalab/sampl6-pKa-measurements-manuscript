@@ -105,17 +105,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.93303299"
-     inkscape:cx="95.157462"
-     inkscape:cy="230.46819"
+     inkscape:zoom="1.17"
+     inkscape:cx="257.90421"
+     inkscape:cy="264.65622"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="710"
-     inkscape:window-x="0"
-     inkscape:window-y="1"
-     inkscape:window-maximized="1" />
+     inkscape:window-x="1859"
+     inkscape:window-y="22"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -124,7 +124,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -266,7 +266,9 @@
            id="tspan3368"
            y="622.44574"
            x="97.450958"
-           sodipodi:role="line">- at least one pKa value in range 3-11</tspan><tspan
+           sodipodi:role="line">- at least one pK<tspan
+   style="font-size:11.25px;baseline-shift:sub"
+   id="tspan4284">a</tspan> value in range 3-11</tspan><tspan
            id="tspan3370"
            y="636.50824"
            x="97.450958"
@@ -293,7 +295,9 @@
              id="tspan3402"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:Helvetica;-inkscape-font-specification:Helvetica"><tspan
                id="tspan3705"
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">    predicted logP filter</tspan></tspan></tspan><tspan
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">    predicted log<tspan
+   style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold Italic'"
+   id="tspan4296">P</tspan> filter</tspan></tspan></tspan><tspan
            id="tspan3396"
            y="697.77014"
            x="130.76151"
@@ -379,7 +383,9 @@
            y="876.28528"
            x="73.844513"
            id="tspan3635"
-           sodipodi:role="line">filter out molecules with experimental logP  </tspan></text>
+           sodipodi:role="line">filter out molecules with experimental log<tspan
+   style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold Italic'"
+   id="tspan4298">P</tspan></tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text3428"
@@ -527,7 +533,9 @@
            id="tspan3488"
            y="971.54968"
            x="13.041779"
-           sodipodi:role="line">3. Target broad and uniform sampling of logP dynamic range</tspan><tspan
+           sodipodi:role="line">3. Target broad and uniform sampling of log<tspan
+   style="-inkscape-font-specification:'Helvetica Italic';font-family:Helvetica;font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal"
+   id="tspan4300">P</tspan> dynamic range</tspan><tspan
            id="tspan3516"
            y="985.61218"
            x="13.041779"
@@ -911,5 +919,16 @@
          y="799.55139"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold';text-align:center;text-anchor:middle;fill:#ffffff;"
          id="tspan3552">fragment libraries</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="204.2735"
+       y="688.25958"
+       id="text4290"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4292"
+         x="204.2735"
+         y="688.25958" /></text>
   </g>
 </svg>
