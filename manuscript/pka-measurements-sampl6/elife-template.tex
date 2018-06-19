@@ -160,7 +160,7 @@ Cysteine provides an example of this behavior with its two macroscopic \pKa{}s o
 While four microscopic \pKa{}s can be defined for cysteine, experimentally observed \pKa{} values cannot be assigned to individual functional groups directly (Figure~\ref{fig:cys_vs_gly}, \emph{top}), and more advanced techniques capable of resolving individual protonation sites---such as NMR~\citep{bezencon_pka_2014}, Raman spectroscopy~\citep{elson_raman_1962, elbagerma_raman_2011}, and the analysis of \pKa{}s in molecular fragments or derivatives---are required to unambiguously assign the site of protonation state changes. 
 On the other hand, when there is a large difference between microscopic \pKa{}s in a multiprotic molecule, the proton dissociations won't overlap and macroscopic \pKa{}s observed by experiments can be assigned to individual titratable groups. 
 The \pKa{} values of glycine provide a good example of this scenario (Figure~\ref{fig:cys_vs_gly}, \emph{bottom})~\citep{bodner_assigning_1986,elson_raman_1962,darvey_assignment_1995}. 
-We recommend the short review on the assignment of \pKa values authored by Ivan G. Darvey~\citep{darvey_assignment_1995} for a good introduction to the concepts of macroscopic \emph{vs} microscopic \pKa{} values.
+We recommend the short review on the assignment of \pKa{} values authored by Ivan G. Darvey~\citep{darvey_assignment_1995} for a good introduction to the concepts of macroscopic \emph{vs} microscopic \pKa{} values.
 
 \begin{figure}
 \begin{center}
@@ -257,7 +257,7 @@ To extract availability and price information from eMolecules, we queried using 
 We further filtered the intersection set (1204 compounds) based on delivery time (Tier~1 suppliers, two-week delivery) and at least 100~mg availability in powder form (format: Supplier Standard Vial).  
 We aimed to purchase 100~mg of each compound in powder form with at least 90\% purity. We calculated 100~mg was enough for optimization and replicate experiments to measure \pKa{}, \logP{}, and solubility measurements with the Sirius T3. 
 Each UV-metric and pH-metric \pKa{} measurement requires a minimum of 0.01~mg and~1.00 mg compound (solid or delivered via DMSO stock solution), respectively. 
-logP and pH-dependent solubility measurements require around 2~mg and 10~mg of solid chemical, respectively. 
+\logP{} and pH-dependent solubility measurements require around 2~mg and 10~mg of solid chemical, respectively. 
 
 \paragraph{Filtering for predicted measurable \pKa{}s and lack of experimental data}
 
@@ -320,7 +320,7 @@ Subsequent global data analysis identifies pH-dependent populations of macrostat
 
 DMSO stock solutions of each compound with 10~mg/ml concentration were prepared by weighing 1~mg of powder chemical with a Sartorius Analytical Balance (Model: ME235P) and dissolving it in 100~{\micro}L DMSO (Dimethyl sulfoxide, Fisher Bioreagents, CAT: BP231-100, LOT: 116070, purity $\geq$ 99.7\%).  
 DMSO stock solutions were capped immediately to limit water absorption from the atmosphere due to the high hygroscopicity of DMSO and sonicated for 5--10 minutes in a water bath sonicator at room temperature to ensure proper dissolution. 
-These DMSO stock solutions were stored in room temperature up to two~weeks in capped glass vials. 
+These DMSO stock solutions were stored at room temperature up to two~weeks in capped glass vials. 
 10~mg/ml DMSO solutions were used as stock solutions for the preparation of three replicate samples for the independent titrations.  
 For each experiment, 1--5~{\micro}L of 10~mg/ml DMSO stock solution was delivered to a 4~mL Sirius T3 glass sample vial with an electronic micropipette (Rainin EDP3 LTS 1--10~{\micro}L). 
 The volume of delivered DMSO stock solution, which determines the sample concentration following dilution by the Sirius T3, is optimized individually for each compound to achieve sufficient but not saturated absorbance signal (targeting 0.5--1.0~AU) in the linear response region. 
@@ -333,7 +333,7 @@ Sample ionic strength was adjusted by dilution in 1.5~mL ionic strength-adjusted
 Analyte dilution, mixing, acid/base titration, and measurement of UV absorbance was automated by the Sirius T3 UV-metric \pKa{} measurement protocol. 
 The pH was titrated between pH~1.8 and 12.2 via the addition of acid (0.5~M HCl) and base (0.5~M KOH), targeting 0.2 pH steps between UV absorbance spectrum measurements. 
 Titrations were performed under argon flow on the surface of the sample solution to limit the absorption of carbon dioxide from air, which can alter the sample pH to a measurable degree. 
-To fully capture all sources of experimental variability, instead of performing three sequential pH titrations in the same sample solution, three replicate samples (prepared from the same DMSO stock solution) were subjected to one round of pH titration each. 
+To fully capture all sources of experimental variability, instead of performing three sequential pH titrations on the same sample solution, three replicate samples (prepared from the same DMSO stock solution) were subjected to one round of pH titration each. 
 Although this choice reduced throughput and increased analyte consumption, it limited the dilution of the analyte during multiple titrations, resulting in stronger absorbance signal for \pKa{} fitting. Under circumstances where analyte is scarce, it is also possible to do three sequential titrations using the same sample to limit consumption when the loss of accuracy is acceptable. 
 
 Visual inspection of the sample solutions after titration and inspection of the pH-dependent absorbance shift in the 500--600~nm region of the UV spectra was used to verify no detectable precipitation occurred during the course of the measurement. 
@@ -704,7 +704,7 @@ On the other hand, most computational \pKa{} prediction methods output microscop
 It is therefore difficult to use experimental macroscopic \pKa{} values to assess and train microscopic \pKa{} prediction methods directly without further means of annotating macroscopic-microscopic correspondence. 
 It is not straight-forward to infer the underlying microscopic \pKa{} values from macroscopic measurements of a polyprotic compound without complementary experiments that can provide structural information. Therefore, for future data collection efforts for evaluation of \pKa{} predictions, if measurement of \pKa{}s via NMR is not possible, we advise supplementing UV-metric measurements with NMR characterization of microstates to show if observed \pKa{}s are microscopic (related to a single group) or macroscopic (related to dissociation of multiple groups), as performed for SM07 and SM14 in this study. 
 
-Another source of complexity in interpreting macroscopic \pKa{} values is how the composition of macroscopic \pKa{}s can change between different experimental methods as illustrated in Figure~\ref{fig:micro_vs_macro_pKa}. Different subsets of microstates can become indistinguishable based on the type of signal the experimental method is constructed on. In potentiometric titrations, microstates with the same total charge are indistinguishable and are observed as one macroscopic population. In spectrophotometric pKa measurements, microstates whose populations, and therefore UV-absorbance spectra, change around the same pH value become indistinguishable.   
+Another source of complexity in interpreting macroscopic \pKa{} values is how the composition of macroscopic \pKa{}s can change between different experimental methods as illustrated in Figure~\ref{fig:micro_vs_macro_pKa}. Different subsets of microstates can become indistinguishable based on the type of signal the experimental method is constructed on. In potentiometric titrations, microstates with the same total charge are indistinguishable and are observed as one macroscopic population. In spectrophotometric \pKa{} measurements, microstates whose populations, and therefore UV-absorbance spectra, change around the same pH value become indistinguishable.   
 
 The "macroscopic" label is commonly ascribed to transitions between different ionization states of a molecule (all microstates that have the same total charge form one macrostate), but this definition only applies to potentiometric methods. 
 In UV-absorbance based methods, the principle that determines which microstates will be distinguishable is not charge or number of bound protons, but molecular absorbance changes, and how closely underlying microscopic \pKa{} values overlap. 
@@ -734,12 +734,12 @@ In the future \pKa{} challenges, it would be especially interesting to expand th
 Measuring the \pKa{} of molecules in organic solvents would be useful for guiding process chemistry. 
 To test such predictions, special \pKa{} experiments would need to be designed to measure \pKa{}s under different conditions.
 
-The next iteration of the SAMPL \logD{} prediction challenge will include a subset of compounds from \pKa challenge. 
+The next iteration of the SAMPL \logD{} prediction challenge will include a subset of compounds from \pKa{} challenge. 
 We therefore envision that the collected dataset of \pKa{} measurements will also be of use for this challenge. 
 Experimental \pKa{} values will be provided as an input to separate the \pKa{} prediction issue from other problems related to \logD{} predictions.
 We expect that the experimental \pKa{}s can be used as an indication if protonation states need to be taken into account for a \logD{} prediction at a certain pH and for the validation of protonation state population predictions in the aqueous phase. 
 Even for compounds for which microstates were not experimentally determined, macroscopic \pKa{} value can serve as an indicator of how likely it is that protonation states will have a significant effect on the \logD{} of a molecule. Additionally, the information from NMR experiments in this study provided the site of protonation for six 4-aminoquinazoline compounds, which could be incorporated as microstate information for \logD{} predictions. 
-For predicting \logD{} we suggest as a rule of thumb to include protonation state effects for \pKa{} values at least within 2 units of the pH of the \logD{} experiment. \pKa values of six 4-aminoquinazoline compounds in this study were determined to be within 2 pKa units from 7.
+For predicting \logD{} we suggest as a rule of thumb to include protonation state effects for \pKa{} values at least within 2 units of the pH of the \logD{} experiment. \pKa{} values of six 4-aminoquinazoline compounds in this study were determined to be within 2 \pKa{} units from 7.
 % For example if using relative solvation free energies this would be an indicator that accuracy would be limited to maximally 2 kcal/mol if protonation states are not taken into account. \todo[color=cyan!25]{Add statement in terms of kcal/mol (1.38 per pK unit in free energy? or the correct number for 2 pH units) like in your presentation}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -753,12 +753,12 @@ The challenge was constructed for a set of fragment-like and drug-like small mol
 We collected \pKa{} values for 24 compounds with the Sirius T3 UV-metric titration method, which were then used as the experimental reference dataset for the SAMPL6 \pKa{} challenge.
 For compounds with poor aqueous solubilities we were able to use the Yasuda-Shedlovsky extrapolation method to measure \pKa{} values in the presence of methanol, and extrapolate to a purely aqueous phase.
 
-In our work, we highlighted the distinction between microscopic and macroscopic \pKa{}s which is based on the experimental method used, especially how underlying microstate composition can be different for macroscopic \pKa{}s measured with UV-metric vs pH-metric titration methods. 
+In our work, we highlighted the distinction between microscopic and macroscopic \pKa{}s which is based on the experimental method used, especially how underlying microstate composition can be different for macroscopic \pKa{} values measured with UV-metric vs pH-metric titration methods. 
 We discuss how macroscopic \pKa{} values, determined by UV, introduce an identifiability problem when comparing to microscopic computational predictions.
 For two compounds (SM07 and SM14) we were able to alleviate this problem by determining the sequence of microscopic protonation states using \textsuperscript{1}H-\textsuperscript{15}N HMBC experiments.
 Microstates of five other compounds with 4-aminoquinazoline scaffold were inferred based on the NMR characterization of SM07 microstates which showed that it is monoprotic. 
 
-The collected experimental data constitute a potentially useful dataset for future evaluation of small molecule \pKa predictions, even outside of SAMPL challenges. We expect that this data will also be useful for participants in the next SAMPL challenge on small molecule lipophilicity predictions.
+The collected experimental data constitute a potentially useful dataset for future evaluation of small molecule \pKa{} predictions, even outside of SAMPL challenges. We expect that this data will also be useful for participants in the next SAMPL challenge on small molecule lipophilicity predictions.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -837,7 +837,7 @@ JDC acknowledges support from NIH grant P30 CA008748.
 MI acknowledges Doris J.\ Hutchinson Fellowship. IEN acknowledges MRL Postdoctoral Research Program.
 The authors are extremely grateful for the assistance and support from the MRL Preformulations and NMR Structure Elucidation groups for materials, expertise, and instrument time, without which this SAMPL challenge would not have been possible.
 MI and DL are grateful to Pion/Sirius Analytical for their technical support in the planning and execution of this study. We are especially thankful to Karl Box for the guidance on optimization and interpretation of \pKa{} measurements with the Sirius T3. 
-We thank Brad Sherborne (MRL) for his valuable insights at the conception of the \pKa challenge and connecting us with TR and DL who were able to provide resources for experimental measurements. 
+We thank Brad Sherborne (MRL) for his valuable insights at the conception of the \pKa{} challenge and connecting us with TR and DL who were able to provide resources for experimental measurements. 
 We acknowledge Paul Czodrowski who provided feedback on multiple stages of this work: challenge construction, purchasable compound selection and manuscript. 
 We are also grateful to Marilyn Gunner for her feedback on this manuscript.
 We acknowledge contributions from Caitlin Bannan who provided feedback on experimental data collection and structure of \pKa{} challenge from a computational chemist's perspective. 
