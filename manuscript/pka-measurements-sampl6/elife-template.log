@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.13)  15 JUN 2018 21:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.13)  19 JUN 2018 18:18
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2520,7 +2520,7 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
-[3] <figures/cysteine_vs_glycine_fig.pdf, id=182, 421.10078pt x 412.56496pt>
+[3] <figures/cysteine_vs_glycine_fig.pdf, id=183, 421.10078pt x 412.56496pt>
 File: figures/cysteine_vs_glycine_fig.pdf Graphic file (type pdf)
 
 <use figures/cysteine_vs_glycine_fig.pdf>
@@ -2530,7 +2530,7 @@ Package pdftex.def Info: figures/cysteine_vs_glycine_fig.pdf used on input line
 LaTeX Font Info:    Font shape `T1/fos/bx/it' in size <8> not available
 (Font)              Font shape `T1/fos/b/it' tried instead on input line 172.
 
-<figures/microscopic_vs_macroscopic_populations_figure.pdf, id=187, 546.2929pt 
+<figures/microscopic_vs_macroscopic_populations_figure.pdf, id=188, 546.2929pt 
 x 398.3386pt>
 File: figures/microscopic_vs_macroscopic_populations_figure.pdf Graphic file (t
 ype pdf)
@@ -2855,11 +2855,11 @@ Package rerunfilecheck Info: File `elife-template.out' has not changed.
 (rerunfilecheck)             Checksum: 2FE629C49E2F66DE7A07A23033B68FB2;2163.
  ) 
 Here is how much of TeX's memory you used:
- 38551 strings out of 493013
- 742017 string characters out of 6135682
- 961773 words of memory out of 5000000
+ 38527 strings out of 493013
+ 741501 string characters out of 6135682
+ 961605 words of memory out of 5000000
  40302 multiletter control sequences out of 15000+600000
- 279816 words of font info for 993 fonts, out of 8000000 for 9000
+ 276907 words of font info for 973 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,15n,72p,10429b,1016s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{/usr/share/t
@@ -2878,7 +2878,7 @@ ist/fonts/type1/public/stix/stix-mathex.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/stix/stix-mathit.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/stix/stix-mathrm.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/s
 tix/stix-mathscr.pfb>
-Output written on elife-template.pdf (27 pages, 2042616 bytes).
+Output written on elife-template.pdf (27 pages, 2052072 bytes).
 PDF statistics:
  1255 PDF objects out of 1440 (max. 8388607)
  960 compressed objects within 10 object streams

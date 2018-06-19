@@ -124,7 +124,7 @@ To isolate these surprisingly large protonation state modeling errors from diffi
 This series of challenges will first evaluate the ability of current-generation modeling tools to predict acid dissociation constants (\pKa). 
 It will be followed by a partition/distribution coefficient challenge to evaluate the ability to incorporate experimentally-provided \pKa{} values into prediction of distribution coefficients to ensure methodologies can correctly incorporate protonation state effects into their predictions. 
 A third challenge stage will follow: a new blinded partition/distribution coefficient challenge where participants must predict \pKa{} values on their own.
-At the conclusion of this series of challenges, we will have ensured that modern physical and empirical modeling methods have eliminated this large source of spurious errors from modeling both simple and complex phenomena.
+At the conclusion of this series of challenges, we will ensure that modern physical and empirical modeling methods have eliminated this large source of spurious errors from modeling both simple and complex phenomena.
 
 This article reports on the experiments for the first stage of this series of challenges: SAMPL6 \pKa{} prediction challenge. 
 The selection of a small molecule set and collection of experimental \pKa{} data are described in detail.
@@ -157,7 +157,7 @@ For a molecule with multiple titratable groups, however, throughout a titration 
 For these multiprotic molecules, the experimentally-measured macroscopic \pKa{} will include contributions from multiple microscopic \pKa{}s with similar values (i.e., acid dissociation of multiple microstates). 
 Cysteine provides an example of this behavior with its two macroscopic \pKa{}s observable by spectrophotometric or potentiometric \pKa{} measurement experiments~\citep{bodner_assigning_1986,darvey_assignment_1995}. 
 
-While four microscopic \pKa{}s can be defined for cysteine, experimentally observed \pKa{} values can't be assigned to individual functional groups directly (Figure~\ref{fig:cys_vs_gly}, \emph{top}), and more advanced techniques capable of resolving individual protonation sites---such as NMR~\citep{bezencon_pka_2014}, Raman spectroscopy~\citep{elson_raman_1962, elbagerma_raman_2011}, and the analysis of \pKa{}s in molecular fragments or derivatives---are required to unambiguously assign the site of protonation state changes. 
+While four microscopic \pKa{}s can be defined for cysteine, experimentally observed \pKa{} values cannot be assigned to individual functional groups directly (Figure~\ref{fig:cys_vs_gly}, \emph{top}), and more advanced techniques capable of resolving individual protonation sites---such as NMR~\citep{bezencon_pka_2014}, Raman spectroscopy~\citep{elson_raman_1962, elbagerma_raman_2011}, and the analysis of \pKa{}s in molecular fragments or derivatives---are required to unambiguously assign the site of protonation state changes. 
 On the other hand, when there is a large difference between microscopic \pKa{}s in a multiprotic molecule, the proton dissociations won't overlap and macroscopic \pKa{}s observed by experiments can be assigned to individual titratable groups. 
 The \pKa{} values of glycine provide a good example of this scenario (Figure~\ref{fig:cys_vs_gly}, \emph{bottom})~\citep{bodner_assigning_1986,elson_raman_1962,darvey_assignment_1995}. 
 We recommend the short review on the assignment of \pKa values authored by Ivan G. Darvey~\citep{darvey_assignment_1995} for a good introduction to the concepts of macroscopic \emph{vs} microscopic \pKa{} values.
@@ -166,7 +166,7 @@ We recommend the short review on the assignment of \pKa values authored by Ivan 
 \begin{center}
 \includegraphics[width=0.65\linewidth]{figures/cysteine_vs_glycine_fig.pdf}
 \caption{{\bf Assignment of cysteine and glycine \pKa{} values.}  $pK_{a1}$, $pK_{a2}$, and $pK_{a3}$ are macroscopic acid dissociation constants for cysteine and glycine~\citep{sober_handbook_1970}. 
-When \pKa{} values of a polyprotic molecule are very different, such as in the case of glycine, it is possible to assign the \pKa{}s to individual groups since the dissociation of protons is stepwise~\citep{bodner_assigning_1986}. However, stepwise dissociation can not be assumed for cysteine, because $pK_{a2}$ and $pK_{a3}$ are very close in value. Four underlying microscopic \pKa s ($pK_{a,S}$, $pK_{a,N}$, $pK_{a,S'}$, and $pK_{a,N'}$) for cysteine were measured using UV spectra analysis of cysteine and derivatives~\citep{doi:10.1021/ja01627a030}.
+When \pKa{} values of a polyprotic molecule are very different, such as in the case of glycine, it is possible to assign the \pKa{}s to individual groups since the dissociation of protons is stepwise~\citep{bodner_assigning_1986}. However, stepwise dissociation cannot be assumed for cysteine, because $pK_{a2}$ and $pK_{a3}$ are very close in value. Four underlying microscopic \pKa s ($pK_{a,S}$, $pK_{a,N}$, $pK_{a,S'}$, and $pK_{a,N'}$) for cysteine were measured using UV spectra analysis of cysteine and derivatives~\citep{doi:10.1021/ja01627a030}.
 Notice that the proximity of $pK_{a,S}$ and $pK_{a,N}$ values indicates similar probability of proton dissociation from these groups. 
 This figure is adopted from \citep{bodner_assigning_1986}. 
 }
@@ -226,14 +226,14 @@ A higher concentration of analyte ($\sim$5~mM) is necessary for the potentiometr
 \label{fig:UVmetric_vs_pHmetric_pKa}
 \end{figure}
 
-Both UV-metric and pH-metric \pKa{} determination methods measure macroscopic \pKa{}s for polyprotic molecules, which can not be easily assigned to individual titration sites and underlying microstate populations in the absence of other experimental evidence that provides structural information, such as NMR (Figure~\ref{fig:micro_vs_macro_pKa}). 
+Both UV-metric and pH-metric \pKa{} determination methods measure macroscopic \pKa{}s for polyprotic molecules, which cannot be easily assigned to individual titration sites and underlying microstate populations in the absence of other experimental evidence that provides structural information, such as NMR (Figure~\ref{fig:micro_vs_macro_pKa}). 
 Macroscopic populations observed in these two methods are composed of different combinations of microstates depending on the principles of measurement technique. 
 In potentiometric titrations, microstates with same total charge will be observed as one macrostate, while in spectrophotometric titrations, protonation sites remote from chromophores might be spectroscopically invisible, and macrostates will be formed from collections of microstates that manifest similar UV-absorbance spectra.
 
 Spectrophotometric \pKa{} determination is more sensitive than potentiometric determination, requiring low analyte concentrations (50--100~\micro{}M)---especially advantageous for compounds with low solubilities---but is only applicable to titration sites near chromophores. 
 For protonation state changes to affect UV absorbance, a useful rule of thumb is that the protonation site should be a maximum of four heavy atoms away from the chromophore, which might consist of conjugated double bonds, carbonyl groups, aromatic rings, etc.
 Although potentiometric measurements do not suffer from the same observability limitations, higher analyte concentrations ($\sim$5~mM) are necessary for the analyte to provide sufficiently large enough buffering capacity signal above water to produce an accurate measurement. 
-The accuracy of \pKa{}s fit to potentiometric titrations can also be also sensitive to errors in the estimated concentration of the analyte in the sample solution, while UV-metric titrations are insensitive to concentration errors.
+The accuracy of \pKa{}s fit to potentiometric titrations can also be sensitive to errors in the estimated concentration of the analyte in the sample solution, while UV-metric titrations are insensitive to concentration errors.
 We therefore decided to adopt spectrophotometric measurements for collecting the experimental \pKa{} data for this challenge, and selected a compound set to ensure that all potential titration sites are in the vicinity of UV chromophores.
 
 Here, we report on the selection of SAMPL6 \pKa{} challenge compounds, their macroscopic \pKa{} values measured by UV-metric titrations using a Sirius T3, as well as NMR-based microstate characterization of two SAMPL6 compounds with ambiguous protonation states associated with the observed macroscopic \pKa{}s (SM07 and SM14). 
@@ -355,7 +355,7 @@ We selected compounds where titratable groups are close to potential chromophore
 \subsection{Cosolvent UV-metric \pKa{} measurements of molecules with poor aqueous solubilities}
 
 If analytes are not sufficiently soluble during the titration, \pKa{} values cannot be accurately determined via aqueous titration directly. 
-If precipitation occurs, the UV-absorbance signal from pH-dependent precipitate formation can not be differentiated from the pH-dependent signal of soluble microstate species. 
+If precipitation occurs, the UV-absorbance signal from pH-dependent precipitate formation cannot be differentiated from the pH-dependent signal of soluble microstate species. 
 For compounds with low aqueous solubility, \pKa{} values were estimated from multiple apparent \pKa{} measurements performed in ISA methanol:ISA water cosolvent solutions with various mole fractions, from which the \pKa{} at 0\% methanol (100\% ISA water) can be extrapolated. 
 This method is referred to as a UV-metric \psKa{} measurement in the Sirius T3 Manual~\citep{noauthor_sirius_2008}.
 
@@ -450,14 +450,14 @@ In this study, the chemical shifts of the titratable nitrogen nuclei were observ
 
 The structures of samples SM07 and SM14 were assigned via a suite of NMR experiments, which included \textsuperscript{1}H NMR, \textsuperscript{13}C NMR, homonuclear correlated spectroscopy (\textsuperscript{1}H-\textsuperscript{1}H COSY), heteronuclear single quantum coherence (\textsuperscript{1}H-\textsuperscript{13}C HSQC), \textsuperscript{13}C heteronuclear multiple-bond correlation (\textsuperscript{1}H-\textsuperscript{13}C-HMBC) and \textsuperscript{15}N heteronuclear multiple-bond correlation (\textsuperscript{1}H-\textsuperscript{15}N-HMBC)---see SI. 
 All NMR data used in this analysis were acquired on a Bruker 500~MHz spectrometer equipped with a 5~mm TCI CryoProbe\textsuperscript{TM} Prodigy at 298 K. 
-The poor solubility of the analytes prevented analysis in water and thus water-\textit{d}\textsubscript{2}/methanol-\textit{d}\textsubscript{4} mixture and acetonitrile-\textit{d}\textsubscript{3} were used as solvents. 
+The poor solubility of the analytes precluded analysis in water and thus water-\textit{d}\textsubscript{2}/methanol-\textit{d}\textsubscript{4} mixture and acetonitrile-\textit{d}\textsubscript{3} were used as solvents. 
 The basic sites were then determined by titration of the appropriate solutions of the samples with equivalent amounts of deutero-trifluoroacetic acid (TFA-\textit{d}) solution.
 
 \paragraph{SM07}
 
 5.8~mg of SM07 was dissolved in 600~{\micro}L of methanol-\textit{d}\textsubscript{4}:water-\textit{d}\textsubscript{2} (2:1 v/v ratio). 
 A 9\% v/v TFA-d solution in water-d2 was prepared, such that each 20~{\micro}L volume contained approximately 1 equivalent of TFA-\textit{d} with respect to the base.  
-SM07 solution was then titrated with the TFA-\textit{d} solution at 0.5, 1.0, 1.5, and 5.0 equivalents with a \textsuperscript{1}H-\textsuperscript{15}N HMBC spectra (optimized for 5~Hz) acquired after each TFA addition. 
+The SM07 solution was then titrated with the TFA-\textit{d} solution at 0.5, 1.0, 1.5, and 5.0 equivalents with \textsuperscript{1}H-\textsuperscript{15}N HMBC spectra (optimized for 5~Hz) acquired after each TFA addition. 
 A reference \textsuperscript{1}H-\textsuperscript{15}N HMBC experiment was first acquired on the SM07 solution prior to commencement of the titration.
 
 \paragraph{SM14}
@@ -465,7 +465,7 @@ A reference \textsuperscript{1}H-\textsuperscript{15}N HMBC experiment was first
 5.5~mg of SM14 was dissolved in 600~{\micro}L of acetonitrile-\textit{d}\textsubscript{3}. 
 A 10\% v/v TFA-\textit{d} solution in acetonitrile-\textit{d}\textsubscript{3} was prepared, 20~\micro L of which corresponds to 1 equivalent of TFA-\textit{d} with respect to the base.
 Further 1:10 dilution of the TFA-\textit{d} solution in acetonitrile-\textit{d}\textsubscript{3}, allowed measurement of 0.1 equivalent of TFA-\textit{d} per 20~{\micro}L of solution.  
-SM14 solution was then titrated with the TFA-\textit{d} solutions at 0.0, 0.5, 1.0, 1.1, 1.2, 1.3, 1.5, 1.8, 2.0, 2.1, 2.6, 5.1, and 10.1 equivalents. 
+The SM14 solution was then titrated with the TFA-\textit{d} solutions at 0.0, 0.5, 1.0, 1.1, 1.2, 1.3, 1.5, 1.8, 2.0, 2.1, 2.6, 5.1, and 10.1 equivalents. 
 The chemical shift changes were monitored by the acquisition of \textsuperscript{1}H-\textsuperscript{15}N HMBC spectra (optimized for 5~Hz) after each TFA addition.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -567,47 +567,47 @@ Mass inaccuracy of MS instrument is \textasciitilde0.13~um within the calibrated
 
 \subsection{Characterization of SM07 microstates with NMR}
 
-\textsuperscript{15}N Chemical shifts (ppm, referenced to ammonia at 0~ppm) for N-8, N-10 and N-12---measured from the \textsuperscript{1}H-\textsuperscript{15}N HMBC experiments---were plotted against the titrated TFA-\textit{d} equivalents (0.0, 0.5, 1.0, 1.5, and 5.0 equivalents) (Figure~\ref{fig:NMR_microstates}~A). 
+\textsuperscript{15}N Chemical shifts (ppm, referenced to external liquid ammonia at 0~ppm) for N-8, N-10 and N-12---measured from the \textsuperscript{1}H-\textsuperscript{15}N HMBC experiments---were plotted against the titrated TFA-\textit{d} equivalents (0.0, 0.5, 1.0, 1.5, and 5.0 equivalents) (Figure~\ref{fig:NMR_microstates}~A). 
 A large upfield shift of \textasciitilde82 ppm is observed for N-12. 
 The initial linear relationship between chemical shift and TFA equivalents, shown in Figure~SI~25 for N-12, is expected for strong monoprotic bases---as is the case for SM07. 
 The large upfield chemical shift change (82~ppm) is consistent with a charge delocalization as shown in the resonance structures inset of Figure~SI~25. 
-Further evidence for this delocalization is observed for N-8, which shows a downfield chemical shift change of \textasciitilde28 ppm compared to just \textasciitilde1.5 ppm for N-10. 
-Titration of SM07 with more than 1 equivalents of TFA-\textit{d} did not result in further significant chemical shift changes---establishing that SM07 is a monoprotic base(Figure~\ref{fig:NMR_microstates}A).
+Further evidence for this delocalization is observed for N-8, which exhibited a downfield chemical shift change of \textasciitilde28 ppm compared to just \textasciitilde1.5 ppm for N-10. 
+Titration of SM07 with more than 1 equivalent of TFA-\textit{d} did not result in further significant chemical shift changes---establishing that SM07 is a monoprotic base(Figure~\ref{fig:NMR_microstates}A).
 
 \subsection{Characterization of SM14 microstates with NMR}
 
 Determining the protonation sites for SM14, which has \pKa{} values of 2.58 and 5.30 (Table~\ref{UV-metric_pKa_table}), was more challenging due to multiple possible resonance structures in the mono- and di-protonated states. 
-We noticed that water/methanol co-solvent exhibited strong solvent effects, which complicated the data interpretation for SM14. 
+We noticed that the water/methanol co-solvent exhibited strong solvent effects, which complicated the data interpretation for SM14. 
 For instance, titration of SM14 in methanol/water (see SI) showed incomplete protonation of N-9 even after 5 equivalents of TFA-d were added. 
 This observation is consistent with UV-metric \psKa{} measurements done in methanol cosolvent, where both \psKa{} values were decreasing as the percentage of methanol was increased, making observation of these protonation states more difficult. 
 Thus the utilization of an aprotic solvent was necessary for unambiguous interpretation of the data.
 
-Acetonitrile-\textit{d}\textsubscript{3} was selected as our solvent of choice. 
+Due to the problem just delineated for the methanol/water cosolvent, acetonitrile-\textit{d}\textsubscript{3} was selected as our solvent of choice. 
 Titration of SM14 (5.5~mg) with up to 10 equivalents of TFA-\textit{d} in acetonitrile-\textit{d}\textsubscript{3} (0.0, 0.5, 1.0, 1.1, 1.2, 1.3, 1.5, 1.8, 2.0, 2.1, 2.6, 5.1, and 10.1 equivalents), provided a much clearer picture of its protonation states (Figure~\ref{fig:NMR_microstates}~B). N-9, with the large upfield chemical shift change \textasciitilde72 ppm at 1 equivalent of TFA-\textit{d}, clearly is the site of first protonation. 
-At this point, the downfield chemical shift changes observed for N-7 ($\Delta\delta \approx 6.5$) and N-16 ($\Delta\delta \approx 5$) can be attributed to electronic effects rather than a direct protonation. 
+Concurrently, the downfield chemical shift changes were observed for N-7 ($\Delta\delta \approx 6.5$) and N-16 ($\Delta\delta \approx 5$) that can be attributed to electronic effects rather than a direct protonation. 
 The large upfield shift for N-9 indicates this to be the site of first protonation; complete protonation was attained at roughly 2.5 equivalents of TFA-\textit{d}, suggesting that SM14 is a weak base under these experimental conditions. Following the protonation of N-9, a second protonation event occurs at N-16 nitrogen as evident by the upfield chemical shift change observed for N-16. 
 However, a continuous change in the chemical shift of N-16 even after addition of 10 equivalents of TFA-\text{d} indicates that this protonation event is incomplete but provides evidence for N-16 being the second protonation site. This observation is consistent with N-16 being even a weaker base than N-9, which is expected of the aniline-type amines. 
-Other notable observations are the slight downfield chemical shift changes for N-7 and N-9, during the second protonation event. 
-This is attributed to electronic effects from the protonation of N-16.
+Other notable observations were the slight downfield chemical shift changes for N-7 and N-9, during the second protonation event. 
+These changes were attributed to electronic effects from the protonation of N-16.
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=1.00\linewidth]{figures/NMR_microstates_figure.pdf}
 \caption{{\bf Dominant protonation microstates of SM07 and SM14 characterized by NMR.}  
 (\textbf{A}) Sequence of protonation sites of SM07 were determined by \textsuperscript{1}H-\textsuperscript{15}N HMBC experiments in 1:2 water:methanol mixture. 
-\textit{Left:} The plot of \textsuperscript{15}N chemical shifts of N-10, N-12, and N-8 of SM07 \textit{vs} titrated TFA-\textit{d} equivalents, showing the mono-protonation of N-12 as evidenced by its large upfield chemical shifts change. 
-Acidity of the medium increases as more equivalents of TFA-\textit{d} were added. 
-Electronic effects due to protonation of N-12 cause downfield chemical shift change of N-10 and N-8 between 0--1 equivalents of TFA-\textit{d}. 
-\textit{Right:} NMR-based model of the order of dominant protonation states for M07. 
-Only one protonation event was observed, at N-12.
+\textit{Left:} The plot of \textsuperscript{15}N chemical shifts of the N-10, N-12, and N-8 resonances of SM07 \textit{vs} titrated TFA-\textit{d} equivalents, showing the mono-protonation of N-12 as evidenced by its large upfield chemical shifts change. 
+Acidity of the medium increased as more equivalents of TFA-\textit{d} were added. 
+Electronic effects due to protonation of N-12 caused downfield chemical shift change of N-10 and N-8 between 0--1 equivalents of TFA-\textit{d}. 
+\textit{Right:} NMR-based model of the order of dominant protonation states for SM07. 
+The protonation event was only observed at N-12.
 Microstates shown in the figure are the most likely contributors to the UV-metric \pKa{} of $6.08 \pm 0.01$.
 (\textbf{B}) Sequence of protonation sites of SM14 were determined by \textsuperscript{1}H-\textsuperscript{15}N HMBC experiments in acetonitrile. 
 \textit{Left:} The plot of  \textsuperscript{15}N chemical shifts of N-9, N-7, and N-16 of SM14 \textit{vs} titrations of TFA-\textit{d} equivalents, showing two sequential protonation events. 
-The first protonation at N-9 with a large upfield chemical shift change of 71.6~ppm was seen between 0--1 equivalents of TFA-\textit{d}. 
-Downfield chemical shift change of N-7 and N-19 in this region were due the electronic effect from the protonation of N-9. N-16 also exhibited a small upfield chemical shift change of 4.4~ppm between 2.5--10 equivalents of TFA-\textit{d}, which indicated N-16 as the second site of protonation. 
-\textit{Right:} NMR based model of the order of dominant protonation states for M14, showing two sequential protonation events. 
+The first protonation occured at N-9; a large upfield chemical shift change of 71.6~ppm was seen between 0--1 equivalents of TFA-\textit{d}. 
+Downfield chemical shift changes observed for N-7 and N-19 in this region were due the electronic effect from the protonation of N-9. N-16 also exhibited a small upfield chemical shift change of 4.4~ppm between 2.5--10 equivalents of TFA-\textit{d}, which indicated N-16 as the second site of protonation. 
+\textit{Right:} NMR based model of the order of dominant protonation states for SM14, showing two sequential protonation events. 
 Also, two \pKa{} values were detected with UV-metric \pKa{} measurements for SM14. 
-Assuming sequence of protonation events will be conserved between water and acetonitrile solvents, SM14\textsuperscript{0} and SM14\textsuperscript{+1} microstates shown in the figure are the major contributors to the UV-metric \pKa{} value $5.30 \pm 0.01$. 
+Assuming that the sequence of protonation events will be conserved between water and acetonitrile solvents, SM14\textsuperscript{0} and SM14\textsuperscript{+1} microstates shown in the figure are the major contributors to the UV-metric \pKa{} value $5.30 \pm 0.01$. 
 SM14\textsuperscript{+1} and SM14\textsuperscript{+2} microstates shown in the figure are the major pair of microstates contributing to the UV-metric \pKa{} value $2.58 \pm 0.01$. 
 There could be minor microstates with very low populations that could not be distinguished in these NMR experiments.
 }
@@ -672,8 +672,8 @@ However, it is important to remember that if the measured \pKa{} is macroscopic,
 \subsection{NMR microstate characterization}
 
 The goal of NMR characterization was to collect information on microscopic states related to experimental \pKa{} measurements, i.e., determine exact sites of protonation. 
-\pKa{} measurements performed with spectrophotometric method provide macroscopic \pKa{} values, but do not provide information on the site(s) of protonation. 
-On the other hand, most computational prediction methods primarily predict microscopic \pKa{} values. 
+\pKa{} measurements performed with spectrophotometric method provide macroscopic \pKa{} values, but do not provide information on the specific site(s) of protonation. 
+Conversely, most computational prediction methods primarily predict microscopic \pKa{} values. 
 Protonation sites can be determined by NMR methods, although these measurements are very laborious in terms of data collection and interpretation compared to \pKa{} measurements with the automated Sirius T3. 
 Moreover, not all SAMPL6 molecules were suitable for NMR measurements due to the high sample concentration requirements (for methods other than proton NMR, such as \textsuperscript{13}C and \textsuperscript{15}N spectra) and limiting analyte solubility. 
 Heavy atom spectra that rely on natural isotope abundance require high sample concentrations (preferably in the order of 100~mM). It is possible that drug or drug-fragment-like compounds, such as the compounds used in this study, have insufficient aqueous solubility, limiting the choice of solvent and pH. 
@@ -681,9 +681,9 @@ It may be necessary to use organic cosolvents to prepare these high concentratio
 
 We performed NMR based microstate characterization only for SM07 and SM14. We were able to identify the order of dominant protonation microstates, as shown in Figure~\ref{fig:NMR_microstates}. 
 These pairs of microstates and the order of microscopic transitions can be associated with experimental \pKa s determined by UV-metric titrations, under the assumption that different organic solvents used in NMR measurements will have negligible effect on the sequence of microstates observed as the medium was titrated with acid, although shift in \pKa{} values is expected. NMR measurements for SM07 and SM14 were done in water:methanol (1:2 (v/v)) and acetonitrile solutions, respectively. 
-On the other hand, \pKa{} values of these two compounds were determined by UV-metric titrations in ISA water. Additional UV-metric \pKa{} measurements of these compounds with methanol as cosolvent showed that their \psKa{} values decreased as the cosolvent ratio increased (i.e., dielectric constant decreased) as expected from base titration sites. 
+On the other hand, \pKa{} values of these two compounds were determined by UV-metric titrations in ISA water. Additional UV-metric \pKa{} measurements of these compounds with methanol as a cosolvent showed that their \psKa{} values decreased as the cosolvent ratio increased (i.e., dielectric constant decreased) as expected from base titration sites. 
 Identification of SM07 and SM14 titratable sites type as base is consistent between NMR based models and UV-metric cosolvent titrations. 
-The order of microstates observed in the titration of NMR samples are very likely to corresponds to the dominant microstates associated with UV-metric \pKa{} measurements. N-12 of SM07 was observed as the only protonation site of SM07 during TFA-\textit{d} titration up to 5 equivalents which supports that SM07 is a mono-protic acid and UV-metric \pKa{} value $6.08 \pm 0.01$ corresponds to microscopic protonation of N-12. For SM14, two protonation sites were observed (N-16 and N-9, in the order of increasing \psKa). Microstate pairs shown in Figure~\ref{fig:NMR_microstates}B were determined as dominant contributors to UV-metric \pKa{}s $2.58 \pm 0.01 $ and $5.30 \pm 0.01$, although minor microspecies with very low populations (undetected in NMR experiments) could be contributing to macroscopic \pKa{} values observed by UV-metric method. 
+The order of microstates observed in the titration of NMR samples are very likely to corresponds to the dominant microstates associated with UV-metric \pKa{} measurements. N-12 of SM07 was observed as the only protonation site of SM07 during TFA-\textit{d} titration up to 5 equivalents which supports that SM07 is mono-protic and UV-metric \pKa{} value $6.08 \pm 0.01$ corresponds to microscopic protonation of N-12. For SM14, two protonation sites were observed (N-16 and N-9, in the order of increasing \psKa). Microstate pairs shown in Figure~\ref{fig:NMR_microstates}B were determined as dominant contributors to UV-metric \pKa{}s $2.58 \pm 0.01 $ and $5.30 \pm 0.01$, although minor microspecies with very low populations (undetected in NMR experiments) could be contributing to the macroscopic \pKa{} values observed by the UV-metric method. 
 
 In addition to SM07, there were five other 4-aminoquinazoline derivatives in the SAMPL6 set: SM02, SM04. SM09, SM12, and SM13. 
 For these series, all the potential titratable sites are located in 4-aminoquinazoline scaffold and there are no other additional titratable sites present in these compounds compared to SM07. 
@@ -807,9 +807,9 @@ The collected experimental data constitute a potentially useful dataset for futu
 
 \item FIGURE SI 1 - 24:  LC-MS Figures  
 
-\item FIGURE SI 25: NMR characterization of SM07 microstates  
+\item FIGURE SI 25-30: NMR characterization of SM07 microstates  
 
-\item FIGURE SI 26: NMR characterization of SM014 microstates  
+\item FIGURE SI 31-37: NMR characterization of SM14 microstates  
 \end{itemize}
 
 \paragraph{Extra files:}  
