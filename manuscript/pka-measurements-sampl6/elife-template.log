@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.13)  19 JUN 2018 22:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.13)  27 JUN 2018 17:56
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2251,42 +2251,42 @@ Package: threeparttable 2003/06/13  v 3.0
 (./elife-template.aux)
 \openout1 = `elife-template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 61.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 60.
-LaTeX Font Info:    Try loading font information for LS1+stix on input line 60.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 61.
+LaTeX Font Info:    Try loading font information for LS1+stix on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stix.fd
 File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
 )
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 60.
-LaTeX Font Info:    Try loading font information for LS2+stix on input line 60.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 61.
+LaTeX Font Info:    Try loading font information for LS2+stix on input line 61.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls2stix.fd
 File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
 )
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Try loading font information for T1+fos on input line 60.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Try loading font information for T1+fos on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/opensans/t1fos.fd
 File: t1fos.fd 2011/11/11 Fontinst v1.927 font definitions for T1/fos.
@@ -2323,7 +2323,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 60.
+LaTeX Info: Redefining \microtypecontext on input line 61.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2379,8 +2379,8 @@ Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 60.
-Package hyperref Info: Link coloring ON on input line 60.
+(lastpage)             ! on input line 61.
+Package hyperref Info: Link coloring ON on input line 61.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -2389,9 +2389,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count355
 )
-LaTeX Info: Redefining \ref on input line 60.
-LaTeX Info: Redefining \pageref on input line 60.
-LaTeX Info: Redefining \nameref on input line 60.
+LaTeX Info: Redefining \ref on input line 61.
+LaTeX Info: Redefining \pageref on input line 61.
+LaTeX Info: Redefining \nameref on input line 61.
 
 (./elife-template.out) (./elife-template.out)
 \@outlinefile=\write5
@@ -2400,7 +2400,7 @@ LaTeX Info: Redefining \nameref on input line 60.
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 60.
+. Activating mapping `default' on line 61.
 .................................................
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
@@ -2413,65 +2413,65 @@ File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 ABD: EveryShipout initializing macros
 \symgns@font=\mathgroup12
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/fos/m/n --> TS1/fos/bx/n on input line 60.
-Package gensymb Info: Math companion symbols declared on input line 60.
-LaTeX Info: Redefining \degree on input line 60.
-LaTeX Info: Redefining \celsius on input line 60.
+(Font)                  TS1/fos/m/n --> TS1/fos/bx/n on input line 61.
+Package gensymb Info: Math companion symbols declared on input line 61.
+LaTeX Info: Redefining \degree on input line 61.
+LaTeX Info: Redefining \celsius on input line 61.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 60.
-LaTeX Info: Redefining \ohm on input line 60.
-Package gensymb Info: Using \textohm for \ohm on input line 60.
-LaTeX Info: Redefining \micro on input line 60.
-Package gensymb Info: Using \textmu for \micro on input line 60.
+erthousand on input line 61.
+LaTeX Info: Redefining \ohm on input line 61.
+Package gensymb Info: Using \textohm for \ohm on input line 61.
+LaTeX Info: Redefining \micro on input line 61.
+Package gensymb Info: Using \textmu for \micro on input line 61.
 \c__siunitx_mathsf_int=\count356
 LaTeX Font Info:    Try loading font information for LS1+stixscr on input line 
-60.
+61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stixscr.fd
 File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
 )
 LaTeX Font Info:    Try loading font information for LS2+stixex on input line 6
-0.
+1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls2stixex.fd
 File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
 
 )
 LaTeX Font Info:    Try loading font information for LS1+stixfrak on input line
- 60.
+ 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stixfrak.fd
 File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
 )
 LaTeX Font Info:    Try loading font information for LS1+stixbb on input line 6
-0.
+1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stixbb.fd
 File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
 
 )
 LaTeX Font Info:    Try loading font information for LS2+stixcal on input line 
-60.
+61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls2stixcal.fd
 File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definiti
 ons
 )
 LaTeX Font Info:    Try loading font information for LS1+stixsf on input line 6
-0.
+1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stixsf.fd
 File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
 
 )
 LaTeX Font Info:    Try loading font information for LS2+stixtt on input line 6
-0.
+1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix/ls2stixtt.fd
 File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 
 )
-LaTeX Font Info:    Try loading font information for TS1+fos on input line 60.
+LaTeX Font Info:    Try loading font information for TS1+fos on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/opensans/ts1fos.fd
 File: ts1fos.fd 2011/11/11 Fontinst v1.927 font definitions for TS1/fos.
@@ -2482,20 +2482,20 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 \c__siunitx_mathtt_int=\count357
 LaTeX Font Info:    Font shape `T1/fos/bx/n' in size <9> not available
-(Font)              Font shape `T1/fos/b/n' tried instead on input line 63.
+(Font)              Font shape `T1/fos/b/n' tried instead on input line 64.
 LaTeX Font Info:    Font shape `T1/fos/bx/n' in size <22> not available
-(Font)              Font shape `T1/fos/b/n' tried instead on input line 63.
+(Font)              Font shape `T1/fos/b/n' tried instead on input line 64.
 LaTeX Font Info:    Font shape `T1/fos/bx/it' in size <22> not available
-(Font)              Font shape `T1/fos/b/it' tried instead on input line 63.
-LaTeX Font Info:    Calculating math sizes for size <22> on input line 63.
+(Font)              Font shape `T1/fos/b/it' tried instead on input line 64.
+LaTeX Font Info:    Calculating math sizes for size <22> on input line 64.
 LaTeX Font Info:    Font shape `T1/fos/bx/n' in size <15.39993> not available
-(Font)              Font shape `T1/fos/b/n' tried instead on input line 63.
+(Font)              Font shape `T1/fos/b/n' tried instead on input line 64.
 LaTeX Font Info:    Font shape `T1/fos/bx/n' in size <10> not available
-(Font)              Font shape `T1/fos/b/n' tried instead on input line 63.
+(Font)              Font shape `T1/fos/b/n' tried instead on input line 64.
 LaTeX Font Info:    Font shape `T1/fos/bx/n' in size <7.5> not available
-(Font)              Font shape `T1/fos/b/n' tried instead on input line 63.
+(Font)              Font shape `T1/fos/b/n' tried instead on input line 64.
 LaTeX Font Info:    Font shape `T1/fos/bx/n' in size <8> not available
-(Font)              Font shape `T1/fos/b/n' tried instead on input line 63.
+(Font)              Font shape `T1/fos/b/n' tried instead on input line 64.
 
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
@@ -2505,11 +2505,11 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
 
 ]
 LaTeX Font Info:    Font shape `T1/fos/bx/it' in size <9> not available
-(Font)              Font shape `T1/fos/b/it' tried instead on input line 88.
+(Font)              Font shape `T1/fos/b/it' tried instead on input line 89.
 LaTeX Font Info:    Font shape `T1/fos/bx/n' in size <6> not available
-(Font)              Font shape `T1/fos/b/n' tried instead on input line 88.
+(Font)              Font shape `T1/fos/b/n' tried instead on input line 89.
 LaTeX Font Info:    Font shape `T1/fos/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/fos/b/n' tried instead on input line 103.
+(Font)              Font shape `T1/fos/b/n' tried instead on input line 104.
 
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
@@ -2520,23 +2520,23 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
-[3] <figures/cysteine_vs_glycine_fig.pdf, id=183, 421.10078pt x 412.56496pt>
+[3] <figures/cysteine_vs_glycine_fig.pdf, id=184, 421.10078pt x 412.56496pt>
 File: figures/cysteine_vs_glycine_fig.pdf Graphic file (type pdf)
 
 <use figures/cysteine_vs_glycine_fig.pdf>
 Package pdftex.def Info: figures/cysteine_vs_glycine_fig.pdf used on input line
- 167.
+ 168.
 (pdftex.def)             Requested size: 288.32329pt x 282.47937pt.
 LaTeX Font Info:    Font shape `T1/fos/bx/it' in size <8> not available
-(Font)              Font shape `T1/fos/b/it' tried instead on input line 172.
+(Font)              Font shape `T1/fos/b/it' tried instead on input line 173.
 
-<figures/microscopic_vs_macroscopic_populations_figure.pdf, id=188, 546.2929pt 
+<figures/microscopic_vs_macroscopic_populations_figure.pdf, id=189, 546.2929pt 
 x 398.3386pt>
 File: figures/microscopic_vs_macroscopic_populations_figure.pdf Graphic file (t
 ype pdf)
  <use figures/microscopic_vs_macroscopic_populations_figure.pdf>
 Package pdftex.def Info: figures/microscopic_vs_macroscopic_populations_figure.
-pdf used on input line 179.
+pdf used on input line 180.
 (pdftex.def)             Requested size: 443.57848pt x 323.44873pt.
 
 Overfull \vbox (3.94563pt too high) has occurred while \output is active []
@@ -2552,12 +2552,12 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  []
 
 [5 <./figures/microscopic_vs_macroscopic_populations_figure.pdf>]
-<figures/UVmetric_vs_pHmetric_pKa_figure.pdf, id=322, 597.50786pt x 421.10078pt
+<figures/UVmetric_vs_pHmetric_pKa_figure.pdf, id=323, 597.50786pt x 421.10078pt
 >
 File: figures/UVmetric_vs_pHmetric_pKa_figure.pdf Graphic file (type pdf)
  <use figures/UVmetric_vs_pHmetric_pKa_figure.pdf>
 Package pdftex.def Info: figures/UVmetric_vs_pHmetric_pKa_figure.pdf used on in
-put line 209.
+put line 210.
 (pdftex.def)             Requested size: 443.57848pt x 312.61848pt.
 
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
@@ -2570,7 +2570,7 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  []
 
 [7 <./figures/UVmetric_vs_pHmetric_pKa_figure.pdf>]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 283.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 284.
 
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
@@ -2585,27 +2585,27 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
-[8] <figures/compound_selection_figure.pdf, id=417, 483.69685pt x 526.37596pt>
+[8] <figures/compound_selection_figure.pdf, id=418, 483.69685pt x 526.37596pt>
 File: figures/compound_selection_figure.pdf Graphic file (type pdf)
 
 <use figures/compound_selection_figure.pdf>
 Package pdftex.def Info: figures/compound_selection_figure.pdf used on input li
-ne 298.
+ne 299.
 (pdftex.def)             Requested size: 421.3982pt x 458.58592pt.
 LaTeX Font Info:    Font shape `T1/fos/bx/it' in size <10> not available
-(Font)              Font shape `T1/fos/b/it' tried instead on input line 313.
+(Font)              Font shape `T1/fos/b/it' tried instead on input line 314.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 313.
+(hyperref)                removing `\mathsurround' on input line 314.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 313.
+(hyperref)                removing `\z@' on input line 314.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 313.
+(hyperref)                removing `subscript' on input line 314.
 
 
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
@@ -2620,35 +2620,35 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
 [10 <./figures/compound_selection_figure.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 355.
+(hyperref)                removing `\mathsurround' on input line 356.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 355.
+(hyperref)                removing `\z@' on input line 356.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 355.
+(hyperref)                removing `subscript' on input line 356.
 
 
-<figures/SM22_cosolvent_extrapolation_fig.pdf, id=560, 256.0748pt x 512.1496pt>
+<figures/SM22_cosolvent_extrapolation_fig.pdf, id=561, 256.0748pt x 512.1496pt>
 File: figures/SM22_cosolvent_extrapolation_fig.pdf Graphic file (type pdf)
 <use figures/SM22_cosolvent_extrapolation_fig.pdf>
 Package pdftex.def Info: figures/SM22_cosolvent_extrapolation_fig.pdf used on i
-nput line 380.
+nput line 381.
 (pdftex.def)             Requested size: 221.78923pt x 443.59723pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 397.
+(hyperref)                removing `\mathsurround' on input line 398.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 397.
+(hyperref)                removing `\z@' on input line 398.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 397.
+(hyperref)                removing `subscript' on input line 398.
 
 
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
@@ -2668,35 +2668,35 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
 [13]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 476.
+(hyperref)                removing `\mathsurround' on input line 477.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 476.
+(hyperref)                removing `\z@' on input line 477.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 476.
+(hyperref)                removing `subscript' on input line 477.
 
-<figures/SAMPL6_pKa_molecules_fig.pdf, id=625, 542.025pt x 722.7pt>
+<figures/SAMPL6_pKa_molecules_fig.pdf, id=626, 542.025pt x 722.7pt>
 File: figures/SAMPL6_pKa_molecules_fig.pdf Graphic file (type pdf)
 
 <use figures/SAMPL6_pKa_molecules_fig.pdf>
 Package pdftex.def Info: figures/SAMPL6_pKa_molecules_fig.pdf used on input lin
-e 487.
+e 488.
 (pdftex.def)             Requested size: 443.57848pt x 591.45995pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 539.
+(hyperref)                removing `\mathsurround' on input line 540.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 539.
+(hyperref)                removing `\z@' on input line 540.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 539.
+(hyperref)                removing `subscript' on input line 540.
 
 
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
@@ -2709,13 +2709,13 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  []
 
 [15 <./figures/SAMPL6_pKa_molecules_fig.pdf>]
-<figures/water_vs_cosolvent_pKa_values_correlation_plot.pdf, id=766, 433.62pt x
+<figures/water_vs_cosolvent_pKa_values_correlation_plot.pdf, id=767, 433.62pt x
  433.62pt>
 File: figures/water_vs_cosolvent_pKa_values_correlation_plot.pdf Graphic file (
 type pdf)
  <use figures/water_vs_cosolvent_pKa_values_correlation_plot.pdf>
 Package pdftex.def Info: figures/water_vs_cosolvent_pKa_values_correlation_plot
-.pdf used on input line 549.
+.pdf used on input line 550.
 (pdftex.def)             Requested size: 221.78923pt x 221.79169pt.
 
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
@@ -2731,25 +2731,25 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  []
 
 [17 <./figures/water_vs_cosolvent_pKa_values_correlation_plot.pdf>]
-<figures/NMR_microstates_figure.pdf, id=931, 722.7pt x 542.025pt>
+<figures/NMR_microstates_figure.pdf, id=932, 722.7pt x 542.025pt>
 File: figures/NMR_microstates_figure.pdf Graphic file (type pdf)
 
 <use figures/NMR_microstates_figure.pdf>
 Package pdftex.def Info: figures/NMR_microstates_figure.pdf used on input line 
-595.
+596.
 (pdftex.def)             Requested size: 443.57848pt x 332.68587pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 643.
+(hyperref)                removing `\mathsurround' on input line 644.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 643.
+(hyperref)                removing `\z@' on input line 644.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 643.
+(hyperref)                removing `subscript' on input line 644.
 
 
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
@@ -2764,15 +2764,15 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
 [19 <./figures/NMR_microstates_figure.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 653.
+(hyperref)                removing `\mathsurround' on input line 654.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 653.
+(hyperref)                removing `\z@' on input line 654.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 653.
+(hyperref)                removing `subscript' on input line 654.
 
 
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
@@ -2782,15 +2782,15 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
 [20]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 694.
+(hyperref)                removing `\mathsurround' on input line 695.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 694.
+(hyperref)                removing `\z@' on input line 695.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 694.
+(hyperref)                removing `subscript' on input line 695.
 
 
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
@@ -2846,18 +2846,18 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  []
 
 [27] (./elife-template.suppinfo)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 869.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 869.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 870.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 870.
  (./elife-template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 869.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 869.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 870.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 870.
 Package rerunfilecheck Info: File `elife-template.out' has not changed.
 (rerunfilecheck)             Checksum: 2FE629C49E2F66DE7A07A23033B68FB2;2163.
  ) 
 Here is how much of TeX's memory you used:
  38527 strings out of 493013
  741501 string characters out of 6135682
- 961605 words of memory out of 5000000
+ 961646 words of memory out of 5000000
  40302 multiletter control sequences out of 15000+600000
  276907 words of font info for 973 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2878,10 +2878,10 @@ ist/fonts/type1/public/stix/stix-mathex.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/stix/stix-mathit.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/stix/stix-mathrm.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/s
 tix/stix-mathscr.pfb>
-Output written on elife-template.pdf (27 pages, 2047042 bytes).
+Output written on elife-template.pdf (27 pages, 2047238 bytes).
 PDF statistics:
- 1243 PDF objects out of 1440 (max. 8388607)
- 952 compressed objects within 10 object streams
+ 1244 PDF objects out of 1440 (max. 8388607)
+ 953 compressed objects within 10 object streams
  136 named destinations out of 1000 (max. 500000)
  78613 words of extra memory for PDF output out of 89155 (max. 10000000)
 
