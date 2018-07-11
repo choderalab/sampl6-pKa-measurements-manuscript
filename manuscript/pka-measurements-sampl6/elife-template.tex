@@ -653,7 +653,7 @@ Therefore, we confirmed the purities of SAMPL6 compounds with LC-MS.
 
 \subsection{Interpretation of UV-metric \pKa{} measurements}
 
-Multiwavelength absorbance analysis on the Sirius T3 allows for good resolution of \pKa{}s based on UV-absorbance change with respect to pH, but it is important to note that this method potentially produces \emph{macroscopic} \pKa{}s for polyprotic compounds. 
+Multiwavelength absorbance analysis on the Sirius T3 allows for good resolution of \pKa{}s based on UV-absorbance change with respect to pH, but it is important to note that \pKa{} values determined from this method are often difficult to assign as either microscopic or macroscopic in nature. This method potentially produces \emph{macroscopic} \pKa{}s for polyprotic compounds. 
 If multiple microscopic \pKa{}s have close \pKa{} values and overlapping changes in UV absorbance spectra associated with protonation/deprotonation, the spectral analysis could produce a single macroscopic \pKa{} that represents an aggregation of multiple microscopic \pKa{}s. 
 An extreme example of such case is demonstrated in the simulated macrostate populations of cetirizine that would be observed with UV-metric titration (Figure~\ref{fig:micro_vs_macro_pKa}).
 
@@ -662,6 +662,8 @@ Unfortunately, judging the composition of experimental populations is not possib
 Molecules in the SAMPL6 \pKa{} challenge dataset with only one \pKa{} value measured in the 2--12 range could therefore be monoprotic (possessing a single titratable group that changes protonation state by gain or loss of a single proton over this pH range) or polyprotic (gaining or losing multiple protons from one or more sites with overlapping microscopic \pKa{} values). 
 Similarly, titration curves of molecules with multiple experimental \pKa{}s may show well-separated microscopic \pKa{}s or macroscopic experimental \pKa{}s that are really composites of microscopic \pKa{}s with similar values. 
 Therefore, without additional experimental evidence, UV-metric \pKa{}s should not be assigned to individual titratable groups. 
+
+Sometimes it can be possible to assign \pKa{}s to ionizable groups if they produce different UV-absorbance shifts upon ionization, but it is not a straight-forward analysis and it is not a part of the analysis pipeline of Sirius T3 Refine Software. Such an analysis would require fragmentation of the molecule and determining how UV-spectra of each chromophore changes upon ionization in isolation. 
 
 Determination of the exact microstates populated at different pH values via NMR can provide a complementary means of differentiating between microscopic and macroscopic \pKa{}s in cases where there is ambiguity.
 As determination of protonation microstates via NMR is very laborious, we were only able to characterize microstates of two molecules: SM07 and SM11. 
@@ -705,7 +707,7 @@ On the other hand, most computational \pKa{} prediction methods output microscop
 It is therefore difficult to use experimental macroscopic \pKa{} values to assess and train microscopic \pKa{} prediction methods directly without further means of annotating macroscopic-microscopic correspondence. 
 It is not straight-forward to infer the underlying microscopic \pKa{} values from macroscopic measurements of a polyprotic compound without complementary experiments that can provide structural information. Therefore, for future data collection efforts for evaluation of \pKa{} predictions, if measurement of \pKa{}s via NMR is not possible, we advise supplementing UV-metric measurements with NMR characterization of microstates to show if observed \pKa{}s are microscopic (related to a single group) or macroscopic (related to dissociation of multiple groups), as performed for SM07 and SM14 in this study. 
 
-Another source of complexity in interpreting macroscopic \pKa{} values is how the composition of macroscopic \pKa{}s can change between different experimental methods as illustrated in Figure~\ref{fig:micro_vs_macro_pKa}. Different subsets of microstates can become indistinguishable based on the type of signal the experimental method is constructed on. In potentiometric titrations, microstates with the same total charge are indistinguishable and are observed as one macroscopic population. In spectrophotometric \pKa{} measurements, microstates whose populations, and therefore UV-absorbance spectra, change around the same pH value become indistinguishable.   
+Another source of complexity in interpreting macroscopic \pKa{} values is how the composition of macroscopic \pKa{}s can change between different experimental methods as illustrated in Figure~\ref{fig:micro_vs_macro_pKa}. Different subsets of microstates can become indistinguishable based on the type of signal the experimental method is constructed on. In potentiometric titrations, microstates with the same total charge are indistinguishable and are observed as one macroscopic population. In spectrophotometric \pKa{} measurements, the factor that determine if microstates can be resolved is not charge. Instead, microstates whose populations, and therefore UV-absorbance spectra, change around the same pH value become indistinguishable.   
 
 The "macroscopic" label is commonly ascribed to transitions between different ionization states of a molecule (all microstates that have the same total charge form one macrostate), but this definition only applies to potentiometric methods. 
 In UV-absorbance based methods, the principle that determines which microstates will be distinguishable is not charge or number of bound protons, but molecular absorbance changes, and how closely underlying microscopic \pKa{} values overlap. 
@@ -720,7 +722,7 @@ For potentiometric methods, knowing the stoichiometry of any counterions present
 For the set of SAMPL6 \pKa{} challenge compounds, we could not use potentiometric \pKa{} measurements due to the low aqueous solubility of many of these compounds. 
 The lowest solubility observed \emph{somewhere} in the experimental pH range of titration is the limiting factor, since for accurate measurements the analyte must stay in the solution phase throughout the entire titration. 
 Since the titration pH range is determined with the goal of capturing all ionization states, the analyte is inevitably exposed to pH values that correspond to low solubility. 
-Neutral and zwitterionic species can be orders of magnitude less soluble than ionic species. 
+Neutral and zwitterionic species can be orders of magnitude less soluble than ionic species. If a compound has a significantly insoluble ionization state, the pH range of titration could be narrowed to avoid  precipitation, but it would limit the range of \pKa{} values that could be accurately measured.
 
 For future \pKa{} challenges with multiprotic compounds, if sufficient time and effort can be spared, it would be ideal to construct an experimental \pKa{} dataset using experimental methods that can measure microscopic \pKa{}s directly, such as NMR. 
 In the present study, we were only able to perform follow up NMR microstate characterization of two compounds  because we relied on intrinsically low-sensitivity and time-consuming \textsuperscript{1}H-\textsuperscript{15}N HMBC experiment at natural abundance of \textsuperscript{15}N nuclei. 
@@ -837,13 +839,12 @@ MI, ASR, and JDC acknowledge support from the Sloan Kettering Institute.
 JDC acknowledges support from NIH grant P30 CA008748. 
 MI acknowledges Doris J.\ Hutchinson Fellowship. IEN acknowledges MRL Postdoctoral Research Program.
 The authors are extremely grateful for the assistance and support from the MRL Preformulations and NMR Structure Elucidation groups for materials, expertise, and instrument time, without which this SAMPL challenge would not have been possible.
-MI and DL are grateful to Pion/Sirius Analytical for their technical support in the planning and execution of this study. We are especially thankful to Karl Box for the guidance on optimization and interpretation of \pKa{} measurements with the Sirius T3. 
+MI and DL are grateful to Pion/Sirius Analytical for their technical support in the planning and execution of this study. We are especially thankful to Karl Box for the guidance on optimization and interpretation of \pKa{} measurements with the Sirius T3, as well as feedback on the manuscript. 
 We thank Brad Sherborne (MRL) for his valuable insights at the conception of the \pKa{} challenge and connecting us with TR and DL who were able to provide resources for experimental measurements. 
-We acknowledge Paul Czodrowski who provided feedback on multiple stages of this work: challenge construction, purchasable compound selection and manuscript. 
-We are also grateful to Marilyn Gunner for her feedback on this manuscript.
+We acknowledge Paul Czodrowski who provided feedback on multiple stages of this work: challenge construction, purchasable compound selection, and manuscript. 
 We acknowledge contributions from Caitlin Bannan who provided feedback on experimental data collection and structure of \pKa{} challenge from a computational chemist's perspective. 
+We are also grateful to Marilyn Gunner for her feedback on this manuscript.
 MI, ASR, and JDC are grateful to OpenEye Scientific for providing a free academic software license for use in this work.
-%\todo[inline]{JDC: Can we cite the ORCIDs of people we thank in this work?}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Disclosures 
