@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.13)  11 JUL 2018 20:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.13)  13 JUL 2018 15:23
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2846,11 +2846,11 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  []
 
 [27] (./elife-template.suppinfo)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 871.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 871.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 873.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 873.
  (./elife-template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 871.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 871.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 873.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 873.
 Package rerunfilecheck Info: File `elife-template.out' has not changed.
 (rerunfilecheck)             Checksum: 2FE629C49E2F66DE7A07A23033B68FB2;2163.
  ) 
@@ -2878,10 +2878,10 @@ ist/fonts/type1/public/stix/stix-mathex.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/stix/stix-mathit.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/stix/stix-mathrm.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/s
 tix/stix-mathscr.pfb>
-Output written on elife-template.pdf (27 pages, 2048009 bytes).
+Output written on elife-template.pdf (27 pages, 2048328 bytes).
 PDF statistics:
- 1244 PDF objects out of 1440 (max. 8388607)
- 953 compressed objects within 10 object streams
+ 1245 PDF objects out of 1440 (max. 8388607)
+ 954 compressed objects within 10 object streams
  136 named destinations out of 1000 (max. 500000)
  78613 words of extra memory for PDF output out of 89155 (max. 10000000)
 

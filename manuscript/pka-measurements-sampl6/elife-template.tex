@@ -30,18 +30,18 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \title{\pKa ~measurements for the SAMPL6 prediction challenge for a set of kinase inhibitor-like fragments}
 
-\author[1,2]{Mehtap Işık}
+\author[1,2]{Mehtap Işık} % ORCID: 0000-0002-6789-952X
 \author[3]{Dorothy Levorse}
-\author[1,4]{Ari\"{e}n S. Rustenburg}
-\author[5]{Ikenna E. Ndukwe}
-\author[6]{Heather Wang}
-\author[5]{Xiao Wang}
-\author[5]{Mikhail Reibarkh}
-\author[5]{Gary E. Martin}
-\author[6]{Alexey A. Makarov}
-\author[7]{David L. Mobley}
+\author[1,4]{Ari\"{e}n S. Rustenburg} % ORCID: 0000-0002-3422-0613
+\author[5]{Ikenna E. Ndukwe} % ORCID: 0000-0003-2412-6970
+\author[6]{Heather Wang} % ORCID: 0000-0002-4001-236X
+\author[5]{Xiao Wang} % ORCID: 0000-0003-3238-5366
+\author[5]{Mikhail Reibarkh} % ORCID: 0000-0002-6589-707X
+\author[5]{Gary E. Martin} % ORCID: 0000-0003-0750-3041
+\author[6]{Alexey A. Makarov} % ORCID: 0000-0003-4866-0430
+\author[7]{David L. Mobley} % ORCID: 0000-0002-1083-5533
 \author[3*]{Timothy Rhodes}
-\author[1*]{John D. Chodera}
+\author[1*]{John D. Chodera} % ORCID: 0000-0003-0542-119X
 
 \affil[1]{Computational and Systems Biology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, NY 10065, United States}
 \affil[2]{Tri-Institutional PhD Program in Chemical Biology, Weill Cornell Graduate School of Medical Sciences, Cornell University, New York, NY 10065, United States}
@@ -51,8 +51,8 @@
 \affil[6]{Analytical Research \& Development, MRL, Merck \& Co., Inc., MRL, 126 East Lincoln Avenue, Rahway, New Jersey 07065, United States}
 \affil[7]{Department of Pharmaceutical Sciences and Department of Chemistry, University of California,
 Irvine, Irvine, California 92697, United States}
-\corr{john.chodera@choderalab.org}{JDC}
 \corr{timothy_rhodes@merck.com}{TR}
+\corr{john.chodera@choderalab.org}{JDC}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% ARTICLE START
@@ -678,7 +678,7 @@ The goal of NMR characterization was to collect information on microscopic state
 \pKa{} measurements performed with spectrophotometric method provide macroscopic \pKa{} values, but do not provide information on the specific site(s) of protonation. 
 Conversely, most computational prediction methods primarily predict microscopic \pKa{} values. 
 Protonation sites can be determined by NMR methods, although these measurements are very laborious in terms of data collection and interpretation compared to \pKa{} measurements with the automated Sirius T3. 
-Moreover, not all SAMPL6 molecules were suitable for NMR measurements due to the high sample concentration requirements (for methods other than proton NMR, such as \textsuperscript{13}C and \textsuperscript{15}N spectra) and limiting analyte solubility. 
+Moreover, not all SAMPL6 molecules were suitable for NMR measurements due to the high sample concentration requirements (for methods other than proton NMR, such as \textsuperscript{13}C and \textsuperscript{15}N based 2D experiments) and limiting analyte solubility. 
 Heavy atom spectra that rely on natural isotope abundance require high sample concentrations (preferably in the order of 100~mM). It is possible that drug or drug-fragment-like compounds, such as the compounds used in this study, have insufficient aqueous solubility, limiting the choice of solvent and pH. 
 It may be necessary to use organic cosolvents to prepare these high concentration solutions or only prepare samples at pH values that correspond to high solubility states (e.g., when the charged state of the compound is populated). 
 
@@ -774,8 +774,7 @@ The collected experimental data constitute a potentially useful dataset for futu
 \item SAMPL6 \pKa{} challenge instructions, submissions, experimental data and analysis is available at  \href{https://github.com/MobleyLab/SAMPL6}{https://github.com/MobleyLab/SAMPL6}
 
 \item Python scripts used for compound selection are available at \textbf{compound\textunderscore selection} directory of  
-\href{https://github.com/choderalab/sampl6\textendash physicochemical\textendash properties}{https://github.com/choderalab/sampl6-physicochemical-properties}
-
+\href{https://github.com/choderalab/sampl6-physicochemical-properties}{https://github.com/choderalab/sampl6\textendash physicochemical\textendash properties}
 \end{itemize}
 \end{minipage}
 
@@ -785,7 +784,7 @@ The collected experimental data constitute a potentially useful dataset for futu
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Overview of supplementary information}
 
-\paragraph{Organized in SI document:}
+\paragraph{Supplementary tables and figures appearing in SI document:}
 
 \begin{itemize}
 \item TABLE SI 1: Procurement details of SAMPL6 compounds  
@@ -815,9 +814,9 @@ The collected experimental data constitute a potentially useful dataset for futu
 \item FIGURE SI 31-37: NMR characterization of SM14 microstates  
 \end{itemize}
 
-\paragraph{Extra files:}  
+\paragraph{Additional files:}  
 \begin{itemize}
-\item Sirius T3 reports: {\tt supplementary\textunderscore files.zip}
+\item Sirius T3 reports for all measurements: {\tt supplementary\textunderscore files.zip}
 \end{itemize}
 
 
@@ -837,13 +836,16 @@ Conceptualization, MI, JDC, TR, ASR, DLM  ; Methodology, MI, DL, IEN ; Software,
 
 MI, ASR, and JDC acknowledge support from the Sloan Kettering Institute.
 JDC acknowledges support from NIH grant P30 CA008748. 
-MI acknowledges Doris J.\ Hutchinson Fellowship. IEN acknowledges MRL Postdoctoral Research Program.
+MI acknowledges support from a Doris J.\ Hutchinson Fellowship. 
+IEN acknowledges support from the MRL Postdoctoral Research Program.
 The authors are extremely grateful for the assistance and support from the MRL Preformulations and NMR Structure Elucidation groups for materials, expertise, and instrument time, without which this SAMPL challenge would not have been possible.
-MI and DL are grateful to Pion/Sirius Analytical for their technical support in the planning and execution of this study. We are especially thankful to Karl Box for the guidance on optimization and interpretation of \pKa{} measurements with the Sirius T3, as well as feedback on the manuscript. 
-We thank Brad Sherborne (MRL) for his valuable insights at the conception of the \pKa{} challenge and connecting us with TR and DL who were able to provide resources for experimental measurements. 
-We acknowledge Paul Czodrowski who provided feedback on multiple stages of this work: challenge construction, purchasable compound selection, and manuscript. 
+MI and DL are grateful to Pion/Sirius Analytical for their technical support in the planning and execution of this study. 
+We are especially thankful to Karl Box (Sirius Analytical) for the guidance on optimization and interpretation of \pKa{} measurements with the Sirius T3, as well as feedback on the manuscript. 
+We thank Brad Sherborne (MRL; ORCID:~\href{https://orcid.org/0000-0002-0037-3427
+}{0000-0002-0037-3427}) for his valuable insights at the conception of the \pKa{} challenge and connecting us with TR and DL who were able to provide resources for experimental measurements. 
+We acknowledge Paul Czodrowski (Merck KGaA) who provided feedback on multiple stages of this work: challenge construction, purchasable compound selection, and manuscript. 
 We acknowledge contributions from Caitlin Bannan who provided feedback on experimental data collection and structure of \pKa{} challenge from a computational chemist's perspective. 
-We are also grateful to Marilyn Gunner for her feedback on this manuscript.
+We are also grateful to Marilyn Gunner (CCNY) for her feedback on this manuscript.
 MI, ASR, and JDC are grateful to OpenEye Scientific for providing a free academic software license for use in this work.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
