@@ -672,8 +672,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/opensans/opensans-02.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/opensans/opensans-01.enc
-INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/opensans/opensans-04.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/opensans/opensans-03.enc
+INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/opensans/opensans-04.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/opensans/OpenSans-Bold.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/opensans/OpenSans-BoldItalic.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/opensans/OpenSans-Italic.pfb

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.13)  13 JUL 2018 15:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.13)  5 SEP 2018 00:27
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1579,10 +1579,10 @@ Package: newfloat 2015/09/17 v1.1-109 Defining new floating environments (AR)
 Package: wrapfig 2003/01/31  v 3.6
 )
 Package newfloat Info: New float `featurebox' with options `placement=btp,name=
-Box' on input line 310.
+Box' on input line 311.
 \c@featurebox=\count287
 \newfloat@ftype=\count288
-Package newfloat Info: float type `featurebox'=8 on input line 310.
+Package newfloat Info: float type `featurebox'=8 on input line 311.
 \c@featurefigure=\count289
 \c@featuretable=\count290
 \c@figsupp=\count291
@@ -2520,15 +2520,15 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
-[3] <figures/cysteine_vs_glycine_fig.pdf, id=184, 421.10078pt x 412.56496pt>
+[3] <figures/cysteine_vs_glycine_fig.pdf, id=184, 426.79132pt x 426.79132pt>
 File: figures/cysteine_vs_glycine_fig.pdf Graphic file (type pdf)
 
 <use figures/cysteine_vs_glycine_fig.pdf>
 Package pdftex.def Info: figures/cysteine_vs_glycine_fig.pdf used on input line
- 168.
-(pdftex.def)             Requested size: 288.32329pt x 282.47937pt.
+ 166.
+(pdftex.def)             Requested size: 288.32329pt x 288.32568pt.
 LaTeX Font Info:    Font shape `T1/fos/bx/it' in size <8> not available
-(Font)              Font shape `T1/fos/b/it' tried instead on input line 173.
+(Font)              Font shape `T1/fos/b/it' tried instead on input line 171.
 
 <figures/microscopic_vs_macroscopic_populations_figure.pdf, id=189, 546.2929pt 
 x 398.3386pt>
@@ -2536,11 +2536,8 @@ File: figures/microscopic_vs_macroscopic_populations_figure.pdf Graphic file (t
 ype pdf)
  <use figures/microscopic_vs_macroscopic_populations_figure.pdf>
 Package pdftex.def Info: figures/microscopic_vs_macroscopic_populations_figure.
-pdf used on input line 180.
+pdf used on input line 178.
 (pdftex.def)             Requested size: 443.57848pt x 323.44873pt.
-
-Overfull \vbox (3.94563pt too high) has occurred while \output is active []
-
 
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
@@ -2552,12 +2549,12 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  []
 
 [5 <./figures/microscopic_vs_macroscopic_populations_figure.pdf>]
-<figures/UVmetric_vs_pHmetric_pKa_figure.pdf, id=323, 597.50786pt x 421.10078pt
+<figures/UVmetric_vs_pHmetric_pKa_figure.pdf, id=339, 597.50786pt x 421.10078pt
 >
 File: figures/UVmetric_vs_pHmetric_pKa_figure.pdf Graphic file (type pdf)
  <use figures/UVmetric_vs_pHmetric_pKa_figure.pdf>
 Package pdftex.def Info: figures/UVmetric_vs_pHmetric_pKa_figure.pdf used on in
-put line 210.
+put line 208.
 (pdftex.def)             Requested size: 443.57848pt x 312.61848pt.
 
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
@@ -2585,7 +2582,7 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
-[8] <figures/compound_selection_figure.pdf, id=418, 483.69685pt x 526.37596pt>
+[8] <figures/compound_selection_figure.pdf, id=435, 483.69685pt x 526.37596pt>
 File: figures/compound_selection_figure.pdf Graphic file (type pdf)
 
 <use figures/compound_selection_figure.pdf>
@@ -2631,7 +2628,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 356.
 
 
-<figures/SM22_cosolvent_extrapolation_fig.pdf, id=561, 256.0748pt x 512.1496pt>
+Overfull \hbox (6.0pt too wide) has occurred while \output is active
+ [][][][][][][]| 
+ []
+
+[11]
+<figures/SM22_cosolvent_extrapolation_fig.pdf, id=588, 256.0748pt x 512.1496pt>
 File: figures/SM22_cosolvent_extrapolation_fig.pdf Graphic file (type pdf)
 <use figures/SM22_cosolvent_extrapolation_fig.pdf>
 Package pdftex.def Info: figures/SM22_cosolvent_extrapolation_fig.pdf used on i
@@ -2655,17 +2657,12 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
-[11]
+[12]
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
-[12 <./figures/SM22_cosolvent_extrapolation_fig.pdf>]
-Overfull \hbox (6.0pt too wide) has occurred while \output is active
- [][][][][][][]| 
- []
-
-[13]
+[13 <./figures/SM22_cosolvent_extrapolation_fig.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\mathsurround' on input line 477.
@@ -2678,7 +2675,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 477.
 
-<figures/SAMPL6_pKa_molecules_fig.pdf, id=626, 542.025pt x 722.7pt>
+
+Overfull \hbox (6.0pt too wide) has occurred while \output is active
+ [][][][][][][]| 
+ []
+
+[14] <figures/SAMPL6_pKa_molecules_fig.pdf, id=654, 542.025pt x 722.7pt>
 File: figures/SAMPL6_pKa_molecules_fig.pdf Graphic file (type pdf)
 
 <use figures/SAMPL6_pKa_molecules_fig.pdf>
@@ -2699,17 +2701,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 540.
 
 
-Overfull \hbox (6.0pt too wide) has occurred while \output is active
- [][][][][][][]| 
- []
-
-[14]
-Overfull \hbox (6.0pt too wide) has occurred while \output is active
- [][][][][][][]| 
- []
-
-[15 <./figures/SAMPL6_pKa_molecules_fig.pdf>]
-<figures/water_vs_cosolvent_pKa_values_correlation_plot.pdf, id=767, 433.62pt x
+<figures/water_vs_cosolvent_pKa_values_correlation_plot.pdf, id=657, 433.62pt x
  433.62pt>
 File: figures/water_vs_cosolvent_pKa_values_correlation_plot.pdf Graphic file (
 type pdf)
@@ -2722,35 +2714,24 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
-[16]
-Overfull \vbox (2.93277pt too high) has occurred while \output is active []
+[15]
+Overfull \hbox (6.0pt too wide) has occurred while \output is active
+ [][][][][][][]| 
+ []
 
-
+[16 <./figures/SAMPL6_pKa_molecules_fig.pdf>]
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
 [17 <./figures/water_vs_cosolvent_pKa_values_correlation_plot.pdf>]
-<figures/NMR_microstates_figure.pdf, id=932, 722.7pt x 542.025pt>
+<figures/NMR_microstates_figure.pdf, id=949, 722.7pt x 542.025pt>
 File: figures/NMR_microstates_figure.pdf Graphic file (type pdf)
 
 <use figures/NMR_microstates_figure.pdf>
 Package pdftex.def Info: figures/NMR_microstates_figure.pdf used on input line 
 596.
 (pdftex.def)             Requested size: 443.57848pt x 332.68587pt.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 644.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 644.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 644.
-
 
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
@@ -2764,15 +2745,27 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
 [19 <./figures/NMR_microstates_figure.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 654.
+(hyperref)                removing `\mathsurround' on input line 646.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 654.
+(hyperref)                removing `\z@' on input line 646.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 654.
+(hyperref)                removing `subscript' on input line 646.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 656.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 656.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 656.
 
 
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
@@ -2780,24 +2773,24 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  []
 
 [20]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 697.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 697.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 697.
-
-
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
 [21]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 701.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 701.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 701.
+
+
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
@@ -2807,12 +2800,12 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
-[23] (./elife-template.bbl
+[23]
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
-[24]
+[24] (./elife-template.bbl
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
@@ -2828,17 +2821,17 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
+Overfull \hbox (6.0pt too wide) has occurred while \output is active
+ [][][][][][][]| 
+ []
+
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 357--360
 []\T1/fos/m/n/8 (+20) eMolecules Database Free Ver-sion;.  Ac-cessed: 2017-06-0
 1.  [][]$https : / / www . emolecules . com / info /
  []
 
-
-Overfull \hbox (6.0pt too wide) has occurred while \output is active
- [][][][][][][]| 
- []
-
-[26]) 
+) 
 AED: lastpage setting LastPage
 
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
@@ -2846,28 +2839,28 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  []
 
 [27] (./elife-template.suppinfo)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 873.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 873.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 878.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 878.
  (./elife-template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 873.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 873.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 878.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 878.
 Package rerunfilecheck Info: File `elife-template.out' has not changed.
-(rerunfilecheck)             Checksum: 2FE629C49E2F66DE7A07A23033B68FB2;2163.
+(rerunfilecheck)             Checksum: A41991B131BA6F720A7F19695C774DAA;2163.
  ) 
 Here is how much of TeX's memory you used:
  38527 strings out of 493013
  741501 string characters out of 6135682
- 961646 words of memory out of 5000000
+ 961575 words of memory out of 5000000
  40302 multiletter control sequences out of 15000+600000
  276907 words of font info for 973 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,15n,72p,10429b,1010s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,15n,72p,10429b,980s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{/usr/share/t
 exmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvip
 s/opensans/opensans-02.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/opens
 ans/opensans-01.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/opensans/ope
-nsans-04.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/opensans/opensans-0
-3.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/opensans/OpenSans-Bold.
+nsans-03.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/opensans/opensans-0
+4.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/opensans/OpenSans-Bold.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/opensans/OpenSans-BoldIta
 lic.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/opensans/OpenSans-Ita
 lic.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/opensans/OpenSans-Reg
@@ -2878,10 +2871,10 @@ ist/fonts/type1/public/stix/stix-mathex.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/stix/stix-mathit.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/stix/stix-mathrm.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/s
 tix/stix-mathscr.pfb>
-Output written on elife-template.pdf (27 pages, 2048328 bytes).
+Output written on elife-template.pdf (27 pages, 2009443 bytes).
 PDF statistics:
- 1245 PDF objects out of 1440 (max. 8388607)
- 954 compressed objects within 10 object streams
+ 1265 PDF objects out of 1440 (max. 8388607)
+ 969 compressed objects within 10 object streams
  136 named destinations out of 1000 (max. 500000)
  78613 words of extra memory for PDF output out of 89155 (max. 10000000)
 

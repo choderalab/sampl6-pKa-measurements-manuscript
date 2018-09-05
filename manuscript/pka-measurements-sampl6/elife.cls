@@ -158,7 +158,8 @@
 \fancyhf{}
 \chead{%
 \setlength{\fboxsep}{3pt}
-\colorbox{eLifeMediumGrey}{\begin{minipage}{\headwidth}\centering\color{white} Preprint ahead of submission~---~\@date\end{minipage}}%
+%\colorbox{eLifeMediumGrey}{\begin{minipage}{\headwidth}\centering\color{white} Preprint ahead of submission~---~\@date\end{minipage}}%
+\colorbox{eLifeMediumGrey}{\begin{minipage}{\headwidth}\centering\color{white}\@date\end{minipage}}%
 }
 
 % Footers
