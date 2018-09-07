@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.13)  5 SEP 2018 00:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.13)  7 SEP 2018 17:55
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2582,7 +2582,7 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
-[8] <figures/compound_selection_figure.pdf, id=435, 483.69685pt x 526.37596pt>
+[8] <figures/compound_selection_figure.pdf, id=436, 483.69685pt x 526.37596pt>
 File: figures/compound_selection_figure.pdf Graphic file (type pdf)
 
 <use figures/compound_selection_figure.pdf>
@@ -2633,7 +2633,7 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  []
 
 [11]
-<figures/SM22_cosolvent_extrapolation_fig.pdf, id=588, 256.0748pt x 512.1496pt>
+<figures/SM22_cosolvent_extrapolation_fig.pdf, id=593, 256.0748pt x 512.1496pt>
 File: figures/SM22_cosolvent_extrapolation_fig.pdf Graphic file (type pdf)
 <use figures/SM22_cosolvent_extrapolation_fig.pdf>
 Package pdftex.def Info: figures/SM22_cosolvent_extrapolation_fig.pdf used on i
@@ -2680,7 +2680,7 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
-[14] <figures/SAMPL6_pKa_molecules_fig.pdf, id=654, 542.025pt x 722.7pt>
+[14] <figures/SAMPL6_pKa_molecules_fig.pdf, id=659, 542.025pt x 722.7pt>
 File: figures/SAMPL6_pKa_molecules_fig.pdf Graphic file (type pdf)
 
 <use figures/SAMPL6_pKa_molecules_fig.pdf>
@@ -2701,7 +2701,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 540.
 
 
-<figures/water_vs_cosolvent_pKa_values_correlation_plot.pdf, id=657, 433.62pt x
+<figures/water_vs_cosolvent_pKa_values_correlation_plot.pdf, id=662, 433.62pt x
  433.62pt>
 File: figures/water_vs_cosolvent_pKa_values_correlation_plot.pdf Graphic file (
 type pdf)
@@ -2725,7 +2725,7 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  []
 
 [17 <./figures/water_vs_cosolvent_pKa_values_correlation_plot.pdf>]
-<figures/NMR_microstates_figure.pdf, id=949, 722.7pt x 542.025pt>
+<figures/NMR_microstates_figure.pdf, id=954, 722.7pt x 542.025pt>
 File: figures/NMR_microstates_figure.pdf Graphic file (type pdf)
 
 <use figures/NMR_microstates_figure.pdf>
@@ -2848,11 +2848,11 @@ Package rerunfilecheck Info: File `elife-template.out' has not changed.
 (rerunfilecheck)             Checksum: A41991B131BA6F720A7F19695C774DAA;2163.
  ) 
 Here is how much of TeX's memory you used:
- 38527 strings out of 493013
- 741501 string characters out of 6135682
- 961575 words of memory out of 5000000
- 40302 multiletter control sequences out of 15000+600000
- 276907 words of font info for 973 fonts, out of 8000000 for 9000
+ 38535 strings out of 493013
+ 741727 string characters out of 6135682
+ 961821 words of memory out of 5000000
+ 40308 multiletter control sequences out of 15000+600000
+ 276624 words of font info for 973 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,15n,72p,10429b,980s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{/usr/share/t
@@ -2871,10 +2871,10 @@ ist/fonts/type1/public/stix/stix-mathex.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/stix/stix-mathit.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/stix/stix-mathrm.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/s
 tix/stix-mathscr.pfb>
-Output written on elife-template.pdf (27 pages, 2009443 bytes).
+Output written on elife-template.pdf (27 pages, 2008947 bytes).
 PDF statistics:
- 1265 PDF objects out of 1440 (max. 8388607)
- 969 compressed objects within 10 object streams
- 136 named destinations out of 1000 (max. 500000)
+ 1270 PDF objects out of 1440 (max. 8388607)
+ 974 compressed objects within 10 object streams
+ 138 named destinations out of 1000 (max. 500000)
  78613 words of extra memory for PDF output out of 89155 (max. 10000000)
 

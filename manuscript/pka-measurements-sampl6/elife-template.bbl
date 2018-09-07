@@ -1,4 +1,4 @@
-\begin{thebibliography}{58}
+\begin{thebibliography}{60}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\urlprefix}{}
 \providecommand{\doiprefix}{doi: }
@@ -444,6 +444,18 @@ OEMedChem Toolkit 2017.Feb.1;.
 \bibitem[{noa(2008)}]{noauthor_sirius_2008}
 Sirius {T}3 {User} {Manual}, v1.1.
 \newblock Sirius Analytical Instruments Ltd, East Sussex, UK; 2008.
+
+\bibitem[{Yasuda(1959)Yasuda, Motoo}]{yasuda_dissociation_1959}
+\textbf{\color{eLifeMediumGrey} Yasuda M}.
+\newblock Dissociation constants of some carboxylic acids in mixed aqueous
+  solvents.
+\newblock Bulletin of the Chemical Society of Japan.  1959; 32(5):429--432.
+
+\bibitem[{Shedlovsky(1962)Shedlovsky, T.}]{shedlovsky_1962}
+\textbf{\color{eLifeMediumGrey} Shedlovsky T}.
+\newblock The behaviour of carboxylic acids in mixed solvents.
+\newblock In: Pesce B, editor. \emph{Electrolytes} New York: Pergamon Press;
+  1962.p. 146–151.
 
 \bibitem[{Avdeef et~al.(1993)Avdeef, Alex. and Comer, John E. A. and Thomson,
   Simon J.}]{doi:10.1021/ac00049a010}

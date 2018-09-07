@@ -7,3 +7,6 @@ Marosi, Attila, Zsuzsanna Kovács, Szabolcs Béni, József Kökösi, and Béla N
 Rupp, Matthias, Robert Korner, and Igor V Tetko. “Predicting the pKa of Small Molecules.” Combinatorial Chemistry & High Throughput Screening 14, no. 5 (2011): 307–27.
 
 
+## 2018/09/05
+
+There was a mistake in calculation of macroscopic populations of UV-metric experiment. That is corrected now.

@@ -54,45 +54,45 @@ Warning--empty author and editor in oedepict_openeye_2017
 Warning--missing publisher in oedepict_openeye_2017
 Warning--there's a month but no year in oedepict_openeye_2017
 Warning--empty pages in fraczkiewicz_silico_2013
-You've used 58 entries,
+You've used 60 entries,
             3447 wiz_defined-function locations,
-            1087 strings with 18754 characters,
-and the built_in function-call counts, 121283 in all, are:
-= -- 15823
-> -- 784
-< -- 18
-+ -- 526
-- -- 196
-* -- 10726
-:= -- 12496
-add.period$ -- 201
-call.type$ -- 58
-change.case$ -- 11
-chr.to.int$ -- 56
-cite$ -- 121
-duplicate$ -- 11961
-empty$ -- 11369
-format.name$ -- 304
-if$ -- 28344
+            1102 strings with 19051 characters,
+and the built_in function-call counts, 124269 in all, are:
+= -- 16222
+> -- 796
+< -- 21
++ -- 533
+- -- 199
+* -- 10954
+:= -- 12807
+add.period$ -- 207
+call.type$ -- 60
+change.case$ -- 13
+chr.to.int$ -- 58
+cite$ -- 123
+duplicate$ -- 12325
+empty$ -- 11637
+format.name$ -- 309
+if$ -- 29056
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 619
-newline$ -- 323
-num.names$ -- 96
-pop$ -- 1074
+missing$ -- 636
+newline$ -- 333
+num.names$ -- 102
+pop$ -- 1102
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 787
+skip$ -- 836
 stack$ -- 0
-substring$ -- 22210
-swap$ -- 1470
-text.length$ -- 0
+substring$ -- 22638
+swap$ -- 1535
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 344
+type$ -- 356
 warning$ -- 43
-while$ -- 491
+while$ -- 508
 width$ -- 0
-write$ -- 827
+write$ -- 854
 (There was 1 error message)

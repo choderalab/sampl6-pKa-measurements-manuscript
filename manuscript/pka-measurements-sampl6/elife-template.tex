@@ -199,7 +199,7 @@ Here, the illustrative diagram style was adopted from~\citep{rupp_predicting_201
 
 The most common methods for measuring small molecule \pKa{}s are UV-absorbance spectroscopy (UV-metric titration)~\citep{tam_multi-wavelength_2001, allen_multiwavelength_1998,comer_ionization_2014}, potentiometry (pH-metric titration)~\citep{avdeef_ph-metric_1999,comer_ionization_2014}, capillary electrophoresis~\citep{cabot_novel_2015, wan_rapid_2002}, and NMR spectroscopy~\citep{bezencon_pka_2014}, with NMR being the most time-consuming approach. 
 Other, less popular \pKa{} measurement techniques include conductometry, HPLC, solubility or partition based estimations, calorimetry, fluorometry, and polarimetry~\citep{reijenga_development_2013}. 
-UV-metric and pH-metric methods (Figure~\ref{fig:UVmetric_vs_pHmetric_pKa}) are limited to measuring aqueous \pKa{} values between 2 and 12 due to limitations of the pH electrode used in these measurements.
+UV-metric and pH-metric methods (Figure~\ref{fig:UVmetric_vs_pHmetric_pKa}) of Sirius T3 are limited to measuring aqueous \pKa{} values between 2 and 12 due to limitations of the pH electrode used in these measurements.
 The pH-metric method relies on determining the stoichiometry of bound protons with respect to pH, calculated from volumetric titration with acid or base solutions. Accurate pH-metric measurements require high concentrations of analyte as well as analytically prepared acid/base stocks and analyte solutions. 
 By contrast, UV-metric \pKa{} measurements rely on the differences in UV absorbance spectra of different protonation states, generally permitting lower concentrations of analyte to be used.
 The pH and UV absorbance of the analyte solution are monitored during titration. 
@@ -229,7 +229,7 @@ Both UV-metric and pH-metric \pKa{} determination methods measure macroscopic \p
 Macroscopic populations observed in these two methods are composed of different combinations of microstates depending on the principles of measurement technique. 
 In potentiometric titrations, microstates with same total charge will be observed as one macrostate, while in spectrophotometric titrations, protonation sites remote from chromophores might be spectroscopically invisible, and macrostates will be formed from collections of microstates that manifest similar UV-absorbance spectra.
 
-The spectrophotometric method may be able to resolve populations of microstate populations that differ only by tautomerization, but it is not guaranteed. Such microstates that have the same total charge definitely cannot be resolved by potentiometric method as shown in Figure ~\ref{fig:micro_vs_macro_pKa}C. In the case of the spectrophotometric method, UV-spectra of two tautomers need to be sufficiently different and change of their populations with respect to pH needs to be sufficiently non-overlapping for microstates to be resolved. 
+For UV-metric method to resolve populations of microstates, sufficiently different UV spectra between microstates and sufficiently non-overlapping change of populations with respect to pH are needed. However, relative tautomer populations of microstates with the same total charge do not depend on pH and stay constant while pH is titrated (~\ref{fig:micro_vs_macro_pKa}B), therefore they cannot be resolved by UV-metric method. The pH-metric method also cannot resolve microstates that have the same total charge as shown in ~\ref{fig:micro_vs_macro_pKa}C.
 
 Spectrophotometric \pKa{} determination is more sensitive than potentiometric determination, requiring low analyte concentrations (50--100~\micro{}M)---especially advantageous for compounds with low solubilities---but is only applicable to titration sites near chromophores. 
 For protonation state changes to affect UV absorbance, a useful rule of thumb is that the protonation site should be a maximum of four heavy atoms away from the chromophore, which might consist of conjugated double bonds, carbonyl groups, aromatic rings, etc.
@@ -362,7 +362,7 @@ This method is referred to as a UV-metric \psKa{} measurement in the Sirius T3 M
 
 The cosolvent spectrophotometric \pKa{} measurement protocol was very similar to the standard aqueous UV-metric \pKa{} measurement protocol, with the following differences: 
 titrations were performed in typically in 30\%, 40\%, and 50\% mixtures of ISA methanol:ISA water by volume to measure apparent \pKa{} values (\psKa) in these mixtures. 
-Yasuda-Shedlovsky extrapolation was subsequently used to estimate the \pKa{} value at 0\% cosolvent (Figure~\ref{fig:YS_extrapolation})~\citep{avdeef_ph-metric_1999,doi:10.1021/ac00049a010,TAKACSNOVAK1997235}. 
+Yasuda-Shedlovsky extrapolation~\citep{yasuda_dissociation_1959, shedlovsky_1962} was subsequently used to estimate the \pKa{} value at 0\% cosolvent (Figure~\ref{fig:YS_extrapolation})~\citep{avdeef_ph-metric_1999,doi:10.1021/ac00049a010,TAKACSNOVAK1997235}. 
 \begin{equation}
 \mathrm{p_{s}K_{a}} + \log [\ce{H2O}]=A/\epsilon+B 
 \label{eq:yasuda-shedlovsky}
@@ -489,7 +489,7 @@ Experimental \pKa{} values for nearly all compounds with multiple resolvable \pK
 \caption{{\bf Molecules used in the SAMPL6 \pKa{} challenge.} 
 Experimental UV-metric \pKa{} measurements were performed for these 24 molecules and discernable macroscopic \pKa{}s are reported. 
 Uncertainties are expressed as the standard error of the mean (SEM) of three independent measurements. We depicted neutral states of the molecules as sites of protonation were not determined by UV-metric methods.
-2D structures were created with OpenEye OEDepict Toolkit~\citep{oedepict_openeye_2017}
+2D structures were created with OpenEye OEDepict Toolkit~\citep{oedepict_openeye_2017}. Canonical isomeric SMILES of molecules in this figure and \pKa{} values measured in replicate experiments can be found in Table SI 1 and Table SI 3, respectively.
 }
 \label{fig:pKa_molecules}
 \end{figure}
