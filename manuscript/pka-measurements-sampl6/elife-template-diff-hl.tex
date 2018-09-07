@@ -24,10 +24,6 @@
 \usepackage{booktabs}
 \usepackage[flushleft]{threeparttable}
 
-% for highlighting
-\usepackage{xcolor}
-\usepackage{soul}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% ARTICLE SETUP
@@ -70,8 +66,8 @@ Irvine, Irvine, California 92697, United States}
 % Abstract
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
-\hl{Determining the net charge and protonation states populated by a small molecule in an environment of interest or the cost of altering those protonation states upon transfer to another environment is a prerequisite for predicting its physicochemical and pharmaceutical properties. The environment of interest can be aqueous, an organic solvent, a protein binding site, or a lipid bilayer. Predicting the protonation state of a small molecule is essential to predicting its interactions with biological macromolecules using computational models.} 
-Incorrectly modeling the dominant protonation state, shifts in dominant protonation state, or the population of significant mixtures of protonation states can lead to large modeling errors that degrade the accuracy of physical modeling \hl{. Low accuracy hinders the use of physical modeling approaches for molecular design.}
+Determining the net charge and protonation states populated by a small molecule in an environment of interest or the cost of altering those protonation states upon transfer to another environment is a prerequisite for predicting its physicochemical and pharmaceutical properties. The environment of interest can be aqueous, an organic solvent, a protein binding site, or a lipid bilayer. Predicting the protonation state of a small molecule is essential to predicting its interactions with biological macromolecules using computational models. 
+Incorrectly modeling the dominant protonation state, shifts in dominant protonation state, or the population of significant mixtures of protonation states can lead to large modeling errors that degrade the accuracy of physical modeling. Low accuracy hinders the use of physical modeling approaches for molecular design.
 For small molecules, the acid dissociation constant (\pKa) is the primary quantity needed to determine the ionic states populated by a molecule in an aqueous solution at a given pH. 
 As a part of SAMPL6 community challenge, we organized a blind \pKa{} prediction component to assess the accuracy with which contemporary \pKa{} prediction methods can predict this quantity, with the ultimate aim of assessing the expected impact on modeling errors this would induce. 
 While a multitude of approaches for predicting \pKa{} values currently exist, predicting the \pKa{}s of drug-like molecules can be difficult due to challenging properties such as multiple titratable sites, heterocycles, and tautomerization. 
@@ -109,7 +105,7 @@ acid dissociation constants $\cdot$ spectrophotometric \pKa{} measurement $\cdot
 
 SAMPL (Statistical Assessment of the Modeling of Proteins and Ligands) is a recurring series of blind prediction challenges for the computational chemistry community~\citep{mobley_advancing_2016, sample_D3R_website}. 
 Through these challenges, SAMPL aims to evaluate and advance computational tools for rational drug design. 
-\hl{SAMPL has driven progress in a number of areas over seven previous rounds of challenge cycles}~\cite{nicholls_predicting_2008,guthrie_blind_2009,skillman_sampl2_2010,geballe_sampl2_2010,skillman_sampl3_2012,skillman_sampl3_2012,geballe_sampl3_2012,muddana_sampl3_2012,guthrie_sampl4_2014,Mobley:2014:JComputAidedMolDesa,muddana_sampl4_2014,mobley_blind_2014,yin_overview_2016,Bannan:2016:JComputAidedMolDes} \hl{by focusing the community on specific phenomena relevant to drug discovery poorly predicted by current models, isolating that phenomenon from other confounding factors in well-designed test systems, evaluating tools prospectively, enabling data sharing to learn from failures, and releasing the resulting high-quality datasets into the community as benchmark sets.}
+SAMPL has driven progress in a number of areas over seven previous rounds of challenge cycles~\cite{nicholls_predicting_2008,guthrie_blind_2009,skillman_sampl2_2010,geballe_sampl2_2010,skillman_sampl3_2012,skillman_sampl3_2012,geballe_sampl3_2012,muddana_sampl3_2012,guthrie_sampl4_2014,Mobley:2014:JComputAidedMolDesa,muddana_sampl4_2014,mobley_blind_2014,yin_overview_2016,Bannan:2016:JComputAidedMolDes} by focusing the community on specific phenomena relevant to drug discovery poorly predicted by current models, isolating that phenomenon from other confounding factors in well-designed test systems, evaluating tools prospectively, enabling data sharing to learn from failures, and releasing the resulting high-quality datasets into the community as benchmark sets.
 
 As a stepping stone to enabling the accurate prediction of protein-ligand binding affinities, SAMPL has focused on evaluating how well physical and empirical modeling methodologies can predict various physicochemical properties relevant to binding and drug discovery, such as hydration free energies (which model aspects of desolvation in isolation), distribution coefficients (which model transfer from relatively homogeneous aqueous to nonpolar environments), and host-guest binding affinities (which model high-affinity association without the complication of slow protein dynamics).
 These physicochemical property prediction challenges---in addition to assessing the predictive accuracy of quantities that are useful in various stages of drug discovery in their own right---have been helpful in pinpointing deficiencies in computational models that can lead to substantial errors in affinity predictions. 
@@ -140,7 +136,7 @@ In this first iteration of the challenge, we aimed to assess the performance of 
 
 The prediction of \pKa{} values for drug-like molecules can be complicated by several effects: the presence of multiple (potentially coupled) titratable sites, the presence of heterocycles, tautomerization, the conformational flexibility of large molecules, and ability of intramolecular hydrogen bonds to form. 
 We decided to focus on the chemical space of small molecule kinase inhibitors in the first iteration of \pKa{} prediction challenge. 
-A total of 24 small organic molecules (17 \hl{drug-fragment-like} and 7 drug-like) were selected for their similarity to known small molecule kinase inhibitors, while also considering properties predicted to affect the experimental tractability of \pKa{} and \logP{} measurements such as solubility and predicted \pKa{}s. 
+A total of 24 small organic molecules (17 drug-fragment-like and 7 drug-like) were selected for their similarity to known small molecule kinase inhibitors, while also considering properties predicted to affect the experimental tractability of \pKa{} and \logP{} measurements such as solubility and predicted \pKa{}s. 
 Macroscopic \pKa{} values were collected experimentally with UV-absorbance spectroscopy-based \pKa{} measurements using a Sirius T3 instrument, which automates the sample handling, titration, and spectroscopic measurements to allow high-quality \pKa{} determination. 
 The Sirius T3 is equipped with an autosampler which allowed us to run 8--10 measurements per day.
 Experimental data were kept blinded for three months (25 Oct 2017 through 23 Jan 2018) to allow participants in the SAMPL6 \pKa{} challenge to submit truly blinded computational predictions. 
@@ -160,7 +156,7 @@ For a molecule with multiple titratable groups, however, throughout a titration 
 For these multiprotic molecules, the experimentally-measured macroscopic \pKa{} will include contributions from multiple microscopic \pKa{}s with similar values (i.e., acid dissociation of multiple microstates). 
 Cysteine provides an example of this behavior with its two macroscopic \pKa{}s observable by spectrophotometric or potentiometric \pKa{} measurement experiments~\citep{bodner_assigning_1986,darvey_assignment_1995}. 
 
-\hl{While four microscopic} \pKa{}s \hl{can be defined for cysteine, experimentally observed} \pKa{} \hl{values cannot be assigned to individual functional groups directly} (Figure~\ref{fig:cys_vs_gly}, \emph{top}). \hl{More advanced techniques capable of resolving individual protonation sites---such as NMR}~\citep{bezencon_pka_2014}, \hl{Raman spectroscopy}~\citep{elson_raman_1962, elbagerma_raman_2011},\hl{ and the analysis of} \pKa{}s \hl{ in molecular fragments or derivatives---are required to unambiguously assign the site of protonation state changes.} 
+While four microscopic \pKa{}s can be defined for cysteine, experimentally observed \pKa{} values cannot be assigned to individual functional groups directly (Figure~\ref{fig:cys_vs_gly}, \emph{top}). More advanced techniques capable of resolving individual protonation sites---such as NMR~\citep{bezencon_pka_2014}, Raman spectroscopy~\citep{elson_raman_1962, elbagerma_raman_2011}, and the analysis of \pKa{}s in molecular fragments or derivatives---are required to unambiguously assign the site of protonation state changes. 
 On the other hand, when there is a large difference between microscopic \pKa{}s in a multiprotic molecule, the proton dissociations won't overlap and macroscopic \pKa{}s observed by experiments can be assigned to individual titratable groups. 
 The \pKa{} values of glycine provide a good example of this scenario (Figure~\ref{fig:cys_vs_gly}, \emph{bottom})~\citep{bodner_assigning_1986,elson_raman_1962,darvey_assignment_1995}. 
 We recommend the short review on the assignment of \pKa{} values authored by Ivan G. Darvey~\citep{darvey_assignment_1995} for a good introduction to the concepts of macroscopic \emph{vs} microscopic \pKa{} values.
@@ -203,7 +199,7 @@ Here, the illustrative diagram style was adopted from~\citep{rupp_predicting_201
 
 The most common methods for measuring small molecule \pKa{}s are UV-absorbance spectroscopy (UV-metric titration)~\citep{tam_multi-wavelength_2001, allen_multiwavelength_1998,comer_ionization_2014}, potentiometry (pH-metric titration)~\citep{avdeef_ph-metric_1999,comer_ionization_2014}, capillary electrophoresis~\citep{cabot_novel_2015, wan_rapid_2002}, and NMR spectroscopy~\citep{bezencon_pka_2014}, with NMR being the most time-consuming approach. 
 Other, less popular \pKa{} measurement techniques include conductometry, HPLC, solubility or partition based estimations, calorimetry, fluorometry, and polarimetry~\citep{reijenga_development_2013}. 
-\hl{UV-metric and pH-metric methods} (Figure~\ref{fig:UVmetric_vs_pHmetric_pKa}) \hl{of Sirius T3 are limited to measuring aqueous} \pKa{} \hl{values between 2 and 12 due to limitations of the pH electrode used in these measurements.}
+UV-metric and pH-metric methods (Figure~\ref{fig:UVmetric_vs_pHmetric_pKa}) of Sirius T3 are limited to measuring aqueous \pKa{} values between 2 and 12 due to limitations of the pH electrode used in these measurements.
 The pH-metric method relies on determining the stoichiometry of bound protons with respect to pH, calculated from volumetric titration with acid or base solutions. Accurate pH-metric measurements require high concentrations of analyte as well as analytically prepared acid/base stocks and analyte solutions. 
 By contrast, UV-metric \pKa{} measurements rely on the differences in UV absorbance spectra of different protonation states, generally permitting lower concentrations of analyte to be used.
 The pH and UV absorbance of the analyte solution are monitored during titration. 
@@ -233,7 +229,7 @@ Both UV-metric and pH-metric \pKa{} determination methods measure macroscopic \p
 Macroscopic populations observed in these two methods are composed of different combinations of microstates depending on the principles of measurement technique. 
 In potentiometric titrations, microstates with same total charge will be observed as one macrostate, while in spectrophotometric titrations, protonation sites remote from chromophores might be spectroscopically invisible, and macrostates will be formed from collections of microstates that manifest similar UV-absorbance spectra.
 
-\hl{For UV-metric method to resolve populations of microstates, sufficiently different UV spectra between microstates and sufficiently non-overlapping change of populations with respect to pH are needed. However, relative tautomer populations of microstates with the same total charge do not depend on pH and stay constant while pH is titrated} (~\ref{fig:micro_vs_macro_pKa}B), \hl{therefore they cannot be resolved by UV-metric method. The pH-metric method also cannot resolve microstates that have the same total charge as shown in} ~\ref{fig:micro_vs_macro_pKa}C.
+For UV-metric method to resolve populations of microstates, sufficiently different UV spectra between microstates and sufficiently non-overlapping change of populations with respect to pH are needed. However, relative tautomer populations of microstates with the same total charge do not depend on pH and stay constant while pH is titrated (~\ref{fig:micro_vs_macro_pKa}B), therefore they cannot be resolved by UV-metric method. The pH-metric method also cannot resolve microstates that have the same total charge as shown in ~\ref{fig:micro_vs_macro_pKa}C.
 
 Spectrophotometric \pKa{} determination is more sensitive than potentiometric determination, requiring low analyte concentrations (50--100~\micro{}M)---especially advantageous for compounds with low solubilities---but is only applicable to titration sites near chromophores. 
 For protonation state changes to affect UV absorbance, a useful rule of thumb is that the protonation site should be a maximum of four heavy atoms away from the chromophore, which might consist of conjugated double bonds, carbonyl groups, aromatic rings, etc.
@@ -362,12 +358,11 @@ We selected compounds where titratable groups are close to potential chromophore
 If analytes are not sufficiently soluble during the titration, \pKa{} values cannot be accurately determined via aqueous titration directly. 
 If precipitation occurs, the UV-absorbance signal from pH-dependent precipitate formation cannot be differentiated from the pH-dependent signal of soluble microstate species. 
 For compounds with low aqueous solubility, \pKa{} values were estimated from multiple apparent \pKa{} measurements performed in ISA methanol:ISA water cosolvent solutions with various mole fractions, from which the \pKa{} at 0\% methanol (100\% ISA water) can be extrapolated. 
-\hl{This method is referred to as a UV-metric} \psKa{} \hl{measurement in the Sirius T3 Manual}~\citep{noauthor_sirius_2008}. \psKa{} \hl{value is the apparent} \pKa{} \hl{value measured in the presence of a cosolvent.} 
-
+This method is referred to as a UV-metric \psKa{} measurement in the Sirius T3 Manual~\citep{noauthor_sirius_2008}. \psKa{} value is the apparent \pKa{} value measured in the presence of a cosolvent.  
 
 The cosolvent spectrophotometric \pKa{} measurement protocol was very similar to the standard aqueous UV-metric \pKa{} measurement protocol, with the following differences: 
 titrations were performed in typically in 30\%, 40\%, and 50\% mixtures of ISA methanol:ISA water by volume to measure apparent \pKa{} values (\psKa) in these mixtures. 
-\hl{Yasuda-Shedlovsky extrapolation}~\citep{yasuda_dissociation_1959, shedlovsky_1962} \hl{was} subsequently used to estimate the \pKa{} value at 0\% cosolvent (Figure~\ref{fig:YS_extrapolation})~\citep{avdeef_ph-metric_1999,doi:10.1021/ac00049a010,TAKACSNOVAK1997235}. 
+Yasuda-Shedlovsky extrapolation~\citep{yasuda_dissociation_1959, shedlovsky_1962} was subsequently used to estimate the \pKa{} value at 0\% cosolvent (Figure~\ref{fig:YS_extrapolation})~\citep{avdeef_ph-metric_1999,doi:10.1021/ac00049a010,TAKACSNOVAK1997235}. 
 \begin{equation}
 \mathrm{p_{s}K_{a}} + \log [\ce{H2O}]=A/\epsilon+B 
 \label{eq:yasuda-shedlovsky}
@@ -487,14 +482,14 @@ Out of 24 molecules successfully assayed, five molecules have two resolvable \pK
 The SEM of reported \pKa{} measurements is low, with the largest uncertainty reported being 0.04 pK units (\pKa \textsubscript{1} of SM06 and \pKa \textsubscript{3} of SM18). 
 Individual replicate measurements can be found in Supplementary~Table~3. 
 Reports generated for each \pKa{} measurement by the Sirius T3 Refine software can also be found in the Supplementary Information. 
-Experimental \pKa{} values for nearly all compounds with multiple resolvable \pKa{}s are well-separated (more than \hl{4} \pKa{} units), except for SM14 and SM18.
+Experimental \pKa{} values for nearly all compounds with multiple resolvable \pKa s are well-separated (more than 4 \pKa{} units), except for SM14 and SM18.
 
 \begin{figure}
 \includegraphics[width=1.00\linewidth]{figures/SAMPL6_pKa_molecules_fig}
 \caption{{\bf Molecules used in the SAMPL6 \pKa{} challenge.} 
 Experimental UV-metric \pKa{} measurements were performed for these 24 molecules and discernable macroscopic \pKa{}s are reported. 
 Uncertainties are expressed as the standard error of the mean (SEM) of three independent measurements. We depicted neutral states of the molecules as sites of protonation were not determined by UV-metric methods.
-2D structures were created with OpenEye OEDepict Toolkit~\citep{oedepict_openeye_2017}. \hl{Canonical isomeric SMILES of molecules in this figure and} \pKa{} \hl{values measured in replicate experiments can be found in Table SI 1 and Table SI 3, respectively.}
+2D structures were created with OpenEye OEDepict Toolkit~\citep{oedepict_openeye_2017}. Canonical isomeric SMILES of molecules in this figure and \pKa{} values measured in replicate experiments can be found in Table SI 1 and Table SI 3, respectively.
 }
 \label{fig:pKa_molecules}
 \end{figure}
@@ -585,7 +580,7 @@ Titration of SM07 with more than 1 equivalent of TFA-\textit{d} did not result i
 Determining the protonation sites for SM14, which has \pKa{} values of 2.58 and 5.30 (Table~\ref{UV-metric_pKa_table}), was more challenging due to multiple possible resonance structures in the mono- and di-protonated states. 
 We noticed that the water/methanol co-solvent exhibited strong solvent effects, which complicated the data interpretation for SM14. 
 For instance, titration of SM14 in methanol/water (see SI) showed incomplete protonation of N-9 even after 5 equivalents of TFA-d were added. 
-This observation is consistent with UV-metric \psKa{} measurements done \hl{in the presence of methanol as cosolvent}, where both \psKa{} values were decreasing as the percentage of methanol was increased, making observation of these protonation states more difficult. 
+This observation is consistent with UV-metric \psKa{} measurements done in the presence of methanol as cosolvent, where both \psKa{} values were decreasing as the percentage of methanol was increased, making observation of these protonation states more difficult. 
 Thus the utilization of an aprotic solvent was necessary for unambiguous interpretation of the data.
 
 Due to the problem just delineated for the methanol/water cosolvent, acetonitrile-\textit{d}\textsubscript{3} was selected as our solvent of choice. 
@@ -627,14 +622,14 @@ There could be minor microstates with very low populations that could not be dis
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Discussion}
 
-\subsection{\hl{Effect of sample preparation and cosolvents} in UV-metric measurements}
+\subsection{Effect of sample preparation and cosolvents in UV-metric measurements}
 
 Samples for UV-metric \pKa{} measurements were prepared by dilution of up to 5~{\micro}L DMSO stock solution of analyte in 1.5~mL ISA water, which results in the presence of $\sim$0.3\% DMSO during titration, which is presumed to have a negligible effect on \pKa{} measurements. 
 For UV-metric or pH-metric measurements, it is possible to prepare samples without DMSO, but it is difficult to prepare samples by weighing extremely low amounts of solid stocks (in the order of 0.01--0.10 mg) to target 50~{\micro}M analyte concentrations, even with an analytical balance. 
 For experimental throughput, we therefore preferred using DMSO stock solutions. 
 Another advantage of starting from DMSO stock solutions is that it helps to overcome kinetic solubility problems of analytes.
 
-\hl{A lower analyte concentration is needed for spectrophotometric} \pKa{} \hl{measurement than potentiometric method. With spectrophotometric method, very dilute analyte solutions as low as $10^{-5}-10^{-6}$~M can be used} ~\citep{tam_multi-wavelength_2001} \hl{with strength of the UV signal as limiting factor. In this study we used analyte concentrations around 50~\micro{}M, which is 2 orders of magnitude lower than the minimum concentration required for typical potentiometric} \pKa{} \hl{measurements. Theoretically, low analyte concentrations lead to more accurate} \pKa{} \hl{measurements by minimizing the potential for the solute to influence solvent properties. In the extreme, if it were possible to measure the} \pKa{} \hl{at the infinite dilution of the analyte that would be the best. But of course, in practice the minimum analyte concentration is limited by the detection strength of the UV signal. The higher the analyte concentration the more it affects the solvent properties such as ionic strength and dielectric constant. Also, the risk of analyte aggregation or precipitation increases with higher concentration.}
+A lower analyte concentration is needed for spectrophotometric \pKa{} measurement than potentiometric method. With spectrophotometric method, very dilute analyte solutions as low as $10^{-5}-10^{-6}$~M can be used ~\citep{tam_multi-wavelength_2001} with strength of the UV signal as limiting factor. In this study we used analyte concentrations around 50~\micro{}M, which is 2 orders of magnitude lower than the minimum concentration required for typical potentiometric \pKa{} measurements. Theoretically, low analyte concentrations lead to more accurate \pKa{} measurements by minimizing the potential for the solute to influence solvent properties. In the extreme, if it were possible to measure the \pKa{} at the infinite dilution of the analyte that would be the best. But of course, in practice the minimum analyte concentration is limited by the detection strength of the UV signal. The higher the analyte concentration the more it affects the solvent properties such as ionic strength and dielectric constant. Also, the risk of analyte aggregation or precipitation increases with higher concentration.
 
 In UV-metric measurements, both water and methanol (when used as cosolvent) stock solutions were ionic strength adjusted with 150~mM KCl, but acid and base solutions were not. This means that throughout pH titration ionic strength slighly fluctuates, but on average ionic strength of samples were staying around 150--180 mM. 
 By using ISA solutions the effect of salt concentration change on \pKa{} measurements was minimized.
@@ -672,10 +667,10 @@ Therefore, without additional experimental evidence, UV-metric \pKa{}s should no
 
 Sometimes it can be possible to assign \pKa{}s to ionizable groups if they produce different UV-absorbance shifts upon ionization, but it is not a straight-forward analysis and it is not a part of the analysis pipeline of Sirius T3 Refine Software. Such an analysis would require fragmentation of the molecule and determining how UV-spectra of each chromophore changes upon ionization in isolation. 
 
-\hl{UV-metric} \pKa{} \hl{values for nearly all compounds in our dataset with multiple resolvable} \pKa{}s \hl{are well-separated (more than 4} \pKa{} \hl{units), except for SM14 and SM18. Tam et al. states that spectrophotometric} \pKa{} \hl{values pf multiprotic molecules can be unambiguously assigned to the functional groups as microscopic} \pKa{}s \hl{"if the pKa values are at least 4 pH units apart (i.e. $pK_{a,2} - pK_{a,1} \geq 4$)" based on general knowledge of functional groups and consideration of electronic and inductive effects}~\citep{tam_multi-wavelength_2001}. \hl{In this study, we refrained from reporting such an knowledge-based assignment of} \pKa{} \hl{values to functional groups without experimental evidence.}
+UV-metric \pKa{} values for nearly all compounds in our dataset with multiple resolvable \pKa{}s are well-separated (more than 4 \pKa{} units), except for SM14 and SM18. Tam et al. states that spectrophotometric \pKa{} values pf multiprotic molecules can be unambiguously assigned to the functional groups as microscopic \pKa{}s "if the pKa values are at least 4 pH units apart (i.e. $pK_{a,2} - pK_{a,1} \geq 4$)" based on general knowledge of functional groups and consideration of electronic and inductive effects~\citep{tam_multi-wavelength_2001}. In this study, we refrained from reporting such an knowledge-based assignment of \pKa{} values to functional groups without experimental evidence.
 
 Determination of the exact microstates populated at different pH values via NMR can provide a complementary means of differentiating between microscopic and macroscopic \pKa{}s in cases where there is ambiguity.
-As determination of protonation microstates via NMR is very laborious, we were only able to characterize microstates of two molecules: SM07 and \hl{SM14}. 
+As determination of protonation microstates via NMR is very laborious, we were only able to characterize microstates of two molecules: SM07 and SM14. 
 
 In UV-metric \pKa{} measurements with cosolvent, the slope of the Yasuda-Shedlovsky extrapolation can be interpreted to understand if the \pKa{} has dominantly acidic or basic character. 
 As the methanol ratio is increased, \psKa{} values of acids increase, while \psKa{} values for bases decrease. 
@@ -818,9 +813,9 @@ The collected experimental data constitute a potentially useful dataset for futu
 
 \item FIGURE SI 1 - 24:  LC-MS Figures  
 
-\item FIGURE SI \hl{25-35}: NMR characterization of SM07 microstates  
+\item FIGURE SI 25-35: NMR characterization of SM07 microstates  
 
-\item FIGURE SI \hl{36-54}: NMR characterization of SM14 microstates  
+\item FIGURE SI 36-54: NMR characterization of SM14 microstates  
 \end{itemize}
 
 \paragraph{Additional files:}  
@@ -855,7 +850,7 @@ We thank Brad Sherborne (MRL; ORCID:~\href{https://orcid.org/0000-0002-0037-3427
 We acknowledge Paul Czodrowski (Merck KGaA; ORCID:~\href{https://orcid.org/0000-0002-7390-8795}{0000-0002-7390-8795}) who provided feedback on multiple stages of this work: challenge construction, purchasable compound selection, and manuscript. 
 We acknowledge contributions from Caitlin Bannan who provided feedback on experimental data collection and structure of \pKa{} challenge from a computational chemist's perspective. 
 We are also grateful to Marilyn Gunner (CCNY) for her feedback on this manuscript.
-\hl{We thank anonymous reviewers for their input and constructive comments that improved this manuscript.}
+We thank anonymous reviewers for their input and constructive comments that improved this manuscript.
 MI, ASR, and JDC are grateful to OpenEye Scientific for providing a free academic software license for use in this work.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
