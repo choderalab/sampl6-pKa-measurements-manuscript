@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.13)  7 SEP 2018 22:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.13)  19 SEP 2018 22:11
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2738,7 +2738,7 @@ Overfull \hbox (6.0pt too wide) has occurred while \output is active
  []
 
 [17 <./figures/water_vs_cosolvent_pKa_values_correlation_plot.pdf>]
-<figures/NMR_microstates_figure.pdf, id=954, 722.7pt x 542.025pt>
+<figures/NMR_microstates_figure.pdf, id=955, 722.7pt x 542.025pt>
 File: figures/NMR_microstates_figure.pdf Graphic file (type pdf)
 
 <use figures/NMR_microstates_figure.pdf>
@@ -2844,30 +2844,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 357--360
 1.  [][]$https : / / www . emolecules . com / info /
  []
 
-) 
+
+Overfull \hbox (6.0pt too wide) has occurred while \output is active
+ [][][][][][][]| 
+ []
+
+[27]) 
 AED: lastpage setting LastPage
 
 Overfull \hbox (6.0pt too wide) has occurred while \output is active
  [][][][][][][]| 
  []
 
-[27] (./elife-template.suppinfo)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 883.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 883.
+[28] (./elife-template.suppinfo)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 888.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 888.
  (./elife-template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 883.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 883.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 888.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 888.
 Package rerunfilecheck Info: File `elife-template.out' has not changed.
 (rerunfilecheck)             Checksum: 6FE406AE5586DD8F2DCCE9B19665C4B7;2165.
  ) 
 Here is how much of TeX's memory you used:
- 38700 strings out of 493013
- 743790 string characters out of 6135682
+ 38701 strings out of 493013
+ 743797 string characters out of 6135682
  975111 words of memory out of 5000000
  40468 multiletter control sequences out of 15000+600000
  276937 words of font info for 974 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,15n,72p,10429b,980s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,15n,72p,10429b,1020s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{/usr/share/t
 exmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvip
 s/opensans/opensans-02.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/opens
@@ -2884,10 +2889,10 @@ ist/fonts/type1/public/stix/stix-mathex.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/stix/stix-mathit.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/stix/stix-mathrm.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/s
 tix/stix-mathscr.pfb>
-Output written on elife-template.pdf (27 pages, 2033767 bytes).
+Output written on elife-template.pdf (28 pages, 2041062 bytes).
 PDF statistics:
- 1270 PDF objects out of 1440 (max. 8388607)
- 974 compressed objects within 10 object streams
- 138 named destinations out of 1000 (max. 500000)
+ 1278 PDF objects out of 1440 (max. 8388607)
+ 981 compressed objects within 10 object streams
+ 139 named destinations out of 1000 (max. 500000)
  78613 words of extra memory for PDF output out of 89155 (max. 10000000)
 
