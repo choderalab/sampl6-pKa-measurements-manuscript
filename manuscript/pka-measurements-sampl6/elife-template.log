@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.13)  19 SEP 2018 22:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.13)  24 SEP 2018 14:52
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2868,7 +2868,7 @@ Package rerunfilecheck Info: File `elife-template.out' has not changed.
 Here is how much of TeX's memory you used:
  38701 strings out of 493013
  743797 string characters out of 6135682
- 975111 words of memory out of 5000000
+ 975113 words of memory out of 5000000
  40468 multiletter control sequences out of 15000+600000
  276937 words of font info for 974 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2889,7 +2889,7 @@ ist/fonts/type1/public/stix/stix-mathex.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/stix/stix-mathit.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/stix/stix-mathrm.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/s
 tix/stix-mathscr.pfb>
-Output written on elife-template.pdf (28 pages, 2041062 bytes).
+Output written on elife-template.pdf (28 pages, 2041158 bytes).
 PDF statistics:
  1278 PDF objects out of 1440 (max. 8388607)
  981 compressed objects within 10 object streams
