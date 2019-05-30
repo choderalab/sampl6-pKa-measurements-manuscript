@@ -2,5 +2,6 @@
 Repository for constructing SAMPL6 pKa measurements manuscript.
 
 **pKa measurements for the SAMPL6 prediction challenge for a set of kinase inhibitor-like fragments.**  
-Işık, M., Levorse, D., Rustenburg, A. S., Ndukwe, I. E., Wang H., Wang, X., Reibarkh, M., Martin, G. E., Makarov, A. A., Mobley, D. L., Rhodes, T., Chodera, J. D.  *Journal of Computer-Aided Molecular Design*, accepted for publication, 2018.
+Mehtap Işık, Dorothy Levorse, Ariën S. Rustenburg, Ikenna E. Ndukwe, Heather Wang, Xiao Wang, Mikhail Reibarkh, Gary E. Martin, Alexey A. Makarov, David L. Mobley, Timothy Rhodes, John D. Chodera. _J Comput Aided Mol Des_ (2018) 32: 1117.  https://doi.org/10.1007/s10822-018-0168-0
+
 
